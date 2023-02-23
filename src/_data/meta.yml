@@ -1,0 +1,12 @@
+site_name: Norddeutsche Meisterschaft im Einrad Freestyle 2023
+site_short_name: NDM 2023
+description: "Dies ist die Seite der Norddeutschen Einradmeisterschaft im Freestyle 2023."
+domain: ndmfreestyle23.de
+theme_color: "#222"
+url: https://ndmfreestyle23.de
+feedUrl: https://ndmfreestyle23.de/feed.xml
+favicon: assets/img/favicon.png
+author:
+  name: Raphael Höser
+  email: raphael@hoeser.info
+  username: Snapstromegon

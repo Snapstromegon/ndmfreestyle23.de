@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preload" href="/assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="alternate" type="application/atom+xml" href="{{meta.feedUrl}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{description or meta.description }}" />
+    <meta name="theme-color" content="{{ meta.theme_color}}"/>
+    <meta name="og:title" content="{{ title or meta.site_name + " - " + eleventyNavigation.key }}" />
+    <meta name="og:type" content="summary" />
+    <meta name="og:description" content="{{ description or meta.description }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:text:title" content="{{ title or meta.site_name + " - " + eleventyNavigation.key }}" />
+    <meta name="twitter:title" content="{{ title or meta.site_name + " - " + eleventyNavigation.key }}" />
+    <meta name="twitter:description" content="{{ description or meta.description }}" />
+    <meta name="twitter:site" content="@Snapstromegon" />
+    <meta name="twitter:creator" content="@Snapstromegon" />
+    <meta name="author" content="Raphael Höser" />
+    <meta name="publisher" content="Raphael Höser"/>
+    <meta name="copyright" content="Raphael Höser"/>
+    <meta name="page-topic" content="Bildung"/>
+    <meta name="page-type" content="Private Homepage"/>
+    <meta name="audience" content="Fortgeschrittene"/>
+    <meta name="robots" content="index, follow"/>
+    <meta http-equiv="content-language" content="en"/>
+    <meta name="generator" content="{{ eleventy.generator }}">
+    <link rel="manifest" href="/manifest.json">
+    <title>Snapstromegon - {{title or eleventyNavigation.key or "Blog"}}</title>
+    <style>
+      {% include "../../css/critical.css" %}
+    </style>
+    {% rollup "assets/js/common.ts" %}
+    {% favicon meta.favicon %}
+  </head>
+  <body style="{% if theme.darkLinkColor %}--dark-theme-link-color: {{theme.darkLinkColor}};{% endif %}{% if theme.linkColor %}--theme-link-color: {{theme.linkColor}};{% endif %}--theme-color-a: {{theme.colorA or "#d12727"}};--theme-color-b: {{theme.colorB or "#fcbf49"}}">
+    {% include "../partials/header.njk" %}
+    {{ content | safe }}
+    {% include "../partials/footer.njk" %}
+  </body>
+</html>

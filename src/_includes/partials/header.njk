@@ -1,0 +1,14 @@
+<aside>
+  <div class="content">
+    <a href="/" id="logo">
+      {% include "../../../assets/img/logo_light.svg" %}
+      <span>NDM Freestyle 2023</span>
+    </a>
+    <nav>
+      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({
+        activeKey: eleventyNavigation.key or eleventyNavigation.parent,
+        activeAnchorClass: "current"
+      }) | safe }}
+    </nav>
+  </div>
+</aside>
