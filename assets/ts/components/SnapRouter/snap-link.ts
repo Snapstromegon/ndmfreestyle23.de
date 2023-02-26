@@ -19,15 +19,17 @@ export default class SnapLink extends LitElement {
   `;
 
   @property({ type: String }) href = '';
+  @property({ type: String }) target = '';
   @property({ type: Boolean, reflect: true }) active = false;
 
   override render() {
     return html`
-      <snap-ripple><a href="${this.href}" @click=${this.clicked} part="a"><slot></slot></a></snap-ripple>
+      <snap-ripple><a href="${this.href}" target=${this.target} @click=${this.clicked} part="a"><slot></slot></a></snap-ripple>
     `;
   }
 
   clicked(e: Event) {
+    if(this.target == '_blank') return;
     e.preventDefault();
     (document.querySelector('snap-routed') as SnapRouted).go(this.href);
   }
