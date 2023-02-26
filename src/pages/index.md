@@ -6,9 +6,6 @@ eleventyNavigation:
   order: 1
 ---
 
-<div class="content">
-  <article>
-
 # Hallo!
 
 Wir freuen uns über dein Interesse an unserer Veranstaltung und wollen dir demnächst auf unserer Homepage alle Informationen zur Verfügung stellen, die für den Besuch oder die Teilnahme an unserer Meisterschaft 2023 nützlich sind.
@@ -17,6 +14,3 @@ Falls trotzdem Fragen offen bleiben kannst du dich jederzeit an folgende E Mail 
 
 Bis bald in unserem schönen Luftkurort!
 Dein Orga Team vom SSV Nümbrecht
-
-  </article>
-</div>

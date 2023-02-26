@@ -63,7 +63,7 @@
   --l: 1.2rem;
   --xl: 1.5rem;
   --xxl: 3rem;
-  --xxxl: 6rem;
+  --xxxl: 4rem;
 }
 
 html {
@@ -75,6 +75,7 @@ body {
   background: var(--color-background);
   color: var(--text-color);
   min-height: 100vh;
+  min-height: 100dvh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto;
@@ -110,7 +111,7 @@ nav snap-link {
 nav snap-link::part(a) {
   display: grid;
   place-items: center;
-  height: var(--xxl);
+  height: var(--xxxl);
   padding: 0;
 }
 
@@ -128,6 +129,7 @@ aside snap-link::after {
   height: var(--xs);
   background-color: var(--color-red);
   transition: background-color .3s;
+  pointer-events: none;
 }
 
 aside snap-link[active]::after, aside snap-link:hover::after {
