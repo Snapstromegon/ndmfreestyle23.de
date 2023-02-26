@@ -2,7 +2,7 @@
 eleventyNavigation:
   icon: policy
   key: Impressum
-  order: 5
+  order: 999
 ---
 
 # Impressum

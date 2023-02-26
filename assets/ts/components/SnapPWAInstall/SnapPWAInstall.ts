@@ -68,6 +68,6 @@ export default class SnapPWAInstall extends LitElement {
 
   override render() {
     if (!this.deferredPrompt) return;
-    return html`<button @click=${() => this.deferredPrompt.prompt()}>Zum Startbildschirm hinzufügen</button><snap-link href="/install-pwa"><i class="material-icon">info</i></snap-link>`;
+    return html`<button @click=${() => this.deferredPrompt.prompt()}>Zum Startbildschirm hinzufügen</button><snap-link href="/install-pwa"><i class="material-icon">help</i></snap-link>`;
   }
 }

@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 permalink: false
 eleventyNavigation:
   icon: how_to_vote
