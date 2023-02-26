@@ -157,6 +157,10 @@ main {
   padding-bottom: var(--xl);
 }
 
+main ul {
+  padding-left: var(--m);
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -253,8 +257,8 @@ h2 {
   max-width: 66%;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: .5em 0;
+main h1, main h2, main h3, main h4, main h5, main h6, main p {
+  margin: 1em 0 .5em 0;
 }
 
 @media (min-width: 60rem) {
