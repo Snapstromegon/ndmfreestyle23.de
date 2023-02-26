@@ -56,6 +56,7 @@ const registerPlugins = eleventyConfig => {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(rollupPlugin, {
+    useAbsoluteScriptPaths: true,
     rollupOptions: {
       output: {
         dir: "_site/js",
@@ -68,8 +69,8 @@ const registerPlugins = eleventyConfig => {
 };
 
 const registerFileConfigs = eleventyConfig => {
-  eleventyConfig.addWatchTarget("src/css");
-  eleventyConfig.addWatchTarget("assets/js/");
+  eleventyConfig.addWatchTarget("assets/ts/");
+  eleventyConfig.addPassthroughCopy("assets/css");
   eleventyConfig.addPassthroughCopy("assets/img");
   eleventyConfig.addPassthroughCopy("assets/video");
   eleventyConfig.addPassthroughCopy("assets/fonts");

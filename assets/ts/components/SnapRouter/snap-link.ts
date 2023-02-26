@@ -1,0 +1,42 @@
+import { html, css, LitElement } from "lit";
+import { customElement, property } from "lit/decorators.js";
+import SnapRouted from "./snap-routed";
+import "../SnapUtils/snap-ripple";
+
+@customElement('snap-link')
+export default class SnapLink extends LitElement {
+
+  static override styles = css`
+    a {
+      color: var(--text-color-sidebar);
+      text-decoration: none;
+      display: block;
+      padding: var(--s) var(--m);
+    }
+    
+    a:hover, :host([active]) a {
+      background: var(--color-blue);
+    }
+
+    snap-ripple {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  `;
+
+  @property({ type: String }) href = '';
+  @property({ type: Boolean, reflect: true }) active = false;
+
+  override render() {
+    return html`
+      <snap-ripple><a href="${this.href}" @click=${this.clicked} part="a"><slot></slot></a></snap-ripple>
+    `;
+  }
+
+  clicked(e: Event) {
+    e.preventDefault();
+    (document.querySelector('snap-routed') as SnapRouted).go(this.href);
+  }
+}
+

@@ -1,20 +1,13 @@
 ---
-layout: layouts/main.njk
+layout: layouts/page-full-header.njk
 eleventyNavigation:
+  icon: home
   key: Start
   order: 1
 ---
 
-<header>
-  <div class="content">
-    <span class="underline_fancy">Kommt bald...</span>
-    <h1>Hier kommen bald mehr Informationen</h1>
-  </div>
-</header>
-
-<main>
-  <div class="content">
-    <article>
+<div class="content">
+  <article>
 
 # Hallo!
 
@@ -26,5 +19,4 @@ Bis bald in unserem schönen Luftkurort!
 Dein Orga Team vom SSV Nümbrecht
 
   </article>
-  </div>
-</main>
+</div>
