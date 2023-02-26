@@ -10,7 +10,6 @@ export default class SnapRipple extends LitElement {
     #wrapper {
       position: relative;
       overflow: hidden;
-      height: 100%;
     }
     #ripple {
       border-radius: 50%;
@@ -48,7 +47,7 @@ export default class SnapRipple extends LitElement {
     this.rippleDiv.style.height = size + 'px';
     this.rippleDiv.style.left = e.clientX - clientRect.x + 'px';
     this.rippleDiv.style.top = e.clientY - clientRect.y + 'px';
-    const rippleAnimation = this.rippleDiv.animate(
+    this.rippleDiv.animate(
       [
         { transform: 'translate(-50%, -50%) scale(0)', opacity: 1 },
         { transform: 'translate(-50%, -50%) scale(1)', opacity: 0 }

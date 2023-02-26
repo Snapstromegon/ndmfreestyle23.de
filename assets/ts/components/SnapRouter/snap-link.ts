@@ -8,20 +8,13 @@ export default class SnapLink extends LitElement {
 
   static override styles = css`
     a {
-      color: var(--text-color-sidebar);
-      text-decoration: none;
       display: block;
-      padding: var(--s) var(--m);
-    }
-    
-    a:hover, :host([active]) a {
-      background: var(--color-blue);
+      color: inherit;
     }
 
     snap-ripple {
       display: block;
       width: 100%;
-      height: 100%;
     }
   `;
 

@@ -50,7 +50,8 @@
   --color-blue: #003049;
   --color-red: #d12727;
   --color-yellow: #fcbf49;
-  --color-background: hsl(201deg 50% 95%);
+  --color-blue-light: #367BA0;
+  --color-background: hsl(201deg 5% 95%);
   --color-background-secondary: hsl(201, 5%, 10%);
   --text-color: #111;
   --text-color-sidebar: #fff;
@@ -83,6 +84,10 @@ body {
   line-height: 1.5;
 }
 
+snap-pwa-install {
+  margin-bottom: var(--xl);
+}
+
 aside {
   grid-area: sidebar;
   background: var(--color-background-secondary);
@@ -113,6 +118,8 @@ nav snap-link::part(a) {
   place-items: center;
   height: var(--xxxl);
   padding: 0;
+  color: var(--text-color-sidebar);
+  text-decoration: none;
 }
 
 nav snap-link span {
@@ -134,6 +141,10 @@ aside snap-link::after {
 
 aside snap-link[active]::after, aside snap-link:hover::after {
   background-color: var(--color-yellow);
+}
+
+aside snap-link:hover, aside snap-link[active] {
+  background: var(--color-blue);
 }
 
 

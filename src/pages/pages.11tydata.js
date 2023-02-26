@@ -1,9 +1,11 @@
 module.exports = (...args) => {
   return {
-    layout: "layouts/page.njk",
+    layout: 'layouts/page.njk',
     eleventyComputed: {
-      eleventyNavigation: {
-        url: (data) => data?.page?.url?.slice('/pages'.length),
+      eleventyNavigation: (data) => {
+        if (data.eleventyNavigation && data.page?.url) {
+          return { url: data?.page?.url?.slice('/pages'.length), ...data.eleventyNavigation };
+        }
       },
     },
   };

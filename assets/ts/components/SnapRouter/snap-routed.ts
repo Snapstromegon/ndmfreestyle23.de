@@ -33,7 +33,6 @@ export default class SnapRouted extends LitElement {
     (document.querySelectorAll('snap-link') as NodeListOf<SnapLink>).forEach((link) => {
       const url = new URL(link.href, window.location.href);
       link.active = window.location.href == url.href;
-      console.log(link.active)
     });
   }
 }
