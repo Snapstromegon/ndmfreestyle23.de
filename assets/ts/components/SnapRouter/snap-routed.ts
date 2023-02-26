@@ -20,6 +20,12 @@ export default class SnapRouted extends LitElement {
   async navigate(url: string) {
     const resp = await fetch(`/pages/${url}`);
     const text = await resp.text();
+
+    if(text.includes("__MAGIC_INDEX_VALUE__")) {
+      await this.navigate('/404');
+      return;
+    }
+
     this.innerHTML = text;
     this.updateLinks();
   }
