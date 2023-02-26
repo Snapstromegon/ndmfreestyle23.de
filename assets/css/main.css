@@ -111,6 +111,7 @@ nav snap-link {
   place-items: center;
   height: 100%;
   position: relative;
+  transition: background-color .2s;
 }
 
 nav snap-link::part(a) {
