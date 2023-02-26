@@ -10,26 +10,29 @@
 @font-face {
   font-family: 'Material Symbols Outlined';
   font-style: normal;
-  src: url("/assets/fonts/MaterialSymbolsOutlined[FILL\,GRAD\,opsz\,wght].woff2") format('woff');
+  src: url('/assets/fonts/MaterialSymbolsOutlined[FILL\,GRAD\,opsz\,wght].woff2')
+    format('woff');
 }
 
 @font-face {
   font-family: 'Material Symbols Rounded';
   font-style: normal;
-  src: url("/assets/fonts/MaterialSymbolsRounded[FILL\,GRAD\,opsz\,wght].woff2") format('woff');
+  src: url('/assets/fonts/MaterialSymbolsRounded[FILL\,GRAD\,opsz\,wght].woff2')
+    format('woff');
 }
 
 @font-face {
   font-family: 'Material Symbols Sharp';
   font-style: normal;
-  src: url("/assets/fonts/MaterialSymbolsSharp[FILL\,GRAD\,opsz\,wght].woff2") format('woff');
+  src: url('/assets/fonts/MaterialSymbolsSharp[FILL\,GRAD\,opsz\,wght].woff2')
+    format('woff');
 }
 
 .material-icon {
   font-family: 'Material Symbols Sharp';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 24px; /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -50,7 +53,7 @@
   --color-blue: #003049;
   --color-red: #d12727;
   --color-yellow: #fcbf49;
-  --color-blue-light: #367BA0;
+  --color-blue-light: #367ba0;
   --color-background: hsl(201deg 5% 95%);
   --color-background-secondary: hsl(201, 5%, 10%);
   --text-color: #111;
@@ -95,6 +98,7 @@ aside {
   position: sticky;
   position: -webkit-sticky;
   bottom: 0;
+  z-index: 10;
 }
 
 nav ul {
@@ -111,7 +115,7 @@ nav snap-link {
   place-items: center;
   height: 100%;
   position: relative;
-  transition: background-color .2s;
+  transition: background-color 0.2s;
 }
 
 nav snap-link::part(a) {
@@ -136,18 +140,19 @@ aside snap-link::after {
   width: 100%;
   height: var(--xs);
   background-color: var(--color-red);
-  transition: background-color .3s;
+  transition: background-color 0.3s;
   pointer-events: none;
 }
 
-aside snap-link[active]::after, aside snap-link:hover::after {
+aside snap-link[active]::after,
+aside snap-link:hover::after {
   background-color: var(--color-yellow);
 }
 
-aside snap-link:hover, aside snap-link[active] {
+aside snap-link:hover,
+aside snap-link[active] {
   background: var(--color-blue);
 }
-
 
 main {
   width: 100%;
@@ -161,6 +166,10 @@ main ul {
   padding-left: var(--m);
 }
 
+main ul ul {
+  column-width: 15rem;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -171,9 +180,9 @@ img {
   overflow: hidden;
   position: relative;
   padding-top: calc((var(--devider-bar-height) * 2) + 12.2785%);
-  position:sticky;
+  position: sticky;
   top: 0px;
-  z-index: 1;
+  z-index: 10;
 }
 
 .devider-blue {
@@ -205,8 +214,6 @@ img {
   max-width: 60rem;
   margin: auto;
 }
-
-
 
 h1,
 h2 {
@@ -257,8 +264,66 @@ h2 {
   max-width: 66%;
 }
 
-main h1, main h2, main h3, main h4, main h5, main h6, main p {
-  margin: 1em 0 .5em 0;
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+main p {
+  margin: 1em 0 0.5em 0;
+}
+
+.labeledImage {
+  position: relative;
+  overflow: hidden;
+}
+
+.labeledImage p {
+  margin: 0;
+}
+
+.labeledImage:hover .labeledImage-label {
+  transform: translate(0);
+  transition: transform .3s ease-out;
+}
+
+.labeledImage-label {
+  position: absolute;
+  top: var(--l);
+  left: 0;
+  z-index: 1;
+  padding: var(--xxxs) var(--s);
+  background-color: var(--color-background);
+  transform: translate(-150%);
+  transition: transform .3s ease-in;
+}
+
+.labeledImage-label::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: var(--color-background);
+  transform: skew(-7deg);
+  box-shadow: var(--s) 0 0 var(--color-blue),
+    calc(2 * var(--s)) 0 0 var(--color-red),
+    calc(3 * var(--s)) 0 0 var(--color-yellow);
+}
+
+.logo-line {
+  height: var(--xxxl);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo-line img {
+  height: 100%;
+  width: auto;
 }
 
 @media (min-width: 60rem) {
@@ -284,7 +349,7 @@ main h1, main h2, main h3, main h4, main h5, main h6, main p {
   nav ul {
     flex-direction: column;
   }
-  
+
   nav snap-link {
     display: block;
     height: auto;
@@ -297,7 +362,7 @@ main h1, main h2, main h3, main h4, main h5, main h6, main p {
   nav snap-link span {
     display: initial;
   }
-  
+
   nav snap-link::part(a) {
     display: block;
     height: auto;

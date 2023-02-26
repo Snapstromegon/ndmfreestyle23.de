@@ -121,10 +121,7 @@ module.exports = function(eleventyConfig) {
       linkify: true,
     })
     .use(markdownItEmoji)
-    .use(markdownItContainer, "sidenote")
-    .use(markdownItContainer, "commentBlock")
-    .use(markdownItContainer, "reader-thought")
-    .use(markdownItContainer, "writer-thought"));
+    .use(markdownItContainer, "labeledImage"));
   registerPlugins(eleventyConfig);
 
   addShortcodes(eleventyConfig);
