@@ -28,7 +28,7 @@
     format('woff');
 }
 
-.material-icon {
+.material-icon, .infoBox::before, .warningBox::before {
   font-family: 'Material Symbols Sharp';
   font-weight: normal;
   font-style: normal;
@@ -55,6 +55,7 @@
   --color-yellow: #fcbf49;
   --color-blue-light: #367ba0;
   --color-background: hsl(201deg 5% 95%);
+  --color-background-nuanced: hsl(201deg 5% 85%);
   --color-background-secondary: hsl(201, 5%, 10%);
   --text-color: #111;
   --text-color-sidebar: #fff;
@@ -324,6 +325,56 @@ main p {
 .logo-line img {
   height: 100%;
   width: auto;
+}
+
+.infoBox, .warningBox {
+  padding: var(--s);
+  padding-left: calc(var(--s) + var(--xxxl));
+  position: relative;
+}
+
+.infoBox > :first-child, .warningBox > :first-child {
+  margin-top: 0;
+}
+
+.infoBox > :last-child, .warningBox > :last-child {
+  margin-bottom: 0;
+}
+
+.infoBox::before, .warningBox::before {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: var(--xxxl);
+  height: 100%;
+  font-size: var(--xl);
+}
+
+.infoBox {
+  background: var(--color-background-nuanced);
+}
+
+.infoBox::before {
+  content: "info";
+  background: var(--color-blue);
+}
+
+.warningBox {
+  background: var(--color-yellow);
+}
+
+.warningBox::before {
+  content: "warning";
+  background: var(--color-red);
+}
+
+.gmaps {
+  border: none;
+  width: 100%;
+  height: 25rem;
 }
 
 @media (min-width: 60rem) {

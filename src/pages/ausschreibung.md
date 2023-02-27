@@ -6,3 +6,7 @@ eleventyNavigation:
 ---
 
 # Ausschreibung
+
+:::infoBox
+Die Ausschreibung folgt in Kürze.
+:::
