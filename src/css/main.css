@@ -85,7 +85,7 @@ aside {
   position: sticky;
   position: -webkit-sticky;
   bottom: 0;
-  z-index: 10;
+  z-index: 100;
 }
 
 nav ul {

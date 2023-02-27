@@ -72,7 +72,6 @@ const registerPlugins = (eleventyConfig) => {
 
 const registerFileConfigs = (eleventyConfig) => {
   eleventyConfig.addWatchTarget('assets/ts/');
-  eleventyConfig.addPassthroughCopy('assets/css');
   eleventyConfig.addPassthroughCopy('assets/img');
   eleventyConfig.addPassthroughCopy('assets/video');
   eleventyConfig.addPassthroughCopy('assets/fonts');
