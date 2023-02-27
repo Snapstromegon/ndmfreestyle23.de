@@ -7,6 +7,8 @@ const { default: resolve } = require('@rollup/plugin-node-resolve');
 const markdownItEmoji = require('markdown-it-emoji');
 const markdownItContainer = require('markdown-it-container');
 const rollupPlugin = require('eleventy-plugin-rollup');
+const subsetFont = require('subset-font');
+const fs = require('fs/promises');
 
 function generateImages(src) {
   return Image(src, {
@@ -118,6 +120,22 @@ const addShortcodes = (eleventyConfig) => {
 };
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.on('eleventy.before', async () => {
+    const font = await fs.readFile(
+      'assets/fonts/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].woff2'
+    );
+    const subset = await subsetFont(
+      font,
+      ['info', 'warning', 'stadium', 'home', 'description', 'policy'].join(' '),
+      { targetFormat: 'woff2' }
+    );
+    await fs.mkdir('_site/assets/fonts', { recursive: true });
+    await fs.writeFile(
+      '_site/assets/fonts/MaterialSymbolsSharp-subset.woff2',
+      subset
+    );
+  });
+
   eleventyConfig.amendLibrary('md', (mdLib) => {
     mdLib
       .set({

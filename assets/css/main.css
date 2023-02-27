@@ -8,23 +8,9 @@
 }
 
 @font-face {
-  font-family: 'Material Symbols Outlined';
-  font-style: normal;
-  src: url('/assets/fonts/MaterialSymbolsOutlined[FILL\,GRAD\,opsz\,wght].woff2')
-    format('woff');
-}
-
-@font-face {
-  font-family: 'Material Symbols Rounded';
-  font-style: normal;
-  src: url('/assets/fonts/MaterialSymbolsRounded[FILL\,GRAD\,opsz\,wght].woff2')
-    format('woff');
-}
-
-@font-face {
   font-family: 'Material Symbols Sharp';
   font-style: normal;
-  src: url('/assets/fonts/MaterialSymbolsSharp[FILL\,GRAD\,opsz\,wght].woff2')
+  src: url('/assets/fonts/MaterialSymbolsSharp-subset.woff2')
     format('woff');
 }
 
