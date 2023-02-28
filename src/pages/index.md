@@ -11,6 +11,7 @@ eleventyNavigation:
 Nach der ODM 2016 und der DM 2019 freuen wir uns als SSV Nümbrecht 2023 wieder eine Meisterschaft in unserem schönen Luftkurort ausrichten zu dürfen. Dieses mal ist es die **Norddeutsche Meisterschaft im Freestyle**.
 
 <div class="logo-line">
+<a target="_blank" rel="norefferer" href="https://www.ssvnuembrecht-turnen.de/index.php/abteilungen/einradfahren">{% image "assets/img/logos/ssv.png", "Logo SSV Nümbrecht Turnen 2010 e.V." %}</a>
 <a target="_blank" rel="norefferer" href="https://einrad-bdr.de/">{% image "assets/img/logos/bdr.png", "Logo BDR" %}</a>
 <a target="_blank" rel="norefferer" href="https://www.einradverband.de/">{% image "assets/img/logos/evd.webp", "Logo EVD" %}</a>
 </div>
