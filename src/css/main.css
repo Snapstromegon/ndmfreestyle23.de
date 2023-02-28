@@ -306,11 +306,13 @@ main p {
   height: var(--xxxl);
   display: flex;
   justify-content: space-evenly;
+  gap: var(--m);
 }
 
 .logo-line img {
   height: 100%;
   width: auto;
+  object-fit: contain;
 }
 
 .infoBox, .warningBox {
