@@ -5,6 +5,8 @@ import SnapLink from "./snap-link";
 @customElement("snap-routed")
 export default class SnapRouted extends LitElement {
 
+  currentUrl?: string;
+
   override render() {
     return html`<slot></slot>`;
   }
@@ -18,8 +20,9 @@ export default class SnapRouted extends LitElement {
   }
 
   async navigate(url: string) {
-    if(history.state.url === url) return;
-    
+    if(this.currentUrl === url) return;
+    this.currentUrl = url;
+
     const resp = await fetch(`/pages/${url}`);
     const text = await resp.text();
 
