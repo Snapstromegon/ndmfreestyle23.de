@@ -18,6 +18,8 @@ export default class SnapRouted extends LitElement {
   }
 
   async navigate(url: string) {
+    if(history.state.url === url) return;
+    
     const resp = await fetch(`/pages/${url}`);
     const text = await resp.text();
 
