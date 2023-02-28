@@ -22,6 +22,14 @@ export default class SnapLink extends LitElement {
   @property({ type: String }) target = '';
   @property({ type: Boolean, reflect: true }) active = false;
 
+  override firstUpdated(): void {
+    const routed = (document.querySelector("snap-routed") as SnapRouted);
+    if(routed) {
+      this.active = routed.isCurrentUrl(this.href);
+      this.requestUpdate("active", false);
+    }
+  }
+
   override render() {
     return html`
       <snap-ripple><a href="${this.href}" target=${this.target} @click=${this.clicked} part="a"><slot></slot></a></snap-ripple>

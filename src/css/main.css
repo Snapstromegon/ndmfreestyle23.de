@@ -86,6 +86,7 @@ aside {
   position: -webkit-sticky;
   bottom: 0;
   z-index: 100;
+  view-transition-name: aside;
 }
 
 nav ul {
@@ -147,6 +148,7 @@ main {
   min-width: 0;
   grid-area: main;
   padding-bottom: var(--xl);
+  view-transition-name: main;
 }
 
 main ul {
@@ -411,4 +413,35 @@ main p {
   aside snap-link::after {
     display: none;
   }
+}
+
+
+@keyframes view-transition-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes view-transition-out {
+  to {
+    opacity: 0;
+  }
+}
+
+::view-transition-old(main) {
+  animation: .1s both view-transition-out;
+}
+
+::view-transition-new(main) {
+  animation: .1s both view-transition-in;
+}
+
+::view-transition-old(aside) {
+  /* Don't show the frozen old view */
+  display: none;
+}
+
+::view-transition-new(aside) {
+  /* Don't fade the new view in */
+  animation: none;
 }

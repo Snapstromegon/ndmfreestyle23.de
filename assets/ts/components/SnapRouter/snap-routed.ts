@@ -16,23 +16,26 @@ export default class SnapRouted extends LitElement {
     window.addEventListener("popstate", (e) => {
       this.navigate((e.state || { url: '/' }).url);
     });
-    this.navigate(window.location.pathname);
+    this.navigate(window.location.pathname, true);
   }
 
-  async navigate(url: string) {
-    if(this.currentUrl === url) return;
+  async navigate(url: string, force: boolean = false) {
+    if (this.currentUrl == url && !force) {
+      console.log("skipping navigate to", url, this.isCurrentUrl(url), force);
+      return;
+    }
     this.currentUrl = url;
+    this.updateLinks();
 
     const resp = await fetch(`/pages/${url}`);
-    const text = await resp.text();
+    const newHTML = await resp.text();
 
-    if(text.includes("__MAGIC_INDEX_VALUE__")) {
+    if (newHTML.includes("__MAGIC_INDEX_VALUE__")) {
       await this.navigate('/404');
       return;
     }
 
-    this.innerHTML = text;
-    this.updateLinks();
+    this.updateView(newHTML);
   }
 
   async go(url: string) {
@@ -41,9 +44,21 @@ export default class SnapRouted extends LitElement {
   }
 
   updateLinks() {
-    (document.querySelectorAll('snap-link') as NodeListOf<SnapLink>).forEach((link) => {
-      const url = new URL(link.href, window.location.href);
-      link.active = window.location.href == url.href;
-    });
+    for (const link of document.querySelectorAll('snap-link') as NodeListOf<SnapLink>) {
+      link.active = this.isCurrentUrl(link.href);
+    }
+  }
+
+  isCurrentUrl(url: string) {
+    return window.location.href == new URL(url, window.location.href).href;
+  }
+
+  updateView(newHTML: string) {
+    if (!document.startViewTransition) {
+      this.innerHTML = newHTML;
+      return;
+    }
+
+    document.startViewTransition(() => this.innerHTML = newHTML);
   }
 }
