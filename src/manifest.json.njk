@@ -6,15 +6,28 @@ sitemapIgnore: true
   "name": "{{ meta.site_name | safe }}",
   "short_name": "{{ meta.site_short_name | safe }}",
   "description": "{{ meta.description }}",
-  "background_color": "#333",
+  "background_color": "#003049",
   "theme_color": "{{ meta.theme_color }}",
   "manifest_version": 2,
   "scope": "/",
   "start_url": "/",
-  "display": "minimal-ui",
+  "display": "fullscreen",
   "icons": [
 {% set favicons = meta.favicon | faviconData %}
-
+{%- for size in [64, 128, 180, 256, 512] -%}
+{
+  "src": "{{favicons.svg[0].url}}",
+  "type": "{{favicons.svg[0].sourceType}}",
+  "sizes": "{{size}}x{{size}}",
+  "purpose": "any"
+},
+{
+  "src": "{{favicons.svg[0].url}}",
+  "type": "{{favicons.svg[0].sourceType}}",
+  "sizes": "{{size}}x{{size}}",
+  "purpose": "maskable"
+},
+{% endfor %}
 
 {%- for format, outputs in favicons -%}
   {% set outerLoop = loop -%}

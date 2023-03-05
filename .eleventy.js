@@ -47,7 +47,7 @@ function generateFavicon(src) {
 async function generateFaviconHTML(src) {
   const metadata = await generateFavicon(src);
   return `
-    <link rel="icon" href="${metadata.png[0].url}" type="image/png">
+    <link rel="icon" href="${metadata.svg[0].url}" type="image/svg+xml">
     <link rel="apple-touch-icon" href="${
       metadata.png.find((png) => png.width === 180).url
     }">
