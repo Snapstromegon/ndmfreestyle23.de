@@ -81,7 +81,7 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
 - Schleswig-Holstein
 
 </a>
-<a href="https://www.einradverband-sh.de/veranstaltungen/2370389/2023/05/12/freestyle-landesmeisterschaft-sh-hh.html" class="lm-event">
+<a href="" class="lm-event">
   {% image 'https://www.einradverband.de/wp-content/webp-express/webp-images/uploads/2021/07/freestyle-newsletter-1280x770.jpg.webp', 'Platzhalter Einradbild' %}
 
 ### Gemeinsame LM von
