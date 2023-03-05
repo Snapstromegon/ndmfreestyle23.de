@@ -13,6 +13,10 @@ eleventyNavigation:
 Alle Angaben sind Schätzungen. Abweichungen sowohl nach vorne, als auch nach hinten sind am Wettbewerbstag möglich.
 :::
 
+:::infoBox
+Ein genauerer Zeitplan folgt in Kürze.
+:::
+
 ## Veranstaltungskarte
 
 <iframe loading="lazy" src="https://www.google.com/maps/d/embed?mid=1W99kGX95VLFSPbf3UCcs4YmdCGIk8mmt" class="gmaps"></iframe>

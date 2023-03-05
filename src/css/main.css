@@ -43,8 +43,8 @@
   --color-background: hsl(201deg 5% 95%);
   --color-background-nuanced: hsl(201deg 5% 85%);
   --color-background-secondary: hsl(201, 5%, 10%);
-  --text-color: #111;
-  --text-color-sidebar: #fff;
+  --text-color: hsl(201, 5%, 10%);
+  --text-color-sidebar: hsl(201deg 5% 85%);
 
   --xxxs: 0.1rem;
   --xxs: 0.2rem;
@@ -80,6 +80,8 @@ snap-pwa-install {
 
 aside {
   grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
   background: var(--color-background-secondary);
   color: var(--text-color-sidebar);
   position: sticky;
@@ -388,6 +390,11 @@ main p {
 
   aside {
     padding-top: var(--m);
+    gap: var(--m);
+  }
+
+  nav {
+    flex-grow: 1;
   }
 
   nav ul {
