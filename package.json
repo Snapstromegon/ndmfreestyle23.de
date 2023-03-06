@@ -30,7 +30,6 @@
     "lit": "^2.6.1",
     "markdown-it-container": "^3.0.0",
     "markdown-it-emoji": "^2.0.2",
-    "netlify-cli": "^13.0.1",
     "rollup": "^3.18.0",
     "subset-font": "^2.0.0"
   }
