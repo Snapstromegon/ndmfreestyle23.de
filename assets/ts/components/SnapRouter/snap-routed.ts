@@ -36,6 +36,7 @@ export default class SnapRouted extends LitElement {
     }
 
     this.updateView(newHTML);
+    document.querySelector("aside")?.removeAttribute("expanded");
   }
 
   async go(url: string) {

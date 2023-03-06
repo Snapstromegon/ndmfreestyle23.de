@@ -126,7 +126,7 @@ module.exports = function (eleventyConfig) {
     );
     const subset = await subsetFont(
       font,
-      ['info', 'warning', 'stadium', 'home', 'description', 'policy'].join(' '),
+      ['info', 'warning', 'stadium', 'home', 'description', 'policy', 'expand_more'].join(' '),
       { targetFormat: 'woff2' }
     );
     await fs.mkdir('_site/assets/fonts', { recursive: true });
