@@ -1,3 +1,5 @@
+[build]
+  publish = "_site"
 
 [[redirects]]
   from = "/*"
@@ -7,7 +9,7 @@
 [dev]
   framework = "#static"
   command = "npm run build -- --watch"
-  autoLaunch = false
+  autoLaunch = true
 
 # [[plugins]]
 #   package = "@netlify/plugin-lighthouse"
