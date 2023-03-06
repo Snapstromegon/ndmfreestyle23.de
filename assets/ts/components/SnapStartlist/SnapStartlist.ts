@@ -1,6 +1,8 @@
-import { html, css, LitElement } from "lit";
-import { customElement, state } from "lit/decorators.js";
 import "./snap-startlist-start.js";
+import "../SnapUtils/snap-ripple.js";
+import { css, html, LitElement } from "lit";
+import { customElement, state } from "lit/decorators.js";
+import { Startlist } from "../../types.js";
 
 @customElement("snap-startlist")
 export default class SnapStartlist extends LitElement {
@@ -154,7 +156,7 @@ export default class SnapStartlist extends LitElement {
     }
   `;
 
-  @state() startlist;
+  @state() startlist?: Startlist;
   updateInterval?: number;
 
   override connectedCallback() {
@@ -170,7 +172,7 @@ export default class SnapStartlist extends LitElement {
 
   override render() {
     if (!this.startlist?.length) {
-      return
+      return;
     }
     return html`
       <header>
@@ -178,7 +180,7 @@ export default class SnapStartlist extends LitElement {
           <snap-startlist-start shortened .start=${this.startlist?.[0]?.starts[0]}></snap-startlist-start>
         </div>
         <div id="search">
-          <snap-ripple><input type="search" id="searchInput" placeholder="Suchen" aria-label="Start Suchen"></snap-ripple>
+          <snap-ripple><input type="search" list="search_options" id="searchInput" placeholder="Suchen" aria-label="Start Suchen"></snap-ripple>
         </div>
         <button class="material-icon" id="expand-button" @click=${this.toggleExpanded}>expand_more</button>
       </header>
@@ -188,9 +190,27 @@ export default class SnapStartlist extends LitElement {
             <p class="startgroup-label">${startgroup.category}</p>
             ${startgroup.starts.map(start => html`<snap-startlist-start .start=${start}></snap-startlist-start>`)}
           </div>`)
-        }
+      }
       </div>
-    `;
+      <datalist id="search_options">
+        <optgroup label="Starter">
+          ${this.starterNames?.map(starter => html`<option value="${starter}"></option>`)}
+        </optgroup>
+        <optgroup label = "Kürname" >
+          ${this.startlist?.map(startgroup => startgroup.starts.map(start => html`<option value="${start.name}"></option>`))}
+        </optgroup>
+        <optgroup label = "Gruppenname" >
+
+        </optgroup>
+      </datalist>
+      `;
+  }
+
+  get starterNames() {
+    return [
+      ...new Set(this.startlist?.flatMap(startgroup => startgroup.starts).flatMap(start => start.starters)
+        .map(starter => starter.name) || [])
+    ];
   }
 
   toggleExpanded() {
@@ -198,8 +218,8 @@ export default class SnapStartlist extends LitElement {
   }
 
   async updateStartlist() {
-    // const response = await fetch("/startlist.json");
-    // const startlist = await response.json();
-    // this.startlist = startlist;
+    const response = await fetch("/startlist.json");
+    const startlist = await response.json();
+    this.startlist = startlist;
   }
 }

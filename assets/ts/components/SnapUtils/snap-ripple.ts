@@ -1,7 +1,7 @@
 import { css, html, LitElement } from "lit";
 import { customElement, query } from "lit/decorators.js";
 
-@customElement('snap-ripple')
+@customElement("snap-ripple")
 export default class SnapRipple extends LitElement {
   static override styles = css`
     :host() {
@@ -21,7 +21,7 @@ export default class SnapRipple extends LitElement {
 
   `;
 
-  @query('#ripple') rippleDiv?: HTMLDivElement;
+  @query("#ripple") rippleDiv?: HTMLDivElement;
 
   override render() {
     return html`
@@ -30,7 +30,7 @@ export default class SnapRipple extends LitElement {
   }
 
   ripple(e: MouseEvent) {
-    if(!this.rippleDiv) return;
+    if (!this.rippleDiv) return;
     const clientRect = this.getBoundingClientRect();
 
     const maxDX = Math.max(
@@ -42,23 +42,27 @@ export default class SnapRipple extends LitElement {
       clientRect.top + clientRect.height - e.clientY
     );
 
-    const size = Math.sqrt(maxDX ** 2 + maxDY ** 2) * 2;
-    this.rippleDiv.style.width = size + 'px';
-    this.rippleDiv.style.height = size + 'px';
-    this.rippleDiv.style.left = e.clientX - clientRect.x + 'px';
-    this.rippleDiv.style.top = e.clientY - clientRect.y + 'px';
+    const size = Math.sqrt((maxDX ** 2) + (maxDY ** 2)) * 2;
+    this.rippleDiv.style.width = `${size}px`;
+    this.rippleDiv.style.height = `${size}px`;
+    this.rippleDiv.style.left = `${e.clientX - clientRect.x}px`;
+    this.rippleDiv.style.top = `${e.clientY - clientRect.y}px`;
     this.rippleDiv.animate(
       [
-        { transform: 'translate(-50%, -50%) scale(0)', opacity: 1 },
-        { transform: 'translate(-50%, -50%) scale(1)', opacity: 0 }
+        {
+          opacity: 1,
+          transform: "translate(-50%, -50%) scale(0)",
+        },
+        {
+          opacity: 0,
+          transform: "translate(-50%, -50%) scale(1)",
+        }
       ],
       {
-        fill: 'forwards',
-        easing: 'ease-out',
-        duration: 300
+        duration: 300,
+        easing: "ease-out",
+        fill: "forwards",
       }
     );
-
-    // rippleAnimation.onfinish = () => this._wrapper.removeChild(ripple);
   }
 }

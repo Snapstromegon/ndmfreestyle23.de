@@ -1,9 +1,9 @@
-import { html, css, LitElement } from "lit";
+import "../SnapUtils/snap-ripple";
+import { css, html, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import SnapRouted from "./snap-routed";
-import "../SnapUtils/snap-ripple";
 
-@customElement('snap-link')
+@customElement("snap-link")
 export default class SnapLink extends LitElement {
 
   static override styles = css`
@@ -18,13 +18,13 @@ export default class SnapLink extends LitElement {
     }
   `;
 
-  @property({ type: String }) href = '';
-  @property({ type: String }) target = '';
-  @property({ type: Boolean, reflect: true }) active = false;
+  @property({ type: String }) href = "";
+  @property({ type: String }) target = "";
+  @property({ reflect: true, type: Boolean }) active = false;
 
   override firstUpdated(): void {
-    const routed = (document.querySelector("snap-routed") as SnapRouted);
-    if(routed) {
+    const routed = document.querySelector("snap-routed") as SnapRouted;
+    if (routed) {
       this.active = routed.isCurrentUrl(this.href);
       this.requestUpdate("active", false);
     }
@@ -37,9 +37,9 @@ export default class SnapLink extends LitElement {
   }
 
   clicked(e: Event) {
-    if(this.target == '_blank') return;
+    if (this.target === "_blank") return;
     e.preventDefault();
-    (document.querySelector('snap-routed') as SnapRouted).go(this.href);
+    const routed = document.querySelector("snap-routed") as SnapRouted;
+    routed?.go(this.href);
   }
 }
-

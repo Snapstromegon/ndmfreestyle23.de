@@ -1,6 +1,6 @@
-import { html, css, LitElement } from "lit";
+import "../SnapRouter/snap-link.js";
+import { css, html, LitElement } from "lit";
 import { customElement, state } from "lit/decorators.js";
-import "../SnapRouter/snap-link.js"
 
 let globalDeferredPrompt: Event;
 
@@ -54,15 +54,15 @@ export default class SnapPWAInstall extends LitElement {
 
   constructor() {
     super();
-    if (!globalDeferredPrompt) {
+    if (globalDeferredPrompt) {
+      this.deferredPrompt = globalDeferredPrompt;
+    } else {
       window.addEventListener("beforeinstallprompt", e => {
         e.preventDefault();
         this.deferredPrompt = e;
         globalDeferredPrompt = e;
         this.requestUpdate();
       });
-    } else {
-      this.deferredPrompt = globalDeferredPrompt;
     }
   }
 

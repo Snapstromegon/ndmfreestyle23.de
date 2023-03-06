@@ -1,23 +1,23 @@
-const yaml = require('js-yaml');
-const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const Image = require('@11ty/eleventy-img');
-const typescript = require('@rollup/plugin-typescript');
-const { default: resolve } = require('@rollup/plugin-node-resolve');
-const markdownItEmoji = require('markdown-it-emoji');
-const markdownItContainer = require('markdown-it-container');
-const rollupPlugin = require('eleventy-plugin-rollup');
-const subsetFont = require('subset-font');
-const fs = require('fs/promises');
+const yaml = require("js-yaml");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+const Image = require("@11ty/eleventy-img");
+const typescript = require("@rollup/plugin-typescript");
+const { default: resolve } = require("@rollup/plugin-node-resolve");
+const markdownItEmoji = require("markdown-it-emoji");
+const markdownItContainer = require("markdown-it-container");
+const rollupPlugin = require("eleventy-plugin-rollup");
+const subsetFont = require("subset-font");
+const fs = require("fs/promises");
 
 function generateImages(src) {
   return Image(src, {
     formats: [
-      'avif',
-      'webp',
-      src.toLowerCase().endsWith('.png') ? 'png' : 'jpeg',
+      "avif",
+      "webp",
+      src.toLowerCase().endsWith(".png") ? "png" : "jpeg",
     ],
-    outputDir: '_site/img/',
+    outputDir: "_site/img/",
     widths: [256, 512, 1024, null],
   });
 }
@@ -27,8 +27,8 @@ async function imageShortcode(src, alt, sizes = []) {
 
   const imageAttributes = {
     alt,
-    decoding: 'async',
-    loading: 'lazy',
+    decoding: "async",
+    loading: "lazy",
     sizes,
   };
 
@@ -38,8 +38,8 @@ async function imageShortcode(src, alt, sizes = []) {
 
 function generateFavicon(src) {
   return Image(src, {
-    formats: ['svg', 'png', 'webp', 'avif'],
-    outputDir: '_site/img/',
+    formats: ["svg", "png", "webp", "avif"],
+    outputDir: "_site/img/",
     widths: [64, 128, 180, 256, 512, 1024, 2048, null],
   });
 }
@@ -58,52 +58,52 @@ const registerPlugins = (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(rollupPlugin, {
-    useAbsoluteScriptPaths: true,
     rollupOptions: {
       output: {
-        dir: '_site/js',
-        format: 'es',
-        sourcemap: process.env.NETLIFY !== 'true',
+        dir: "_site/js",
+        format: "es",
+        sourcemap: process.env.NETLIFY !== "true",
       },
       plugins: [typescript(), resolve()],
     },
+    useAbsoluteScriptPaths: true,
   });
 };
 
 const registerFileConfigs = (eleventyConfig) => {
-  eleventyConfig.addWatchTarget('src/css/');
-  eleventyConfig.addWatchTarget('assets/ts/');
-  eleventyConfig.addPassthroughCopy('assets/img');
-  eleventyConfig.addPassthroughCopy('assets/video');
-  eleventyConfig.addPassthroughCopy('assets/fonts');
+  eleventyConfig.addWatchTarget("src/css/");
+  eleventyConfig.addWatchTarget("assets/ts/");
+  eleventyConfig.addPassthroughCopy("assets/img");
+  eleventyConfig.addPassthroughCopy("assets/video");
+  eleventyConfig.addPassthroughCopy("assets/fonts");
 };
 
 const addFilters = (eleventyConfig) => {
-  eleventyConfig.addFilter('logging', (input, label, passthrough) => {
+  eleventyConfig.addFilter("logging", (input, label, passthrough) => {
     console.log(`logging-${label}:`, input);
     if (passthrough) return input;
   });
-  eleventyConfig.addFilter('encodeURIComponent', encodeURIComponent);
-  eleventyConfig.addNunjucksAsyncFilter('faviconData', (src, callback) =>
+  eleventyConfig.addFilter("encodeURIComponent", encodeURIComponent);
+  eleventyConfig.addNunjucksAsyncFilter("faviconData", (src, callback) =>
     generateFavicon(src).then((data) => callback(null, data))
   );
-  eleventyConfig.addNunjucksAsyncFilter('imageData', (src, callback) =>
+  eleventyConfig.addNunjucksAsyncFilter("imageData", (src, callback) =>
     generateImages(src).then((data) => callback(null, data))
   );
-  eleventyConfig.addFilter('niceDate', (date) => {
+  eleventyConfig.addFilter("niceDate", (date) => {
     const months = [
-      'Jan',
-      'Feb',
-      'Mar',
-      'Apr',
-      'May',
-      'Jun',
-      'Jul',
-      'Aug',
-      'Sep',
-      'Okt',
-      'Nov',
-      'Dec',
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Okt",
+      "Nov",
+      "Dec",
     ];
     return `${date.getDate()}. ${
       months[date.getMonth()]
@@ -112,31 +112,43 @@ const addFilters = (eleventyConfig) => {
 };
 
 const addShortcodes = (eleventyConfig) => {
-  eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents));
-  eleventyConfig.addDataExtension('yml', (contents) => yaml.load(contents));
-  eleventyConfig.addShortcode('currentTime', () => Date.now().toString());
-  eleventyConfig.addAsyncShortcode('image', imageShortcode);
-  eleventyConfig.addAsyncShortcode('favicon', generateFaviconHTML);
+  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+  eleventyConfig.addDataExtension("yml", (contents) => yaml.load(contents));
+  eleventyConfig.addShortcode("currentTime", () => Date.now().toString());
+  eleventyConfig.addAsyncShortcode("image", imageShortcode);
+  eleventyConfig.addAsyncShortcode("favicon", generateFaviconHTML);
 };
 
-module.exports = function (eleventyConfig) {
-  eleventyConfig.on('eleventy.before', async () => {
+const generateIconFont = (eleventyConfig) => {
+  eleventyConfig.on("eleventy.before", async () => {
     const font = await fs.readFile(
-      'assets/fonts/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].woff2'
+      "assets/fonts/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].woff2"
     );
     const subset = await subsetFont(
       font,
-      ['info', 'warning', 'stadium', 'home', 'description', 'policy', 'expand_more'].join(' '),
-      { targetFormat: 'woff2' }
+      [
+        "info",
+        "warning",
+        "stadium",
+        "home",
+        "description",
+        "policy",
+        "expand_more",
+      ].join(" "),
+      { targetFormat: "woff2" }
     );
-    await fs.mkdir('_site/assets/fonts', { recursive: true });
+    await fs.mkdir("_site/assets/fonts", { recursive: true });
     await fs.writeFile(
-      '_site/assets/fonts/MaterialSymbolsSharp-subset.woff2',
+      "_site/assets/fonts/MaterialSymbolsSharp-subset.woff2",
       subset
     );
   });
+};
 
-  eleventyConfig.amendLibrary('md', (mdLib) => {
+module.exports = function(eleventyConfig) {
+  generateIconFont(eleventyConfig);
+
+  eleventyConfig.amendLibrary("md", (mdLib) => {
     mdLib
       .set({
         breaks: true,
@@ -145,7 +157,7 @@ module.exports = function (eleventyConfig) {
       })
       .use(markdownItEmoji);
 
-    ['labeledImage', 'infoBox', 'warningBox'].forEach((name) =>
+    ["labeledImage", "infoBox", "warningBox"].forEach((name) =>
       mdLib.use(markdownItContainer, name)
     );
   });
@@ -158,7 +170,7 @@ module.exports = function (eleventyConfig) {
 
   // Return your Object options:
   return {
-    dir: { input: 'src' },
-    markdownTemplateEngine: 'njk',
+    dir: { input: "src" },
+    markdownTemplateEngine: "njk",
   };
 };

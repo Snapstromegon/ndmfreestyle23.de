@@ -1,7 +1,8 @@
-import { html, css, LitElement } from "lit";
+import { css, html, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
-import { repeat } from 'lit/directives/repeat.js';
-import { when } from 'lit/directives/when.js';
+import { repeat } from "lit/directives/repeat.js";
+import { Start } from "../../types";
+import { when } from "lit/directives/when.js";
 
 @customElement("snap-startlist-start")
 export default class SnapStartlistStart extends LitElement {
@@ -76,11 +77,11 @@ export default class SnapStartlistStart extends LitElement {
     }
   `;
 
-  @property({ attribute: false }) start?: { name: string, imageSrc: string, type: string, starters: { number: number, name: string }[], time: string, category: string } = undefined;
+  @property({ attribute: false }) start?: Start;
 
   override render() {
     if (!this.start) return html``;
-    const starters = this.start.starters.sort((a, b) => a.number - b.number)
+    const starters = this.start.starters.sort((a, b) => a.number - b.number);
     return html`
       <div id="wrapper">
         <img id="face" src=${this.start.imageSrc} width="100" height="100" />
