@@ -422,7 +422,7 @@ main p {
 
   aside {
     padding-top: var(--m);
-    gap: var(--m);
+    gap: var(--xxxl);
     height: 100vh;
   }
 
