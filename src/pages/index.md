@@ -24,7 +24,11 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
   .lm-events {
     display: grid;
     gap: var(--m);
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+
+  .lm-event-container {
+    container: lm-card / inline-size;
   }
 
   .lm-event {
@@ -37,6 +41,15 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
     color: var(--text-color);
     text-decoration: none;
     overflow: hidden;
+    height: 100%;
+  }
+
+  @container lm-card (max-width: 20rem) {
+    .lm-event {
+      grid-template-columns: 1fr;
+      grid-template-rows: 10rem auto 1fr;
+      grid-template-areas: "image" "title" "regions";
+    }
   }
 
   .lm-event picture {
@@ -62,6 +75,7 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
 </style>
 
 <div class="lm-events">
+<div class="lm-event-container">
 <a href="https://unicycle-team.de/landesmeisterschaft-einrad-freestyle-2023" class="lm-event">
   {% image 'assets/img/logos/unicycle-team.de_.png', 'Logo des Unicycle-Team Harpstedt' %}
 
@@ -72,6 +86,8 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
 - Nordrhein-Westfalen
 
 </a>
+</div>
+<div class="lm-event-container">
 <a href="https://www.einradverband-sh.de/veranstaltungen/2370389/2023/05/12/freestyle-landesmeisterschaft-sh-hh.html" class="lm-event">
   {% image 'https://www.einradverband.de/wp-content/webp-express/webp-images/uploads/2023/01/einradverbandsh.jpg.webp', 'Banner Einradverband Schleswig-Holstein' %}
 
@@ -81,6 +97,8 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
 - Schleswig-Holstein
 
 </a>
+</div>
+<div class="lm-event-container">
 <a href="" class="lm-event">
   {% image 'https://www.einradverband.de/wp-content/webp-express/webp-images/uploads/2021/07/freestyle-newsletter-1280x770.jpg.webp', 'Platzhalter Einradbild' %}
 
@@ -94,6 +112,7 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
 - Thüringen
 
 </a>
+</div>
 </div>
 
 ## Wir freuen uns auf euch!
