@@ -4,7 +4,6 @@ import SnapLink from "./snap-link";
 
 @customElement("snap-routed")
 export default class SnapRouted extends LitElement {
-
   currentUrl?: string;
 
   override render() {
@@ -27,7 +26,7 @@ export default class SnapRouted extends LitElement {
     this.currentUrl = url;
     this.updateLinks();
 
-    const resp = await fetch(`/pages/${url}`);
+    const resp = await fetch(`/pages/${url}`.replaceAll("//", "/"));
     const newHTML = await resp.text();
 
     if (this.is404(newHTML)) {
@@ -35,7 +34,6 @@ export default class SnapRouted extends LitElement {
     }
 
     this.updateView(newHTML);
-
   }
 
   is404(rawHtml: string) {
