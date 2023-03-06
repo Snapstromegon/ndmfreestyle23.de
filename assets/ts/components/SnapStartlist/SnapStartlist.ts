@@ -59,6 +59,7 @@ export default class SnapStartlist extends LitElement {
       height: 100%;
       display: none;
       grid-area: content;
+      overscroll-behavior: contain;
     }
 
     #preview {

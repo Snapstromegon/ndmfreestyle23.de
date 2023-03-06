@@ -256,7 +256,7 @@ h2 {
 #main-header .content {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 3rem;
+  padding-top: 5vw;
   justify-content: center;
   align-items: center;
 }
