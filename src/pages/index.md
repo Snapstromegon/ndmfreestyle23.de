@@ -36,20 +36,12 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
     grid-template-columns: 8rem 1fr;
     grid-template-rows: auto 1fr;
     grid-template-areas: "image title" "image regions";
-    background: var(--color-background-nuanced);
+    background: var(--color-background-secondary);
     border-radius: var(--s);
-    color: var(--text-color);
+    color: var(--text-color-sidebar);
     text-decoration: none;
     overflow: hidden;
     height: 100%;
-  }
-
-  @container lm-card (max-width: 20rem) {
-    .lm-event {
-      grid-template-columns: 1fr;
-      grid-template-rows: 10rem auto 1fr;
-      grid-template-areas: "image" "title" "regions";
-    }
   }
 
   .lm-event picture {
@@ -61,22 +53,41 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
     height: 100%;
     width: 100%;
     background: var(--color-background-nuanced);
+    border-right: var(--xs) solid var(--color-red);
+    transition: border-color .2s;
+  }
+
+  .lm-event:hover img {
+    border-color: var(--color-yellow);
   }
 
   .lm-event h3 {
-    margin: var(--s);
-    margin-bottom: 0;
+    margin: var(--m);
+    margin-bottom: var(--s);
   }
 
   .lm-event ul {
-    margin: var(--s);
+    margin: var(--m);
     margin-top: 0;
+  }
+
+  @container lm-card (max-width: 20rem) {
+    .lm-event {
+      grid-template-columns: 1fr;
+      grid-template-rows: 10rem auto 1fr;
+      grid-template-areas: "image" "title" "regions";
+    }
+
+    .lm-event picture img {
+      border: none;
+      border-bottom: var(--xs) solid var(--color-red);
+    }
   }
 </style>
 
 <div class="lm-events">
 <div class="lm-event-container">
-<a href="https://unicycle-team.de/landesmeisterschaft-einrad-freestyle-2023" class="lm-event">
+<a href="https://unicycle-team.de/landesmeisterschaft-einrad-freestyle-2023" class="lm-event" target="_blank" norefferer>
   {% image 'assets/img/logos/unicycle-team.de_.png', 'Logo des Unicycle-Team Harpstedt' %}
 
 ### Gemeinsame LM von
@@ -88,7 +99,7 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
 </a>
 </div>
 <div class="lm-event-container">
-<a href="https://www.einradverband-sh.de/veranstaltungen/2370389/2023/05/12/freestyle-landesmeisterschaft-sh-hh.html" class="lm-event">
+<a href="https://www.einradverband-sh.de/veranstaltungen/2370389/2023/05/12/freestyle-landesmeisterschaft-sh-hh.html" class="lm-event" target="_blank" norefferer>
   {% image 'https://www.einradverband.de/wp-content/webp-express/webp-images/uploads/2023/01/einradverbandsh.jpg.webp', 'Banner Einradverband Schleswig-Holstein' %}
 
 ### Gemeinsame LM von
@@ -99,7 +110,7 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
 </a>
 </div>
 <div class="lm-event-container">
-<a href="" class="lm-event">
+<a href="" class="lm-event" target="_blank" norefferer>
   {% image 'https://www.einradverband.de/wp-content/webp-express/webp-images/uploads/2021/07/freestyle-newsletter-1280x770.jpg.webp', 'Platzhalter Einradbild' %}
 
 ### Gemeinsame LM von
