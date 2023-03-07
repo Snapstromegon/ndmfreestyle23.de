@@ -7,6 +7,12 @@ import { Startlist } from "../../types";
 @customElement("snap-startslist")
 export default class SnapStartslist extends LitElement {
   static override styles = css`
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
     .startgroup-label {
       position: sticky;
       top: 0;
