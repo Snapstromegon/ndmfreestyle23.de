@@ -91,7 +91,7 @@ aside {
   z-index: 100;
   view-transition-name: aside;
   will-change: transform;
-  animation: aside-out .15s ease-in;
+  animation: aside-out .2s ease-in;
 }
 /* Browser hack - prevents first splashy animation */
 aside:not(:hover) {
@@ -118,7 +118,7 @@ aside[expanded]{
   to {
     height: 100vh;
     height: 100dvh;
-    transform: translateY(66%);
+    transform: translateY(80%);
   }
 }
 

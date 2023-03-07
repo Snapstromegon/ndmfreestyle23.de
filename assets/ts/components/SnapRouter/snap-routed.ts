@@ -19,19 +19,16 @@ export default class SnapRouted extends LitElement {
   }
 
   async navigate(url: string, force: boolean = false): Promise<void> {
-    if (this.currentUrl === url && !force) {
-      console.log("skipping navigate to", url, this.isCurrentUrl(url), force);
-      return;
-    }
+    document.querySelector("aside")?.removeAttribute("expanded");
+    if (this.currentUrl === url && !force) return;
+
     this.currentUrl = url;
     this.updateLinks();
 
     const resp = await fetch(`/pages/${url}`.replaceAll("//", "/"));
     const newHTML = await resp.text();
 
-    if (this.is404(newHTML)) {
-      return this.navigate("/404");
-    }
+    if (this.is404(newHTML)) return this.navigate("/404");
 
     this.updateView(newHTML);
   }
@@ -56,7 +53,6 @@ export default class SnapRouted extends LitElement {
   }
 
   updateView(newHTML: string) {
-    document.querySelector("aside")?.removeAttribute("expanded");
     if (!document.startViewTransition) {
       this.innerHTML = newHTML;
       return;

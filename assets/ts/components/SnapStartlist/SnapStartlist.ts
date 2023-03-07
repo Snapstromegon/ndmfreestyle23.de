@@ -1,7 +1,9 @@
-import "./snap-startlist-start.js";
 import "../SnapUtils/snap-ripple.js";
+import "./snap-startlist-start.js";
+import "./snap-startslist.js";
 import { css, html, LitElement } from "lit";
 import { customElement, state } from "lit/decorators.js";
+import { repeat } from "lit/directives/repeat.js";
 import { Startlist } from "../../types.js";
 
 @customElement("snap-startlist")
@@ -29,9 +31,9 @@ export default class SnapStartlist extends LitElement {
       grid-template-areas: "content expand-button";
       background: var(--color-blue-light);
     }
-    
+
     .material-icon {
-      font-family: 'Material Symbols Sharp';
+      font-family: "Material Symbols Sharp";
       font-weight: normal;
       font-style: normal;
       font-size: 24px; /* Preferred icon size */
@@ -42,16 +44,7 @@ export default class SnapStartlist extends LitElement {
       word-wrap: normal;
       white-space: nowrap;
       direction: ltr;
-      font-variation-settings: 'FILL' 1;
-    }
-
-    snap-startlist-start {
-      border-bottom: var(--xxxs) solid var(--color-middle-gray);
-      display: block;
-    }
-
-    snap-startlist-start:last-child {
-      border-bottom: none;
+      font-variation-settings: "FILL" 1;
     }
 
     #starts {
@@ -64,6 +57,8 @@ export default class SnapStartlist extends LitElement {
 
     #preview {
       grid-area: content;
+      transform: translateY(0%);
+      transition: transform 0.3s;
     }
 
     #preview snap-startlist-start {
@@ -107,16 +102,9 @@ export default class SnapStartlist extends LitElement {
       color: var(--text-color-sidebar);
     }
 
-    #preview, #search {
+    #preview,
+    #search {
       border-right: var(--xxxs) dotted var(--text-color-sidebar);
-    }
-
-    .startgroup-label {
-      position: sticky;
-      top: 0;
-      padding: var(--s) var(--m);
-      background: var(--color-blue);
-      z-index: 1;
     }
 
     :host-context(aside[expanded]) #expand-button {
@@ -129,11 +117,11 @@ export default class SnapStartlist extends LitElement {
       overflow: hidden;
     }
 
-    :host-context(aside[expanded]) #search { 
+    :host-context(aside[expanded]) #search {
       transform: translateY(0%);
     }
 
-    :host-context(aside[expanded]) #starts { 
+    :host-context(aside[expanded]) #starts {
       display: block;
     }
 
@@ -178,39 +166,67 @@ export default class SnapStartlist extends LitElement {
     return html`
       <header>
         <div id="preview">
-          <snap-startlist-start shortened .start=${this.startlist?.[0]?.starts[0]}></snap-startlist-start>
+          <snap-startlist-start
+            shortened
+            .start=${this.startlist?.[0]?.starts[0]}
+          ></snap-startlist-start>
         </div>
         <div id="search">
-          <snap-ripple><input type="search" list="search_options" id="searchInput" placeholder="Suchen" aria-label="Start Suchen"></snap-ripple>
+          <snap-ripple
+            ><input
+              type="search"
+              list="search_options"
+              id="searchInput"
+              placeholder="Suchen"
+              aria-label="Start Suchen"
+          /></snap-ripple>
         </div>
-        <button class="material-icon" id="expand-button" @click=${this.toggleExpanded}>expand_more</button>
+        <button
+          class="material-icon"
+          id="expand-button"
+          @click=${this.toggleExpanded}
+        >
+          expand_more
+        </button>
       </header>
-      <div id="starts">
-        ${this.startlist?.map(startgroup => html`
-          <div class="startgroup">
-            <p class="startgroup-label">${startgroup.category}</p>
-            ${startgroup.starts.map(start => html`<snap-startlist-start .start=${start}></snap-startlist-start>`)}
-          </div>`)
-      }
-      </div>
+      <snap-startslist
+        id="starts"
+        .startlist=${this.startlist}
+      ></snap-startslist>
+      ${this.renderDataList()}
+    `;
+  }
+
+  renderDataList() {
+    return html`
       <datalist id="search_options">
         <optgroup label="Starter">
-          ${this.starterNames?.map(starter => html`<option value="${starter}"></option>`)}
+          ${repeat(
+            this.starterNames,
+            (starter) => html`<option value="${starter}"></option>`
+          )}
         </optgroup>
-        <optgroup label = "Kürname" >
-          ${this.startlist?.map(startgroup => startgroup.starts.map(start => html`<option value="${start.name}"></option>`))}
+        <optgroup label="Kürname">
+          ${repeat(this.startlist || [], (startgroup) =>
+            repeat(
+              startgroup.starts,
+              (start) => html`<option value="${start.name}"></option>`
+            )
+          )}
         </optgroup>
-        <optgroup label = "Gruppenname" >
-
-        </optgroup>
+        <optgroup label="Gruppenname"></optgroup>
       </datalist>
-      `;
+    `;
   }
 
   get starterNames() {
     return [
-      ...new Set(this.startlist?.flatMap(startgroup => startgroup.starts).flatMap(start => start.starters)
-        .map(starter => starter.name) || [])
+      ...new Set(
+        this.startlist
+          ?.flatMap((startgroup) => startgroup.starts)
+          .flatMap((start) => start.starters)
+          .map((starter) => starter.name) || []
+      ),
     ];
   }
 
