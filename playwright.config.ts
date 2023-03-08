@@ -84,6 +84,7 @@ export default defineConfig({
   webServer: {
     command: "npm run dev",
     reuseExistingServer: true,
+    timeout: 180 * 1000,
     url: "http://localhost:8888",
   },
   /* Opt out of parallel tests on CI. */
