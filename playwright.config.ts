@@ -83,7 +83,8 @@ export default defineConfig({
   /* Run your local dev server before starting the tests */
   webServer: {
     command: "npm run dev",
-    port: 8888,
+    url: "http://localhost:8888",
+    reuseExistingServer: true,
   },
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : "50%",
