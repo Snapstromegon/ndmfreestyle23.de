@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "serve": "npx @11ty/eleventy --serve",
+    "build:watch": "npx @11ty/eleventy --watch",
     "lint": "cross-env ESLINT_USE_FLAT_CONFIG=true eslint . -c eslint.config.mjs",
-    "dev": "npx netlify-cli dev",
+    "dev": "npx netlify-cli dev -c \"npm run build:watch\"",
+    "serve": "npx netlify-cli dev",
     "test": "npx playwright test"
   },
   "keywords": [],

@@ -147,7 +147,7 @@ export default class SnapStartlist extends LitElement {
   `;
 
   @state() startlist?: Startlist;
-  updateInterval?: number;
+  updateInterval?: ReturnType<typeof setInterval>;
 
   override connectedCallback() {
     super.connectedCallback();
