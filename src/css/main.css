@@ -444,16 +444,13 @@ main p {
     height: auto;
   }
 
-  nav snap-link i.material-icon {
-    display: none;
-  }
-
   nav snap-link span {
     display: initial;
   }
 
   nav snap-link::part(a) {
-    display: block;
+    display: flex;
+    gap: var(--s);
     height: auto;
     padding: var(--s) var(--m);
   }
