@@ -79,6 +79,7 @@ export default class SnapStartlist extends LitElement {
     }
 
     #searchInput {
+      appearance: none;
       width: 100%;
       height: 100%;
       background: none;
