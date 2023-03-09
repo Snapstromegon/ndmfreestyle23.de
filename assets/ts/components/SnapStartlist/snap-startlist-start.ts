@@ -14,9 +14,9 @@ export default class SnapStartlistStart extends LitElement {
 
     #wrapper {
       display: grid;
-      grid-template-columns: auto auto 1fr;
+      grid-template-columns: auto 1fr;
       grid-template-rows: auto auto max-content;
-      grid-template-areas: "face time category" "face actName actName" "face names names";
+      grid-template-areas: "time category" "actName actName" "names names";
       gap: 0 var(--s);
       padding: var(--s) var(--m);
     }
@@ -84,7 +84,6 @@ export default class SnapStartlistStart extends LitElement {
     const starters = this.start.starters.sort((a, b) => a.number - b.number);
     return html`
       <div id="wrapper">
-        <img id="face" src=${this.start.imageSrc} width="100" height="100" />
         <span id="actName">${this.start.name}</span>
         <ul id="names">${when(
       ["einzel", "paar"].some(type => type === this.start?.type),

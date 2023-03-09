@@ -166,7 +166,7 @@ export default class SnapStartlist extends LitElement {
     }
     return html`
       <header>
-        <div id="preview">
+        <div id="preview" @click=${this.toggleExpanded}>
           <snap-startlist-start
             shortened
             .start=${this.startlist?.[0]?.starts[0]}

@@ -175,6 +175,12 @@ aside snap-link[active] {
   background: var(--color-blue);
 }
 
+nav snap-link .material-icon {
+  display: block;
+  overflow: hidden;
+  width: 24px;
+}
+
 main {
   width: 100%;
   height: 100%;
