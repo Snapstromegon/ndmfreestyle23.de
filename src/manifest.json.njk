@@ -57,29 +57,23 @@ sitemapIgnore: true
   }],
   "screenshots": [
     {% set screenshots = "assets/img/screenshots/narrow.png" | imageFormats %}
-    {%- for format, outputs in screenshots -%}
-      {% set outerLoop = loop -%}
-      {% for output in outputs %}
+    {%- for output in screenshots.webp -%}
     {
       "src": "{{output.url}}",
       "type": "{{output.sourceType}}",
       "sizes": "{{output.width}}x{{output.height}}",
       "platform": "narrow"
     },
-      {% endfor -%}
     {% endfor -%}
     
     {% set screenshots = "assets/img/screenshots/wide.png" | imageFormats %}
-    {%- for format, outputs in screenshots -%}
-      {% set outerLoop = loop -%}
-      {% for output in outputs %}
+    {%- for output in screenshots.webp -%}
     {
       "src": "{{output.url}}",
       "type": "{{output.sourceType}}",
       "sizes": "{{output.width}}x{{output.height}}",
       "platform": "wide"
-    }{% if not(loop.last and outerLoop.last) %},{%endif-%}
-      {% endfor -%}
+    },
     {% endfor -%}
   ]
 }
