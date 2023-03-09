@@ -5,7 +5,6 @@ import SnapRouted from "./snap-routed";
 
 @customElement("snap-link")
 export default class SnapLink extends LitElement {
-
   static override styles = css`
     a {
       display: block;
@@ -32,7 +31,14 @@ export default class SnapLink extends LitElement {
 
   override render() {
     return html`
-      <snap-ripple><a href="${this.href}" target=${this.target} @click=${this.clicked} part="a"><slot></slot></a></snap-ripple>
+      <snap-ripple
+        ><a
+          href="${this.href}"
+          target=${this.target}
+          @click=${this.clicked}
+          part="a"
+          ><slot></slot></a
+      ></snap-ripple>
     `;
   }
 

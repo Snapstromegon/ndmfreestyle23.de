@@ -19,4 +19,4 @@ Ein genauerer Zeitplan folgt in Kürze.
 
 ## Veranstaltungskarte
 
-<iframe loading="lazy" src="https://www.google.com/maps/d/embed?mid=1W99kGX95VLFSPbf3UCcs4YmdCGIk8mmt" class="gmaps"></iframe>
+<snap-privacy-frame loading="lazy" src="https://www.google.com/maps/d/embed?mid=1W99kGX95VLFSPbf3UCcs4YmdCGIk8mmt" class="gmaps"></snap-privacy-frame>
