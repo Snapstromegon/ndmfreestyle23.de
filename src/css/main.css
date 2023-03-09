@@ -436,6 +436,7 @@ main p {
     padding-top: var(--m);
     gap: var(--xxxl);
     height: 100vh;
+    animation-duration: 0s;
   }
 
   aside snap-startlist {
