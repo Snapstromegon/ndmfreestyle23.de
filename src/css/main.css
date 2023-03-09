@@ -1,21 +1,22 @@
 @font-face {
-  font-family: 'Mona Sans';
-  src: url('/assets/fonts/Mona-Sans.woff2') format('woff2 supports variations'),
-    url('/assets/fonts/Mona-Sans.woff2') format('woff2-variations');
+  font-family: "Mona Sans";
+  src: url("/assets/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
+    url("/assets/fonts/Mona-Sans.woff2") format("woff2-variations");
   font-weight: 200 900;
   font-stretch: 75% 125%;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Material Symbols Sharp';
+  font-family: "Material Symbols Sharp";
   font-style: normal;
-  src: url('/assets/fonts/MaterialSymbolsSharp-subset.woff2')
-    format('woff');
+  src: url("/assets/fonts/MaterialSymbolsSharp-subset.woff2") format("woff2");
 }
 
-.material-icon, .infoBox::before, .warningBox::before {
-  font-family: 'Material Symbols Sharp';
+.material-icon,
+.infoBox::before,
+.warningBox::before {
+  font-family: "Material Symbols Sharp";
   font-weight: normal;
   font-style: normal;
   font-size: 24px; /* Preferred icon size */
@@ -26,7 +27,7 @@
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-  font-variation-settings: 'FILL' 1;
+  font-variation-settings: "FILL" 1;
 }
 
 * {
@@ -59,7 +60,7 @@
 }
 
 html {
-  font-family: 'Mona Sans', sans-serif;
+  font-family: "Mona Sans", sans-serif;
   background: var(--color-blue);
 }
 
@@ -71,7 +72,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto;
-  grid-template-areas: 'main' 'sidebar';
+  grid-template-areas: "main" "sidebar";
   line-height: 1.5;
 }
 
@@ -91,26 +92,26 @@ aside {
   z-index: 100;
   view-transition-name: aside;
   will-change: transform;
-  animation: aside-out .2s ease-in;
+  animation: aside-out 0.2s ease-in;
 }
 /* Browser hack - prevents first splashy animation */
 aside:not(:hover) {
-  animation-duration:0s !important;
-} 
-
-aside[expanded]{
-  height: 100vh;
-  height: 100dvh;
-  animation: aside-in .2s ease-out;
+  animation-duration: 0s !important;
 }
 
-@keyframes aside-in{
+aside[expanded] {
+  height: 100vh;
+  height: 100dvh;
+  animation: aside-in 0.2s ease-out;
+}
+
+@keyframes aside-in {
   from {
     transform: translateY(80%);
   }
 }
 
-@keyframes aside-out{
+@keyframes aside-out {
   from {
     height: 100vh;
     height: 100dvh;
@@ -153,7 +154,7 @@ nav snap-link span {
 }
 
 aside snap-link::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -317,7 +318,7 @@ main p {
 
 .labeledImage:hover .labeledImage-label {
   transform: translate(0);
-  transition: transform .3s ease-out;
+  transition: transform 0.3s ease-out;
 }
 
 .labeledImage-label {
@@ -328,11 +329,11 @@ main p {
   padding: var(--xxxs) var(--s);
   background-color: var(--color-background);
   transform: translate(-150%);
-  transition: transform .3s ease-in;
+  transition: transform 0.3s ease-in;
 }
 
 .labeledImage-label::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -360,21 +361,25 @@ main p {
   object-fit: contain;
 }
 
-.infoBox, .warningBox {
+.infoBox,
+.warningBox {
   padding: var(--s);
   padding-left: calc(var(--s) + var(--xxxl));
   position: relative;
 }
 
-.infoBox > :first-child, .warningBox > :first-child {
+.infoBox > :first-child,
+.warningBox > :first-child {
   margin-top: 0;
 }
 
-.infoBox > :last-child, .warningBox > :last-child {
+.infoBox > :last-child,
+.warningBox > :last-child {
   margin-bottom: 0;
 }
 
-.infoBox::before, .warningBox::before {
+.infoBox::before,
+.warningBox::before {
   color: #fff;
   position: absolute;
   top: 0;
@@ -414,7 +419,7 @@ main p {
   body {
     grid-template-columns: 20rem 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 'sidebar main';
+    grid-template-areas: "sidebar main";
     height: 100vh;
   }
 
@@ -466,7 +471,6 @@ main p {
   }
 }
 
-
 @keyframes view-transition-in {
   from {
     opacity: 0;
@@ -480,11 +484,11 @@ main p {
 }
 
 ::view-transition-old(main) {
-  animation: .1s both view-transition-out;
+  animation: 0.1s both view-transition-out;
 }
 
 ::view-transition-new(main) {
-  animation: .1s both view-transition-in;
+  animation: 0.1s both view-transition-in;
 }
 
 ::view-transition-old(aside) {
