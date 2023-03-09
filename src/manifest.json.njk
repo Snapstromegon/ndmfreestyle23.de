@@ -12,22 +12,26 @@ sitemapIgnore: true
   "scope": "/",
   "start_url": "/",
   "display": "standalone",
+  "orientation": "portrait",
+  "categories": [
+    "competition",
+    "sports",
+    "unicycling"
+  ],
   "icons": [
 {% set favicons = meta.favicon | faviconData %}
-{%- for size in [64, 128, 180, 256, 512] -%}
 {
   "src": "{{favicons.svg[0].url}}",
   "type": "{{favicons.svg[0].sourceType}}",
-  "sizes": "{{size}}x{{size}}",
+  "sizes": "{{1024}}x{{1024}}",
   "purpose": "any"
 },
 {
   "src": "{{favicons.svg[0].url}}",
   "type": "{{favicons.svg[0].sourceType}}",
-  "sizes": "{{size}}x{{size}}",
+  "sizes": "{{1024}}x{{1024}}",
   "purpose": "maskable"
 },
-{% endfor %}
 
 {%- for format, outputs in favicons -%}
   {% set outerLoop = loop -%}
@@ -50,5 +54,32 @@ sitemapIgnore: true
   "related_applications": [{
     "platform": "webapp",
     "url": "{{meta.url}}/manifest.json"
-  }]
+  }],
+  "screenshots": [
+    {% set screenshots = "assets/img/screenshots/narrow.png" | imageFormats %}
+    {%- for format, outputs in screenshots -%}
+      {% set outerLoop = loop -%}
+      {% for output in outputs %}
+    {
+      "src": "{{output.url}}",
+      "type": "{{output.sourceType}}",
+      "sizes": "{{output.width}}x{{output.height}}",
+      "platform": "narrow"
+    },
+      {% endfor -%}
+    {% endfor -%}
+    
+    {% set screenshots = "assets/img/screenshots/wide.png" | imageFormats %}
+    {%- for format, outputs in screenshots -%}
+      {% set outerLoop = loop -%}
+      {% for output in outputs %}
+    {
+      "src": "{{output.url}}",
+      "type": "{{output.sourceType}}",
+      "sizes": "{{output.width}}x{{output.height}}",
+      "platform": "wide"
+    }{% if not(loop.last and outerLoop.last) %},{%endif-%}
+      {% endfor -%}
+    {% endfor -%}
+  ]
 }

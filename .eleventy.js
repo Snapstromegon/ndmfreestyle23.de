@@ -22,6 +22,18 @@ function generateImages(src) {
   });
 }
 
+function generateImageFormats(src) {
+  return Image(src, {
+    formats: [
+      "avif",
+      "webp",
+      src.toLowerCase().endsWith(".png") ? "png" : "jpeg",
+    ],
+    outputDir: "_site/img/",
+    widths: [null],
+  });
+}
+
 async function imageShortcode(src, alt, sizes = []) {
   const metadata = await generateImages(src);
 
@@ -89,6 +101,9 @@ const addFilters = (eleventyConfig) => {
   );
   eleventyConfig.addNunjucksAsyncFilter("imageData", (src, callback) =>
     generateImages(src).then((data) => callback(null, data))
+  );
+  eleventyConfig.addNunjucksAsyncFilter("imageFormats", (src, callback) =>
+    generateImageFormats(src).then((data) => callback(null, data))
   );
   eleventyConfig.addFilter("niceDate", (date) => {
     const months = [
