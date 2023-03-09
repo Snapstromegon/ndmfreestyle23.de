@@ -58,7 +58,7 @@ export default class SnapPrivacyFrameOrigins extends LitElement {
   @property({ type: String }) src?: string;
 
   override render() {
-    if(this.allowedOrigins.length === 0) return html`<p>Es sind keine Inhalte von externen Anbietern aktiviert.</p>`;
+    if (this.allowedOrigins.length === 0) return html`<p>Es sind keine Inhalte von externen Anbietern aktiviert.</p>`;
     return html`
       <button id="reset-all" @click=${this.resetAllowedOrigins}>
         Alle externen Inhalte deaktivieren
