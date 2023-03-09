@@ -73,7 +73,7 @@ sitemapIgnore: true
       "type": "{{output.sourceType}}",
       "sizes": "{{output.width}}x{{output.height}}",
       "platform": "wide"
-    },
+    }{% if not(loop.last and outerLoop.last) %},{%endif-%}
     {% endfor -%}
   ]
 }
