@@ -48,6 +48,7 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
       radial-gradient(circle at center, var(--color-blue-light) var(--dot-size), transparent var(--dot-size)),
       var(--color-background-secondary);
     background-size: cover, var(--dot-space) var(--dot-space), cover;
+    box-shadow: 0rem var(--xxs) var(--s) var(--color-middle-gray);
   }
 
   .lm-event picture {
