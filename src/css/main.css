@@ -188,7 +188,7 @@ main {
   min-width: 0;
   min-height: 0;
   grid-area: main;
-  padding-bottom: var(--xl);
+  padding-bottom: var(--xxxl);
   position: relative;
   view-transition-name: main;
 }

@@ -37,7 +37,6 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
     grid-template-rows: auto 1fr;
     grid-template-areas: "image title" "image regions";
     background: var(--color-background-secondary);
-    border-radius: var(--s);
     color: var(--text-color-sidebar);
     text-decoration: none;
     overflow: hidden;
