@@ -94,7 +94,7 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
 <div class="lm-events">
 <div class="lm-event-container">
 <a href="https://unicycle-team.de/landesmeisterschaft-einrad-freestyle-2023" class="lm-event" target="_blank" norefferer>
-  {% image 'assets/img/logos/unicycle-team.de_.png', 'Logo des Unicycle-Team Harpstedt' %}
+  {% image 'assets/img/logos/herpstedt-logo.jpg', 'Logo des Unicycle-Team Harpstedt' %}
 
 ### Gemeinsame LM von
 
@@ -116,8 +116,8 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
 </a>
 </div>
 <div class="lm-event-container">
-<a href="" class="lm-event" target="_blank" norefferer>
-  {% image 'https://www.einradverband.de/wp-content/webp-express/webp-images/uploads/2021/07/freestyle-newsletter-1280x770.jpg.webp', 'Platzhalter Einradbild' %}
+<a href="https://einradtruppe.de/meisterschaften/" class="lm-event" target="_blank" norefferer>
+  {% image 'https://einradtruppe.de/wp-content/uploads/2022/11/logo-hinten-speichen-klein.jpg', 'Logo Einradtruppe Fredersdorf' %}
 
 ### Gemeinsame LM von
 
