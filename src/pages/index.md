@@ -77,7 +77,7 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
     margin-top: 0;
   }
 
-  @container lm-card (max-width: 20rem) {
+  @container lm-card (max-width: 22rem) {
     .lm-event {
       grid-template-columns: 1fr;
       grid-template-rows: 10rem auto 1fr;
