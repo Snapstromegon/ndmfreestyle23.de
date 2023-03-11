@@ -11,15 +11,15 @@ export default class SnapRouted extends LitElement {
 
   override connectedCallback() {
     super.connectedCallback();
-    if(window.navigation) {
+    if (window.navigation) {
       window.navigation.addEventListener("navigate", (e: CustomEvent) => {
         this.navigate(e);
       });
     }
   }
 
-  async navigate(event): Promise<void> {
-    if(!event.canIntercept) return;
+  navigate(event) {
+    if (!event.canIntercept) return;
 
     document.querySelector("aside")?.removeAttribute("expanded");
     const url = new URL(event.destination.url);
@@ -35,7 +35,7 @@ export default class SnapRouted extends LitElement {
 
   updateLinks() {
     for (const link of [...document.querySelectorAll("a")] as HTMLAnchorElement[]) {
-      if(this.isCurrentUrl(link.href)) {
+      if (this.isCurrentUrl(link.href)) {
         link.setAttribute("active", "");
       } else {
         link.removeAttribute("active");
