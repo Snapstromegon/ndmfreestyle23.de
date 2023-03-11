@@ -109,7 +109,7 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
 </div>
 <div class="lm-event-container">
 <a href="https://www.einradverband-sh.de/veranstaltungen/2370389/2023/05/12/freestyle-landesmeisterschaft-sh-hh.html" class="lm-event" target="_blank" norefferer>
-  {% image 'https://www.einradverband.de/wp-content/webp-express/webp-images/uploads/2023/01/einradverbandsh.jpg.webp', 'Banner Einradverband Schleswig-Holstein' %}
+  {% image 'assets/img/logos/einradverbandsh.jpg.webp', 'Banner Einradverband Schleswig-Holstein' %}
 
 ### Gemeinsame LM von
 
@@ -120,7 +120,7 @@ Um an der Norddeutschen Meisterschaft teilnehmen zu dürfen, musst Du dich (bzw.
 </div>
 <div class="lm-event-container">
 <a href="https://einradtruppe.de/meisterschaften/" class="lm-event" target="_blank" norefferer>
-  {% image 'https://einradtruppe.de/wp-content/uploads/2022/11/logo-hinten-speichen-klein.jpg', 'Logo Einradtruppe Fredersdorf' %}
+  {% image 'assets/img/logos/logo-hinten-speichen-klein.jpg', 'Logo Einradtruppe Fredersdorf' %}
 
 ### Gemeinsame LM von
 
