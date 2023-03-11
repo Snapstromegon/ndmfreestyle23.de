@@ -3,6 +3,8 @@ eleventyNavigation:
   icon: stadium
   key: Informationen
   order: 3
+layout: "layouts/page.njk"
+tags: ["page"]
 ---
 
 # Allgemeine Informationen

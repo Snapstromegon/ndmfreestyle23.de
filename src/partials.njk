@@ -1,0 +1,12 @@
+---
+pagination:
+  data: collections.page
+  size: 1
+  alias: post
+permalink: "pages/{{ post.url }}/"
+eleventyComputed:
+  fullHeader: "{{ post.data.fullHeader }}"
+layout: layouts/partials.njk
+---
+
+{{ post.content | safe }}

@@ -10,6 +10,7 @@
 @font-face {
   font-family: "Material Symbols Sharp";
   font-style: normal;
+  font-display: block;
   src: url("/assets/fonts/MaterialSymbolsSharp-subset.woff2") format("woff2");
 }
 

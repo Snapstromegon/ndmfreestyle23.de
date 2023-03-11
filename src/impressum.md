@@ -3,6 +3,8 @@ eleventyNavigation:
   icon: policy
   key: Impressum
   order: 999
+layout: "layouts/page.njk"
+tags: ["page"]
 ---
 
 # Impressum

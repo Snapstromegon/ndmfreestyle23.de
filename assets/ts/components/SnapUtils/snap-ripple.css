@@ -1,0 +1,15 @@
+#wrapper {
+  position: relative;
+  overflow: hidden;
+}
+#ripple {
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
+
+:host {
+  display: contents;
+}

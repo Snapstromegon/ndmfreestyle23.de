@@ -1,9 +1,11 @@
 ---
-layout: layouts/page-full-header.njk
 eleventyNavigation:
   icon: home
   key: Start
   order: 1
+fullHeader: true
+layout: "layouts/page.njk"
+tags: ["page"]
 ---
 
 # Hallo!

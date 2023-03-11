@@ -1,25 +1,10 @@
-import { css, html, LitElement } from "lit";
 import { customElement, query } from "lit/decorators.js";
+import { html, LitElement } from "lit";
+import styles from "lightning-lit:./snap-ripple.css";
 
 @customElement("snap-ripple")
 export default class SnapRipple extends LitElement {
-  static override styles = css`
-    :host() {
-      display: contents;
-    }
-    #wrapper {
-      position: relative;
-      overflow: hidden;
-    }
-    #ripple {
-      border-radius: 50%;
-      background: rgba(255,255,255,0.5);
-      position: absolute;
-      z-index: 1;
-      pointer-events: none;
-    }
-
-  `;
+  static override styles = styles;
 
   @query("#ripple") rippleDiv?: HTMLDivElement;
 

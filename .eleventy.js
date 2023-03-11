@@ -7,6 +7,7 @@ const { default: resolve } = require("@rollup/plugin-node-resolve");
 const markdownItEmoji = require("markdown-it-emoji");
 const markdownItContainer = require("markdown-it-container");
 const rollupPlugin = require("eleventy-plugin-rollup");
+const rollupPluginLitLightningcss = require("./lib/rollup-plugin-lit-lightningcss.cjs");
 const subsetFont = require("subset-font");
 const fs = require("fs/promises");
 
@@ -76,7 +77,7 @@ const registerPlugins = (eleventyConfig) => {
         format: "es",
         sourcemap: process.env.NETLIFY !== "true",
       },
-      plugins: [typescript(), resolve()],
+      plugins: [rollupPluginLitLightningcss(), typescript(), resolve()],
     },
     useAbsoluteScriptPaths: true,
   });

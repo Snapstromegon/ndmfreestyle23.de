@@ -11,7 +11,7 @@
     <meta http-equiv="content-language" content="de"/>
     <meta name="generator" content="{{ eleventy.generator }}">
     <link rel="manifest" href="/manifest.json">
-    <title>NDM Freestyle 2023 - {{title or eleventyNavigation.key or "Website"}}</title>
+    <title>NDM Freestyle 2023</title>
     <style>
       {% include "../../css/main.css" %}
     </style>
@@ -35,7 +35,7 @@
 
     <main>
       
-      {{ content | safe }}
+      <snap-routed>{{ content | safe }}</snap-routed>
       
     </main>
 

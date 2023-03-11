@@ -15,7 +15,7 @@ export default class SnapRouted extends LitElement {
     window.addEventListener("popstate", (e) => {
       this.navigate((e.state || { url: "/" }).url);
     });
-    this.navigate(window.location.pathname, true);
+    // this.navigate(window.location.pathname, true);
   }
 
   async navigate(url: string, force: boolean = false): Promise<void> {
