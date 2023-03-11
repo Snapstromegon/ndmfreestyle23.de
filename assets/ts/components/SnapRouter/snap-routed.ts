@@ -1,6 +1,5 @@
 import { html, LitElement } from "lit";
 import { customElement } from "lit/decorators.js";
-import SnapLink from "./snap-link";
 
 @customElement("snap-routed")
 export default class SnapRouted extends LitElement {
@@ -12,39 +11,35 @@ export default class SnapRouted extends LitElement {
 
   override connectedCallback() {
     super.connectedCallback();
-    window.addEventListener("popstate", (e) => {
-      this.navigate((e.state || { url: "/" }).url);
-    });
-    // this.navigate(window.location.pathname, true);
+    if(window.navigation) {
+      window.navigation.addEventListener("navigate", (e: CustomEvent) => {
+        this.navigate(e);
+      });
+    }
   }
 
-  async navigate(url: string, force: boolean = false): Promise<void> {
+  async navigate(event): Promise<void> {
+    if(!event.canIntercept) return;
+
     document.querySelector("aside")?.removeAttribute("expanded");
-    if (this.currentUrl === url && !force) return;
-
-    this.currentUrl = url;
-    this.updateLinks();
-
-    const resp = await fetch(`/pages/${url}`.replaceAll("//", "/"));
-    const newHTML = await resp.text();
-
-    if (this.is404(newHTML)) return this.navigate("/404");
-
-    this.updateView(newHTML);
-  }
-
-  is404(rawHtml: string) {
-    return rawHtml.includes("__MAGIC_INDEX_VALUE__");
-  }
-
-  go(url: string) {
-    history.pushState({ url }, url, url);
-    return this.navigate(url);
+    const url = new URL(event.destination.url);
+    event.intercept({
+      handler: async () => {
+        this.updateLinks();
+        const resp = await fetch(`/pages/${url.pathname}`.replaceAll("//", "/"));
+        const newHTML = await resp.text();
+        this.updateView(newHTML);
+      }
+    });
   }
 
   updateLinks() {
-    for (const link of [...document.querySelectorAll("snap-link")] as SnapLink[]) {
-      link.active = this.isCurrentUrl(link.href);
+    for (const link of [...document.querySelectorAll("a")] as HTMLAnchorElement[]) {
+      if(this.isCurrentUrl(link.href)) {
+        link.setAttribute("active", "");
+      } else {
+        link.removeAttribute("active");
+      }
     }
   }
 
@@ -58,7 +53,7 @@ export default class SnapRouted extends LitElement {
       return;
     }
 
-    document.startViewTransition(() => {
+    return document.startViewTransition(() => {
       this.innerHTML = newHTML;
     });
   }

@@ -133,15 +133,9 @@ nav li {
   flex-grow: 1;
 }
 
-nav snap-link {
-  display: grid;
-  place-items: center;
-  height: 100%;
+nav a {
   position: relative;
   transition: background-color 0.2s;
-}
-
-nav snap-link::part(a) {
   display: grid;
   place-items: center;
   height: var(--xxxl);
@@ -150,11 +144,11 @@ nav snap-link::part(a) {
   text-decoration: none;
 }
 
-nav snap-link span {
+nav a span {
   display: none;
 }
 
-aside snap-link::after {
+aside a::after {
   content: "";
   display: block;
   position: absolute;
@@ -167,17 +161,17 @@ aside snap-link::after {
   pointer-events: none;
 }
 
-aside snap-link[active]::after,
-aside snap-link:hover::after {
+aside a[active]::after,
+aside a:hover::after {
   background-color: var(--color-yellow);
 }
 
-aside snap-link:hover,
-aside snap-link[active] {
+aside a:hover,
+aside a[active] {
   background: var(--color-blue);
 }
 
-nav snap-link .material-icon {
+nav a .material-icon {
   display: block;
   overflow: hidden;
   width: 24px;
@@ -453,23 +447,18 @@ main p {
     flex-direction: column;
   }
 
-  nav snap-link {
-    display: block;
-    height: auto;
-  }
-
-  nav snap-link span {
+  nav a span {
     display: initial;
   }
 
-  nav snap-link::part(a) {
+  nav a {
     display: flex;
     gap: var(--s);
     height: auto;
     padding: var(--s) var(--m);
   }
 
-  aside snap-link::after {
+  aside a::after {
     display: none;
   }
 }

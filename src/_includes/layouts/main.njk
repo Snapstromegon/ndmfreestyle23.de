@@ -25,7 +25,7 @@
 <ul>
 {%- for entry in navPages %}
   <li>
-    <snap-link href="{{ entry.url }}" {% if entry.url.startsWith("http") %} target="_blank" {% endif %}><i class="material-icon">{{ entry.icon}}</i><span>{{ entry.title }}</span></snap-link>
+    <snap-ripple><a href="{{ entry.url }}" {% if entry.url == page.url %}active{% endif %} {% if entry.url.startsWith("http") %} target="_blank" {% endif %}><i class="material-icon">{{ entry.icon}}</i><span>{{ entry.title }}</span></a></snap-ripple>
   </li>
 {%- endfor %}
 </ul>

@@ -1,4 +1,4 @@
-import "../SnapRouter/snap-link.js";
+import "../SnapUtils/snap-ripple.js";
 import { css, html, LitElement } from "lit";
 import { customElement, state } from "lit/decorators.js";
 import { classMap } from "lit/directives/class-map.js";
@@ -23,7 +23,7 @@ export default class SnapPWAInstall extends LitElement {
     }
 
     button,
-    snap-link {
+    a {
       color: #fff;
       display: flex;
     }
@@ -38,8 +38,8 @@ export default class SnapPWAInstall extends LitElement {
       cursor: pointer;
     }
 
-    snap-link {
-      color: #fff;
+    a {
+      text-decoration: none;
     }
 
     .material-icon {
@@ -84,9 +84,9 @@ export default class SnapPWAInstall extends LitElement {
       <button @click=${() => this.deferredPrompt.prompt()}>
         Zum Startbildschirm hinzufügen
       </button>
-      <snap-link href="/install-pwa">
+      <snap-ripple><a href="/install-pwa">
         <i class="material-icon">help</i>
-      </snap-link>
+      </a></snap-ripple>
     </div>`;
   }
 }
