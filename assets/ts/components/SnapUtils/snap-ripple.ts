@@ -15,8 +15,9 @@ export default class SnapRipple extends LitElement {
   }
 
   ripple(e: MouseEvent) {
-    if (!this.rippleDiv) return;
-    const clientRect = this.getBoundingClientRect();
+    const wrapper = this.renderRoot.querySelector("#wrapper");
+    if (!this.rippleDiv || !wrapper) return;
+    const clientRect = wrapper.getBoundingClientRect();
 
     const maxDX = Math.max(
       e.clientX - clientRect.left,
