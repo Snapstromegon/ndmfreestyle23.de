@@ -21,7 +21,11 @@ export default class SnapPrivacyFrame extends LitElement {
     }
 
     button {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      place-content: center;
+      align-items: center;
+      gap: var(--s);
       height: 100%;
       width: 100%;
       border: none;
@@ -44,6 +48,23 @@ export default class SnapPrivacyFrame extends LitElement {
         var(--color-background-nuanced);
       background-size: cover, var(--dot-space) var(--dot-space), cover;
       background-position: center center;
+    }
+
+    button::before {
+      content: "web_asset_off";
+      font-family: "Material Symbols Sharp";
+      font-weight: normal;
+      font-style: normal;
+      font-size: var(--xxl); /* Preferred icon size */
+      display: inline-block;
+      line-height: 1;
+      text-transform: none;
+      letter-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      direction: ltr;
+      font-variation-settings: "FILL" 1;
+      color: var(--color-red);
     }
 
     #origin {

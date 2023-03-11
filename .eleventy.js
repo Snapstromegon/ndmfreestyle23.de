@@ -150,6 +150,7 @@ const generateIconFont = (eleventyConfig) => {
         "description",
         "policy",
         "expand_more",
+        "web_asset_off",
       ].join(" "),
       { targetFormat: "woff2" }
     );
