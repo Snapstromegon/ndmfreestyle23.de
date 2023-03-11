@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "@11ty/eleventy",
-    "build:watch": "@11ty/eleventy --watch",
+    "build": "npx @11ty/eleventy",
+    "build:watch": "npx @11ty/eleventy --watch",
     "lint": "cross-env ESLINT_USE_FLAT_CONFIG=true eslint . -c eslint.config.mjs",
     "dev": "npx @11ty/eleventy --serve",
-    "test": "playwright test"
+    "test": "npx playwright test"
   },
   "keywords": [],
   "author": "",
