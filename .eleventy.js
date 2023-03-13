@@ -138,7 +138,7 @@ const addShortcodes = (eleventyConfig) => {
 const generateIconFont = (eleventyConfig) => {
   eleventyConfig.on("eleventy.before", async () => {
     const font = await fs.readFile(
-      "assets/fonts/MaterialSymbolsSharp[FILL,GRAD,opsz,wght].woff2"
+      "assets/fonts/MaterialSymbolsOutlinedFilled.woff2"
     );
     const subset = await subsetFont(
       font,
