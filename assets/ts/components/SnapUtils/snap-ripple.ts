@@ -7,7 +7,7 @@ export default class SnapRipple extends LitElement {
   static override styles = styles;
 
   @query("#ripple") rippleDiv?: HTMLDivElement;
-  @query("#ripple") wrapper?: HTMLDivElement;
+  @query("#wrapper") wrapper?: HTMLDivElement;
 
   override render() {
     return html`
