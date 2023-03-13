@@ -6,15 +6,32 @@ sitemapIgnore: true
   "name": "{{ meta.site_name | safe }}",
   "short_name": "{{ meta.site_short_name | safe }}",
   "description": "{{ meta.description }}",
-  "background_color": "#333",
+  "background_color": "#003049",
   "theme_color": "{{ meta.theme_color }}",
   "manifest_version": 2,
   "scope": "/",
   "start_url": "/",
-  "display": "minimal-ui",
+  "display": "standalone",
+  "orientation": "portrait",
+  "categories": [
+    "competition",
+    "sports",
+    "unicycling"
+  ],
   "icons": [
 {% set favicons = meta.favicon | faviconData %}
-
+{
+  "src": "{{favicons.svg[0].url}}",
+  "type": "{{favicons.svg[0].sourceType}}",
+  "sizes": "{{1024}}x{{1024}}",
+  "purpose": "any"
+},
+{
+  "src": "{{favicons.svg[0].url}}",
+  "type": "{{favicons.svg[0].sourceType}}",
+  "sizes": "{{1024}}x{{1024}}",
+  "purpose": "maskable"
+},
 
 {%- for format, outputs in favicons -%}
   {% set outerLoop = loop -%}
@@ -37,5 +54,26 @@ sitemapIgnore: true
   "related_applications": [{
     "platform": "webapp",
     "url": "{{meta.url}}/manifest.json"
-  }]
+  }],
+  "screenshots": [
+    {% set screenshots = "assets/img/screenshots/narrow.png" | imageFormats %}
+    {%- for output in screenshots.webp -%}
+    {
+      "src": "{{output.url}}",
+      "type": "{{output.sourceType}}",
+      "sizes": "{{output.width}}x{{output.height}}",
+      "platform": "narrow"
+    },
+    {% endfor -%}
+    
+    {% set screenshots = "assets/img/screenshots/wide.png" | imageFormats %}
+    {%- for output in screenshots.webp -%}
+    {
+      "src": "{{output.url}}",
+      "type": "{{output.sourceType}}",
+      "sizes": "{{output.width}}x{{output.height}}",
+      "platform": "wide"
+    }{% if not(loop.last) %},{%endif-%}
+    {% endfor -%}
+  ]
 }

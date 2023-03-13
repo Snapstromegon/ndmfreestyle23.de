@@ -1,13 +1,15 @@
 import globals from "globals";
+import jsEslint from "@eslint/js";
 import tslint from "@typescript-eslint/eslint-plugin";
 import tsParser from "@typescript-eslint/parser";
 
 export default [
-  "eslint:recommended",
+  jsEslint.configs.recommended,
   {
     files: ["**/*.ts", "**/*.js", "**/*.cjs", "**/*.mjs"],
     languageOptions: {
       globals: {
+        ...globals.es2021,
         ...globals.browser,
         ...globals.node,
       },
@@ -173,5 +175,5 @@ export default [
       "wrap-iife": ["error", "inside"],
     },
   },
-  { ignores: ["_site/**"] },
+  { ignores: ["_site/**", "**/*.d.ts"] },
 ];

@@ -1,0 +1,12 @@
+:root {
+  --color-blue: #003049;
+  --color-red: #d12727;
+  --color-yellow: #fcbf49;
+  --color-blue-light: #367ba0;
+  --color-background: hsl(201deg 5% 95%);
+  --color-background-nuanced: hsl(201deg 5% 85%);
+  --color-background-secondary: hsl(201, 5%, 10%);
+  --color-middle-gray: hsl(201deg 5% 50%);
+  --text-color: hsl(201, 5%, 10%);
+  --text-color-sidebar: hsl(201deg 5% 85%);
+}
