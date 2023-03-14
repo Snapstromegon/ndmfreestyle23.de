@@ -447,6 +447,10 @@ table {
   overflow: auto;
 }
 
+table a {
+  color: var(--color-yellow);
+}
+
 tr:nth-child(even) {
   background: #fff2;
 }
