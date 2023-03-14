@@ -1,0 +1,88 @@
+@page {
+  size: A4;
+  margin: 4rem 0;
+}
+
+@page :first {
+  margin: 0;
+}
+
+body {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0;
+  grid-template-areas: "main" "sidebar";
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+header {
+  padding-top: var(--xl);
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: var(--xl);
+}
+
+* ~ :not(h2) {
+  break-before: avoid;
+}
+
+#main-header,
+main,
+body {
+  background-color: #fff;
+  color: var(--text-color);
+}
+
+.content {
+  padding: var(--xxl);
+}
+
+snap-pwa-install,
+aside {
+  display: none;
+}
+
+.devider {
+  overflow: initial;
+}
+.devider-blue {
+  padding-top: 0;
+}
+
+.warningBox {
+  border: var(--xxs) solid var(--color-red);
+  background: none;
+}
+.warningBox::before {
+  background: none;
+  color: var(--color-red);
+}
+
+.infoBox {
+  border: var(--xxs) solid var(--color-blue);
+  background: none;
+}
+.infoBox::before {
+  background: none;
+  color: var(--color-blue);
+}
+
+table {
+  background: none;
+  color: var(--text-color);
+}
+
+table,
+figure,
+ul,
+ol {
+  page-break-inside: avoid;
+}
+
+#logo_driver {
+  fill: var(--color-background-secondary);
+  stroke: var(--color-background-secondary);
+}

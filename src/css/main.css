@@ -58,6 +58,7 @@
   --xl: 1.5rem;
   --xxl: 3rem;
   --xxxl: 4rem;
+  --xxxxl: 6rem;
 }
 
 html {
@@ -293,6 +294,7 @@ h2 {
   max-width: 66%;
 }
 
+main table,
 main h1,
 main h2,
 main h3,
@@ -349,6 +351,7 @@ main p {
   display: flex;
   justify-content: space-evenly;
   gap: var(--m);
+  margin-block: var(--xxl);
 }
 
 .logo-line img {
@@ -357,11 +360,32 @@ main p {
   object-fit: contain;
 }
 
+.iconBox {
+  display: flex;
+  gap: var(--s);
+}
+
+.iconBoxIcon {
+  text-align: center;
+  width: var(--xxxxl);
+  padding-block: var(--s);
+  flex-shrink: 0;
+}
+
+.iconBoxIcon .material-icon {
+  font-size: var(--xl);
+}
+
+.iconBoxContent {
+  flex-grow: 1;
+}
+
 .infoBox,
 .warningBox {
   padding: var(--s);
   padding-left: calc(var(--s) + var(--xxxl));
   position: relative;
+  margin-block: var(--m);
 }
 
 .infoBox > :first-child,
@@ -409,6 +433,31 @@ main p {
   border: none;
   width: 100%;
   height: 25rem;
+}
+
+.right {
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+  background: var(--color-background-secondary);
+  color: var(--text-color-sidebar);
+  width:100%;
+  overflow: auto;
+}
+
+tr:nth-child(even) {
+  background: #fff2;
+}
+
+td {
+  padding: var(--xs);
+  vertical-align: top;
+}
+
+.table_devider {
+  border-bottom: var(--xxxs) solid var(--color-yellow);
 }
 
 @media (min-width: 60rem) {

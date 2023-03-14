@@ -10,6 +10,7 @@ const rollupPlugin = require("eleventy-plugin-rollup");
 const rollupPluginLitLightningcss = require("./lib/rollup-plugin-lit-lightningcss.cjs");
 const subsetFont = require("subset-font");
 const fs = require("fs/promises");
+const lightningcss = require("./lib/eleventy-plugin-lightningcss.cjs");
 
 function generateImages(src) {
   return Image(src, {
@@ -81,6 +82,15 @@ const registerPlugins = (eleventyConfig) => {
     },
     useAbsoluteScriptPaths: true,
   });
+  eleventyConfig.addPlugin(lightningcss, {
+    lightningcssOptions: {
+      drafts: {
+        nesting: true,
+      },
+      minify: true,
+    },
+    watch: "assets/css/",
+  });
 };
 
 const registerFileConfigs = (eleventyConfig) => {
@@ -151,6 +161,8 @@ const generateIconFont = (eleventyConfig) => {
         "policy",
         "expand_more",
         "web_asset_off",
+        "place",
+        "supervisor_account",
       ].join(" "),
       { targetFormat: "woff2" }
     );
@@ -174,9 +186,14 @@ module.exports = function(eleventyConfig) {
       })
       .use(markdownItEmoji);
 
-    ["labeledImage", "infoBox", "warningBox"].forEach((name) =>
-      mdLib.use(markdownItContainer, name)
-    );
+    [
+      "labeledImage",
+      "infoBox",
+      "warningBox",
+      "iconBox",
+      "iconBoxIcon",
+      "iconBoxContent",
+    ].forEach((name) => mdLib.use(markdownItContainer, name));
   });
   registerPlugins(eleventyConfig);
 
