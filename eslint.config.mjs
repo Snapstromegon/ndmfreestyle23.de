@@ -175,5 +175,11 @@ export default [
       "wrap-iife": ["error", "inside"],
     },
   },
-  { ignores: ["_site/**", "**/*.d.ts"] },
+  {
+    files: ["**/*.ts", "**/*.mts", "**/*.cts", "**/*.tsx"],
+    rules: {
+      "no-undef": "off",
+    },
+  },
+  { ignores: ["_site/**"] },
 ];

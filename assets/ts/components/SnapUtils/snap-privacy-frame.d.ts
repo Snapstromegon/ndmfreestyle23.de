@@ -2,7 +2,7 @@
 import SnapPrivacyFrame from "./snap-privacy-frame.js";
 
 declare global {
-  interface HTMLElementTagNameMap {
+  export interface HTMLElementTagNameMap {
     "snap-privacy-frame": SnapPrivacyFrame;
   }
 }

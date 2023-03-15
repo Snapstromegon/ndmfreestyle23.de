@@ -1,7 +1,7 @@
 import SnapRipple from "./snap-ripple.js";
 
 declare global {
-  interface HTMLElementTagNameMap {
+  export interface HTMLElementTagNameMap {
     "snap-ripple": SnapRipple;
   }
 }

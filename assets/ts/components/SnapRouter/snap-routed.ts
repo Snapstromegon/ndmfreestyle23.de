@@ -12,13 +12,13 @@ export default class SnapRouted extends LitElement {
   override connectedCallback() {
     super.connectedCallback();
     if (window.navigation) {
-      window.navigation.addEventListener("navigate", (e: CustomEvent) => {
+      window.navigation.addEventListener("navigate", (e) => {
         this.navigate(e);
       });
     }
   }
 
-  navigate(event) {
+  navigate(event: NavigateEvent) {
     if (!event.canIntercept) return;
 
     document.querySelector("aside")?.removeAttribute("expanded");

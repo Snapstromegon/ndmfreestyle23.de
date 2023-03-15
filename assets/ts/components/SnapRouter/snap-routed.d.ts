@@ -1,7 +1,7 @@
 import SnapRouted from "./snap-routed.js";
 
 declare global {
-  interface HTMLElementTagNameMap {
+  export interface HTMLElementTagNameMap {
     "snap-routed": SnapRouted;
   }
 }

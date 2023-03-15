@@ -1,7 +1,7 @@
 import SnapStartlist from "./SnapStartlist.js";
 
 declare global {
-  interface HTMLElementTagNameMap {
+  export interface HTMLElementTagNameMap {
     "snap-startlist": SnapStartlist;
   }
 }

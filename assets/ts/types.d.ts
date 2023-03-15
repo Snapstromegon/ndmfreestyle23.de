@@ -21,7 +21,7 @@ export type StartGroup = {
 export type Startlist = StartGroup[];
 
 declare global {
-  interface Document {
-    startViewTransition?: (modifyHtml: () => Promise<any> | void) => Promise<any>
+  export interface Document {
+    startViewTransition?: (modifyHtml: () => Promise<any> | void) => ReturnType<typeof modifyHtml>;
   }
 }
