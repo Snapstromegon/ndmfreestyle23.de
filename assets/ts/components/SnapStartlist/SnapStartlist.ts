@@ -151,8 +151,10 @@ export default class SnapStartlist extends LitElement {
 
   override connectedCallback() {
     super.connectedCallback();
-    this.updateInterval = setInterval(() => this.updateStartlist(), 10000);
-    this.updateStartlist();
+    this.updateInterval = setInterval(() => {
+      this.updateStartlist().catch(console.error);
+    }, 10000);
+    this.updateStartlist().catch(console.error);
   }
 
   override disconnectedCallback() {
@@ -166,10 +168,10 @@ export default class SnapStartlist extends LitElement {
     }
     return html`
       <header>
-        <div id="preview" @click=${this.toggleExpanded}>
+        <div id="preview" @click=${() => this.toggleExpanded()}>
           <snap-startlist-start
             shortened
-            .start=${this.startlist?.[0]?.starts[0]}
+            .start=${this.startlist[0]?.starts[0]}
           ></snap-startlist-start>
         </div>
         <div id="search">
@@ -185,7 +187,7 @@ export default class SnapStartlist extends LitElement {
         <button
           class="material-icon"
           id="expand-button"
-          @click=${this.toggleExpanded}
+          @click=${() => this.toggleExpanded()}
         >
           expand_more
         </button>
@@ -208,7 +210,7 @@ export default class SnapStartlist extends LitElement {
           )}
         </optgroup>
         <optgroup label="Kürname">
-          ${repeat(this.startlist || [], (startgroup) =>
+          ${repeat(this.startlist ?? [], (startgroup) =>
             repeat(
               startgroup.starts,
               (start) => html`<option value="${start.name}"></option>`
@@ -226,7 +228,7 @@ export default class SnapStartlist extends LitElement {
         this.startlist
           ?.flatMap((startgroup) => startgroup.starts)
           .flatMap((start) => start.starters)
-          .map((starter) => starter.name) || []
+          .map((starter) => starter.name) ?? []
       ),
     ];
   }
@@ -237,7 +239,7 @@ export default class SnapStartlist extends LitElement {
 
   async updateStartlist() {
     const response = await fetch("/startlist.json");
-    const startlist = await response.json();
+    const startlist = await response.json() as Startlist;
     this.startlist = startlist;
   }
 }

@@ -11,7 +11,10 @@ export default class SnapRipple extends LitElement {
 
   override render() {
     return html`
-      <div id="wrapper" @click=${this.ripple}><slot></slot><div id="ripple"></div></div>
+      <div id="wrapper" @click=${(e: MouseEvent) => this.ripple(e)}>
+        <slot></slot>
+        <div id="ripple"></div>
+      </div>
     `;
   }
 
@@ -29,7 +32,7 @@ export default class SnapRipple extends LitElement {
         {
           opacity: 0,
           transform: "translate(-50%, -50%) scale(1)",
-        }
+        },
       ],
       {
         duration: 300,

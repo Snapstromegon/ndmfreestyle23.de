@@ -15,10 +15,16 @@ const compat = new FlatCompat({
 
 export default [
   jsEslint.configs.recommended,
-  ...compat.extends("plugin:@typescript-eslint/recommended").map((config) => {
-    config.files = ["**/*.ts", "**/*.d.ts"];
-    return config;
-  }),
+  ...compat
+    .extends(
+      "plugin:@typescript-eslint/recommended",
+      "plugin:@typescript-eslint/recommended-requiring-type-checking",
+      "plugin:@typescript-eslint/strict",
+    )
+    .map((config) => {
+      config.files = ["**/*.ts"];
+      return config;
+    }),
   {
     files: ["**/*.ts", "**/*.js", "**/*.cjs", "**/*.mjs"],
     languageOptions: {
@@ -28,7 +34,7 @@ export default [
         ...globals.node,
       },
       parser: tsParser,
-      parserOptions: { ecmaVersion: "latest" },
+      parserOptions: { ecmaVersion: "latest", project: "./tsconfig.json" },
     },
     rules: {
       "array-bracket-newline": ["error", { multiline: true }],
@@ -196,5 +202,5 @@ export default [
       "no-unused-vars": "off",
     },
   },
-  { ignores: ["_site/**"] },
+  { ignores: ["_site/**", "**/*.d.ts"] },
 ];

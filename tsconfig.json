@@ -26,5 +26,14 @@
       }
     ]
   },
-  "exclude": []
+  "exclude": ["_site"],
+  "include": [
+    "assets/ts",
+    "tests",
+    "playwright.config.ts",
+    ".eleventy.js",
+    "**/*.js",
+    "**/*.mjs",
+    "**/*.cjs",
+  ]
 }

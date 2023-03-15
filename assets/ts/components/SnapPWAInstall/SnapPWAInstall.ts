@@ -4,7 +4,7 @@ import { customElement, state } from "lit/decorators.js";
 import { BeforeInstallPromptEvent } from "../../types.js";
 import { classMap } from "lit/directives/class-map.js";
 
-let globalDeferredPrompt: BeforeInstallPromptEvent;
+let globalDeferredPrompt: BeforeInstallPromptEvent | undefined;
 
 @customElement("snap-pwa-install")
 export default class SnapPWAInstall extends LitElement {

@@ -35,7 +35,7 @@ export default class SnapStartslist extends LitElement {
 
   override render() {
     return html`${repeat(
-      this.startlist || [],
+      this.startlist ?? [],
       (startgroup) => html` <div class="startgroup">
         <p class="startgroup-label">${startgroup.category}</p>
         ${repeat(

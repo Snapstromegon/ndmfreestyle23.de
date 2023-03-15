@@ -60,7 +60,7 @@ export default class SnapPrivacyFrameOrigins extends LitElement {
   override render() {
     if (this.allowedOrigins.length === 0) return html`<p>Es sind keine Inhalte von externen Anbietern aktiviert.</p>`;
     return html`
-      <button id="reset-all" @click=${this.resetAllowedOrigins}>
+      <button id="reset-all" @click=${() => this.resetAllowedOrigins()}>
         Alle externen Inhalte deaktivieren
       </button>
       <p>Externe Inhalte von diesen Anbietern sind aktiviert:</p>
@@ -79,8 +79,8 @@ export default class SnapPrivacyFrameOrigins extends LitElement {
 
   get allowedOrigins(): string[] {
     return JSON.parse(
-      window.localStorage.getItem("snap-privacy-frame-origins") || "[]"
-    );
+      window.localStorage.getItem("snap-privacy-frame-origins") ?? "[]"
+    ) as string[];
   }
 
   removeOrigin(origin: string) {

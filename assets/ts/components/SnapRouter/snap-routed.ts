@@ -11,6 +11,9 @@ export default class SnapRouted extends LitElement {
 
   override connectedCallback() {
     super.connectedCallback();
+
+    // Disabling check, because the typings always provide navigation, but we need to progressively enhance
+    // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
     if (window.navigation) {
       window.navigation.addEventListener("navigate", (e) => {
         this.navigate(e);
@@ -32,12 +35,12 @@ export default class SnapRouted extends LitElement {
           );
           if (resp.ok) {
             const newHTML = await resp.text();
-            this.updateView(newHTML);
+            await this.updateView(newHTML);
           } else if (resp.status === 404) {
             const newHTML = await (await fetch("/pages/404.html")).text();
-            this.updateView(newHTML);
+            await this.updateView(newHTML);
           } else {
-            this.updateView("Ein Fehler ist aufgetreten.");
+            await this.updateView("Ein Fehler ist aufgetreten.");
           }
         },
       });

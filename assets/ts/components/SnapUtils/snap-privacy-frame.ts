@@ -77,29 +77,29 @@ export default class SnapPrivacyFrame extends LitElement {
   override render() {
     if (this.isFrameAllowed) {
       return html`
-        <iframe part="iframe" loading="lazy" src=${this.src || ""}></iframe>
+        <iframe part="iframe" loading="lazy" src=${this.src ?? ""}></iframe>
       `;
     }
-    const { hostname } = new URL(this.src || "", window.location.href);
-    return html`<button @click=${this.allowOrigin}>
+    const { hostname } = new URL(this.src ?? "", window.location.href);
+    return html`<button @click=${() => this.allowOrigin()}>
       Klicken um externe Inhalte von
       <span id="origin">${hostname}</span> anzuzeigen.
     </button> `;
   }
 
   get isFrameAllowed() {
-    return this.allowedOrigins.includes(new URL(this.src || "").origin);
+    return this.allowedOrigins.includes(new URL(this.src ?? "").origin);
   }
 
-  get allowedOrigins() {
+  get allowedOrigins(): string[] {
     return JSON.parse(
-      window.localStorage.getItem("snap-privacy-frame-origins") || "[]"
-    );
+      window.localStorage.getItem("snap-privacy-frame-origins") ?? "[]"
+    ) as string[];
   }
 
   allowOrigin() {
     const origins = this.allowedOrigins;
-    origins.push(new URL(this.src || "").origin);
+    origins.push(new URL(this.src ?? "").origin);
     window.localStorage.setItem(
       "snap-privacy-frame-origins",
       JSON.stringify(origins)
