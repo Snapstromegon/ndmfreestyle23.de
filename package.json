@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "build:watch": "npx @11ty/eleventy --watch",
-    "install:playwright": "npx playwright install --with-deps chromium",
+    "install:playwright": "npx playwright install chromium",
     "lint": "cross-env ESLINT_USE_FLAT_CONFIG=true eslint . -c eslint.config.mjs",
     "dev": "npx @11ty/eleventy --serve",
     "test": "npx playwright test"
