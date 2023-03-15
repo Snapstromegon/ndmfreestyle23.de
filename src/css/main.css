@@ -197,7 +197,7 @@ main ul ul {
   column-width: 15rem;
 }
 
-img {
+img, svg {
   max-width: 100%;
   height: auto;
 }
