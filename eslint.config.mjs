@@ -25,6 +25,7 @@ export default [
       config.files = ["**/*.ts"];
       return config;
     }),
+  ...compat.extends("plugin:lit/recommended"),
   {
     files: ["**/*.ts", "**/*.js", "**/*.cjs", "**/*.mjs"],
     languageOptions: {
