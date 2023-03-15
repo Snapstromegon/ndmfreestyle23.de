@@ -1,9 +1,10 @@
 import "../SnapUtils/snap-ripple.js";
 import { css, html, LitElement } from "lit";
 import { customElement, state } from "lit/decorators.js";
+import { BeforeInstallPromptEvent } from "../../types.js";
 import { classMap } from "lit/directives/class-map.js";
 
-let globalDeferredPrompt: Event;
+let globalDeferredPrompt: BeforeInstallPromptEvent;
 
 @customElement("snap-pwa-install")
 export default class SnapPWAInstall extends LitElement {
@@ -60,7 +61,7 @@ export default class SnapPWAInstall extends LitElement {
     }
   `;
 
-  @state() deferredPrompt?: any;
+  @state() deferredPrompt?: BeforeInstallPromptEvent;
 
   constructor() {
     super();
@@ -81,7 +82,7 @@ export default class SnapPWAInstall extends LitElement {
       id="wrapper"
       class=${classMap({ visible: Boolean(this.deferredPrompt) })}
     >
-      <button @click=${() => this.deferredPrompt.prompt()}>
+      <button @click=${() => this.deferredPrompt?.prompt()}>
         Zum Startbildschirm hinzufügen
       </button>
       <snap-ripple><a href="/install-pwa">

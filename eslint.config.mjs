@@ -1,10 +1,24 @@
+import { fileURLToPath } from "url";
+import { FlatCompat } from "@eslint/eslintrc";
 import globals from "globals";
 import jsEslint from "@eslint/js";
-import tslint from "@typescript-eslint/eslint-plugin";
+import path from "path";
 import tsParser from "@typescript-eslint/parser";
+
+// mimic CommonJS variables -- not needed if using CommonJS
+const filename = fileURLToPath(import.meta.url);
+const dirname = path.dirname(filename);
+
+const compat = new FlatCompat({
+  baseDirectory: dirname,
+});
 
 export default [
   jsEslint.configs.recommended,
+  ...compat.extends("plugin:@typescript-eslint/recommended").map((config) => {
+    config.files = ["**/*.ts", "**/*.d.ts"];
+    return config;
+  }),
   {
     files: ["**/*.ts", "**/*.js", "**/*.cjs", "**/*.mjs"],
     languageOptions: {
@@ -16,7 +30,6 @@ export default [
       parser: tsParser,
       parserOptions: { ecmaVersion: "latest" },
     },
-    plugins: { "@typescript-eslint": tslint },
     rules: {
       "array-bracket-newline": ["error", { multiline: true }],
       "array-bracket-spacing": ["error", "never"],
@@ -180,7 +193,7 @@ export default [
     rules: {
       "@typescript-eslint/no-unused-vars": "error",
       "no-undef": "off",
-      "no-unused-vars": "off"
+      "no-unused-vars": "off",
     },
   },
   { ignores: ["_site/**"] },

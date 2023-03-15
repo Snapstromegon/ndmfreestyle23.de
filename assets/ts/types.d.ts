@@ -20,8 +20,20 @@ export type StartGroup = {
 
 export type Startlist = StartGroup[];
 
+interface BeforeInstallPromptEvent extends Event {
+  readonly platforms: string[];
+  readonly userChoice: Promise<{
+    outcome: "accepted" | "dismissed";
+    platform: string;
+  }>;
+  prompt(): Promise<void>;
+}
+
 declare global {
   export interface Document {
-    startViewTransition?: (modifyHtml: () => Promise<any> | void) => Promise<void>;
+    startViewTransition?: (modifyHtml: () => Promise<unknown> | void) => Promise<void>;
+  }
+  export interface WindowEventMap {
+    beforeinstallprompt: BeforeInstallPromptEvent;
   }
 }
