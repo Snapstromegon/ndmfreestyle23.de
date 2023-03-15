@@ -4,6 +4,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const Image = require("@11ty/eleventy-img");
 const typescript = require("@rollup/plugin-typescript");
 const { default: resolve } = require("@rollup/plugin-node-resolve");
+const markdownItAttrs = require("markdown-it-attrs");
 const markdownItEmoji = require("markdown-it-emoji");
 const markdownItContainer = require("markdown-it-container");
 const rollupPlugin = require("eleventy-plugin-rollup");
@@ -11,6 +12,7 @@ const rollupPluginLitLightningcss = require("./lib/rollup-plugin-lit-lightningcs
 const subsetFont = require("subset-font");
 const fs = require("fs/promises");
 const lightningcss = require("./lib/eleventy-plugin-lightningcss.cjs");
+const pngToIco = require("png-to-ico");
 const renderPdf = require("./lib/render-pdf.cjs");
 
 function generateImages(src) {
@@ -51,12 +53,19 @@ async function imageShortcode(src, alt, sizes = []) {
   return Image.generateHTML(metadata, imageAttributes);
 }
 
-function generateFavicon(src) {
-  return Image(src, {
+async function generateFavicon(src) {
+  const images = await Image(src, {
     formats: ["svg", "png", "webp", "avif"],
     outputDir: "_site/img/",
     widths: [64, 128, 180, 256, 512, 1024, 2048, null],
   });
+
+  const buf = await pngToIco(
+    images.png.slice(0, 1).map((png) => png.outputPath)
+  );
+  await fs.writeFile("_site/favicon.ico", buf);
+
+  return images;
 }
 
 async function generateFaviconHTML(src) {
@@ -185,6 +194,7 @@ module.exports = function(eleventyConfig) {
         html: true,
         linkify: true,
       })
+      .use(markdownItAttrs)
       .use(markdownItEmoji);
 
     [

@@ -1,11 +1,15 @@
 @page {
   size: A4;
-  margin: 4rem 0;
+  margin: 4rem 0 2rem 0;
 }
 /* 
 @page :first {
   margin: 0;
 } */
+
+.hide-print {
+  display: none;
+}
 
 body {
   grid-template-columns: 1fr;
@@ -25,9 +29,13 @@ h1 {
   font-size: var(--xl);
 }
 
-* ~ :not(h2) {
-  break-before: avoid;
+hr {
+  break-before: page;
 }
+
+/* * ~ :not(h2) {
+  break-before: avoid;
+} */
 
 #main-header,
 main,
