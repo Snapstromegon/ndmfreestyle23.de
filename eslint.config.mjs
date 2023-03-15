@@ -178,7 +178,9 @@ export default [
   {
     files: ["**/*.ts", "**/*.mts", "**/*.cts", "**/*.tsx"],
     rules: {
+      "@typescript-eslint/no-unused-vars": "error",
       "no-undef": "off",
+      "no-unused-vars": "off"
     },
   },
   { ignores: ["_site/**"] },
