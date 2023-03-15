@@ -19,13 +19,13 @@ export default [
     .extends(
       "plugin:@typescript-eslint/recommended",
       "plugin:@typescript-eslint/recommended-requiring-type-checking",
-      "plugin:@typescript-eslint/strict",
+      "plugin:@typescript-eslint/strict"
     )
     .map((config) => {
       config.files = ["**/*.ts"];
       return config;
     }),
-  ...compat.extends("plugin:lit/recommended"),
+  ...compat.extends("plugin:wc/best-practice", "plugin:lit/recommended"),
   {
     files: ["**/*.ts", "**/*.js", "**/*.cjs", "**/*.mjs"],
     languageOptions: {
@@ -192,6 +192,7 @@ export default [
       "template-curly-spacing": "error",
       "template-tag-spacing": "error",
       "unicode-bom": ["error", "never"],
+      "wc/guard-super-call": "off",
       "wrap-iife": ["error", "inside"],
     },
   },
