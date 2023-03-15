@@ -98,6 +98,7 @@ const registerPlugins = (eleventyConfig) => {
         nesting: true,
       },
       minify: true,
+      sourceMap: true,
     },
     watch: "assets/css/",
   });

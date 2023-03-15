@@ -267,6 +267,7 @@ h2 {
   padding-top: 5vw;
   justify-content: center;
   align-items: center;
+  gap: var(--xl) 0;
 }
 
 #main-header .content div {

@@ -12,10 +12,8 @@
     <meta name="generator" content="{{ eleventy.generator }}">
     <link rel="manifest" href="/manifest.json">
     <title>NDM Freestyle 2023</title>
-    <style>
-      {% include "../../css/main.css" %}
-    </style>
     {% lightningcss "assets/css/print.css", "print" %}
+    {% lightningcss "assets/css/main.css" %}
     {% rollup "assets/ts/common.ts" %}
     {% favicon meta.favicon %}
   </head>
