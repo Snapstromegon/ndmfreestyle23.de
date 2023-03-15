@@ -23,18 +23,29 @@ export default class SnapRouted extends LitElement {
 
     document.querySelector("aside")?.removeAttribute("expanded");
     const url = new URL(event.destination.url);
-    event.intercept({
-      handler: async () => {
-        this.updateLinks();
-        const resp = await fetch(`/pages/${url.pathname}`.replaceAll("//", "/"));
-        const newHTML = await resp.text();
-        this.updateView(newHTML);
-      }
-    });
+    if (url.href.endsWith("/") || url.href.endsWith(".html")) {
+      event.intercept({
+        handler: async () => {
+          this.updateLinks();
+          const resp = await fetch(
+            `/pages/${url.pathname}`.replaceAll("//", "/")
+          );
+          if (resp.ok) {
+            const newHTML = await resp.text();
+            this.updateView(newHTML);
+          } else if (resp.status === 404) {
+            const newHTML = await (await fetch("/pages/404.html")).text();
+            this.updateView(newHTML);
+          } else {
+            this.updateView("Ein Fehler ist aufgetreten.");
+          }
+        },
+      });
+    }
   }
 
   updateLinks() {
-    for (const link of [...document.querySelectorAll("a")] as HTMLAnchorElement[]) {
+    for (const link of [...document.querySelectorAll("a"),] as HTMLAnchorElement[]) {
       if (this.isCurrentUrl(link.href)) {
         link.setAttribute("active", "");
       } else {
