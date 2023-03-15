@@ -11,6 +11,7 @@ const rollupPluginLitLightningcss = require("./lib/rollup-plugin-lit-lightningcs
 const subsetFont = require("subset-font");
 const fs = require("fs/promises");
 const lightningcss = require("./lib/eleventy-plugin-lightningcss.cjs");
+const renderPdf = require("./lib/render-pdf.cjs");
 
 function generateImages(src) {
   return Image(src, {
@@ -201,6 +202,8 @@ module.exports = function(eleventyConfig) {
   addFilters(eleventyConfig);
 
   registerFileConfigs(eleventyConfig);
+
+  eleventyConfig.addPlugin(renderPdf, [{ file: "downloads/ausschreibung.pdf", url: "/ausschreibung/" },]);
 
   // Return your Object options:
   return {
