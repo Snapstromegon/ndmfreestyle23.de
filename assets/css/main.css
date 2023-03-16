@@ -210,7 +210,7 @@ img, svg {
   --devider-bar-height: 1rem;
   overflow: hidden;
   position: relative;
-  padding-top: calc((var(--devider-bar-height) * 2) + 12.2785%);
+  padding-top: calc((var(--devider-bar-height) * 3) + 12.2785%);
   position: sticky;
   top: 0px;
   z-index: 10;
@@ -218,17 +218,17 @@ img, svg {
 }
 
 .devider-blue {
-  bottom: 100%;
+  bottom: calc(100% - var(--devider-bar-height));
   padding-top: 100%;
   background-color: var(--color-blue);
 }
 .devider-red {
   background-color: var(--color-red);
-  top: 0px;
+  top: var(--devider-bar-height);
 }
 .devider-yellow {
   background-color: var(--color-yellow);
-  top: var(--devider-bar-height);
+  top: calc(var(--devider-bar-height) * 2);
 }
 .devider-blue,
 .devider-red,
