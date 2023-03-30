@@ -14,6 +14,7 @@ const fs = require("fs/promises");
 const lightningcss = require("./lib/eleventy-plugin-lightningcss.cjs");
 const pngToIco = require("png-to-ico");
 const renderPdf = require("./lib/render-pdf.cjs");
+const browserslist = require("browserslist");
 
 function generateImages(src) {
   return Image(src, {
@@ -100,6 +101,7 @@ const registerPlugins = (eleventyConfig) => {
       minify: true,
       sourceMap: true,
     },
+    support: browserslist("last 2 versions, not dead"),
     watch: "assets/css/",
   });
 };
@@ -127,24 +129,13 @@ const addFilters = (eleventyConfig) => {
   eleventyConfig.addNunjucksAsyncFilter("imageFormats", (src, callback) =>
     generateImageFormats(src).then((data) => callback(null, data))
   );
-  eleventyConfig.addFilter("niceDate", (date) => {
-    const months = [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Okt",
-      "Nov",
-      "Dec",
-    ];
-    return `${date.getDate()}. ${
-      months[date.getMonth()]
-    } ${date.getFullYear()}`;
+  eleventyConfig.addFilter("niceDate", (date) => new Intl.DateTimeFormat("de", { dateStyle: "medium" }).format(date));
+  eleventyConfig.addFilter("minutesToTime", (minutes) => {
+    const hours = Math.floor(minutes / 60)
+      .toString()
+      .padStart(2, "0");
+    const mins = (minutes % 60).toString().padStart(2, "0");
+    return `${hours}:${mins}`;
   });
 };
 

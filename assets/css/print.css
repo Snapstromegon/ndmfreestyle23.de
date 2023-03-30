@@ -90,10 +90,20 @@ aside {
 table {
   background: none;
   color: var(--text-color);
+
+  & a {
+    color: initial;
+  }
+  
+  & td:not([rowspan]) {
+    border-bottom: var(--xxxs) solid var(--color-blue);
+  }
+
+  & tr:last-child td {
+    border-bottom: none;
+  }
 }
-table a {
-  color: initial;
-}
+
 
 .warningBox,
 .infoBox,
@@ -107,4 +117,8 @@ ol {
 #logo_driver {
   fill: var(--color-background-secondary);
   stroke: var(--color-background-secondary);
+}
+
+article a[href^="http"]:not(:has(img))::after {
+  content: " <" attr(href) "> ";
 }
