@@ -165,6 +165,7 @@ const generateIconFont = (eleventyConfig) => {
         "web_asset_off",
         "place",
         "supervisor_account",
+        "social_leaderboard",
       ].join(" "),
       { targetFormat: "woff2" }
     );
