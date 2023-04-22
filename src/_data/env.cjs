@@ -1,6 +1,4 @@
-module.exports = () => {
-  return {
-    CONTEXT: process.env.CONTEXT,
-    NETLIFY: process.env.NETLIFY,
-  };
-};
+module.exports = () => ({
+  CONTEXT: process.env.CONTEXT,
+  NETLIFY: process.env.NETLIFY,
+});
