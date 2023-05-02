@@ -45,7 +45,6 @@ export default class SnapPrivacyFrameOrigins extends LitElement {
       background: none;
       border: var(--xxxs) solid var(--color-red);
       color: var(--color-red);
-      border-radius: var(--s);
       padding: var(--s);
     }
 

@@ -12,7 +12,6 @@ export default class SnapPWAInstall extends LitElement {
     #wrapper {
       display: flex;
       background: var(--color-blue-light);
-      border-radius: var(--s);
       opacity: 0;
       transition: opacity 0.3s;
       visibility: hidden;
