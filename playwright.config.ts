@@ -53,10 +53,11 @@ export default defineConfig({
     },
 
     /* Test against branded browsers. */
-    {
-      name: "Microsoft Edge",
-      use: { channel: "msedge" },
-    },
+    // Disable Edge for now as it fails in GH Actions
+    // {
+    //   name: "Microsoft Edge",
+    //   use: { channel: "msedge" },
+    // },
     {
       name: "Google Chrome",
       use: { channel: "chrome" },
