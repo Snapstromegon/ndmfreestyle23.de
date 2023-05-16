@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>design-guide.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+<link rel="stylesheet" href="file:///d%3A/Documents/DEV/github/ndmfreestyle23.de/markdown-pdf.css" type="text/css">
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="design-guide">Design Guide</h1>
+<style>
+:root {
+  --color-blue: #003049;
+  --color-red: #d12727;
+  --color-yellow: #fcbf49;
+  --color-blue-light: #367ba0;
+  --color-background: hsl(201deg 5% 95%);
+  --color-background-nuanced: hsl(201deg 5% 85%);
+  --color-background-secondary: hsl(201, 5%, 10%);
+  --color-middle-gray: hsl(201deg 5% 50%);
+  --text-color: hsl(201, 5%, 10%);
+  --text-color-sidebar: hsl(201deg 5% 85%);
+}
+
+body{
+  -webkit-print-color-adjust:exact !important;
+  print-color-adjust:exact !important;
+}
+
+img, svg {
+  max-width: 100%;
+}
+
+.square {
+  aspect-ratio: 1 / 1;
+  height: 1rem;
+  display: inline-block;
+}
+
+@media print {
+  .break { 
+    page-break-before: always;
+  }
+}
+</style>
+<h2 id="farben">Farben</h2>
+<p>Wir verwenden die folgenden Farben:</p>
+<h3 id="hauptfarben">Hauptfarben</h3>
+<ul>
+<li>
+<div class="square" style="background: var(--color-blue)"></div> #003049 "ODM Blau"
+</li>
+<li>
+<div class="square" style="background: var(--color-red)"></div> #d12727  "ODM Rot"
+</li>
+<li>
+<div class="square" style="background: var(--color-yellow)"></div> #fcbf49 "ODM Gelb"
+</li>
+</ul>
+<p>&quot;ODM Blau&quot; darf als Hintergrundfarbe genutzt werden.</p>
+<p>&quot;ODM Rot&quot; und &quot;ODM Gelb&quot; sollten als Hintergrundfarbe vermieden werden, außer es handelt sich um Warnungen.</p>
+<p>Werden alle drei Hauptfarben zusammen genutzt (zum Beispiel als Trenner), so ist &quot;ODM Rot&quot; IMMER in der Mitte.
+In diesem Falle ist es zu bevorzugen, dass die Farben in der Leserichtung Oben nach Untern, Links nach Rechts in der Reihenfolge &quot;ODM Blau&quot;, &quot;ODM Rot&quot;, &quot;ODM Gelb&quot; vorkommen.</p>
+<h4 id="richtig">Richtig</h4>
+<div class="square" style="background: var(--color-blue)"></div><div class="square" style="background: var(--color-red)"></div><div class="square" style="background: var(--color-yellow)"></div>
+<div class="square" style="background: var(--color-yellow)"></div><div class="square" style="background: var(--color-red)"></div><div class="square" style="background: var(--color-blue)"></div>
+<h4 id="falsch">Falsch</h4>
+<div class="square" style="background: var(--color-blue)"></div><div class="square" style="background: var(--color-yellow)"></div><div class="square" style="background: var(--color-red)"></div>
+<div class="square" style="background: var(--color-yellow)"></div><div class="square" style="background: var(--color-blue)"></div><div class="square" style="background: var(--color-red)"></div>
+<h3 id="auf-hellem-untergrund">Auf hellem Untergrund</h3>
+<ul>
+<li>
+<div class="square" style="background: var(--text-color)"></div> #181a1b "Textfarbe"
+</li>
+<li>
+<div class="square" style="background: var(--color-background)"></div> #f2f2f3 "Hintergrund" (Darf auf Papier durch rein weiß '#ffffff' ersetzt werden)
+</li>
+<li>
+<div class="square" style="background: var(--color-background-nuanced)"></div> #d7d9dB "Hintergrund Nuanciert"
+</li>
+</ul>
+<h3 id="auf-dunklem-untergrund">Auf dunklem Untergrund</h3>
+<ul>
+<li>
+<div class="square" style="background: var(--text-color-sidebar)"></div> #d7d9dB "Textfarbe"
+</li>
+<li>
+<div class="square" style="background: var(--color-background-secondary)"></div> #181a1b "Hintergrund"
+</li>
+</ul>
+<div class="break"></div>
+<h2 id="logo">Logo</h2>
+<p>Das Logo existiert in drei Varianten:</p>
+<h3 id="hell">Hell</h3>
+<p>Dies ist unser &quot;Standardlogo&quot;. Wenn es keinen Grund gibt eine Andere Variante zu nutzen, nutzen wir dieses Logo.
+Wir versuchen das Logo auf &quot;ODM Blau&quot; zu platzieren und ringsrum einen Rahmen von mindestens einer doppelten Schrifthöhe Platz zu anderen Elementen zu lassen.</p>
+<p>Wir bevorzugen &quot;ODM Blau&quot;, damit unsere drei Hauptfarben zusammen erscheinen und unsere &quot;Marke&quot; einfach wiederzuerkennen ist.</p>
+<div style="background: var(--color-blue);padding: 2rem;width: 15rem">
+<p><img src="../assets/img/logo_light.svg" alt=""></p>
+</div>
+<div class="break"></div>
+<h3 id="dunkel-mit-schatten">Dunkel mit Schatten</h3>
+<p>Auf hellen oder transparenten Hintergründen verwenden wir standardmäßig das helle Logo mit Schatten.
+Der Schatten verankert das Logo im Raum und stellt eine Basis für das Logo.</p>
+<div style="background: var(--color-background);padding: 2rem;width: 15rem">
+<p><img src="../assets/img/logo_dark_with_shadow.svg" alt=""></p>
+</div>
+<h3 id="dunkel">Dunkel</h3>
+<p>Das Dunkle Logo verwenden wir auf hellen oder transparenten Hintergründen, auf denen der Schatten störend wäre.</p>
+<div style="background: var(--color-background);padding: 2rem;width: 15rem">
+<p><img src="../assets/img/logo_dark.svg" alt=""></p>
+</div>
+<div class="break"></div>
+<h2 id="ecken">Ecken</h2>
+<p>Unser Design hat Ecken. Ecken werden bei uns nicht abgerundet.</p>
+<h3 id="richtig">Richtig</h3>
+<div class="square" style="background: var(--color-background); height: 10rem; padding:2rem;">
+<div class="square" style="background: var(--color-blue); height: 10rem;"></div>
+</div>
+<h3 id="falsch">Falsch</h3>
+<div class="square" style="background: var(--color-background); height: 10rem; padding:2rem;">
+<div class="square" style="background: var(--color-blue); height: 10rem; border-radius: 1rem;"></div>
+</div>
+<div class="break"></div>
+<h2 id="winkel">Winkel</h2>
+<p>Wir halten uns allgemein an 90° Winkel.</p>
+<p>Als stilistisches Element darf ein 7° Winkel für die Farbreihenfolge &quot;ODM Blau&quot;, &quot;ODM Rot&quot;, &quot;ODM Gelb&quot; genutzt werden.</p>
+<h3 id="richtig">Richtig</h3>
+<div class="square" style="height: 10rem;background: linear-gradient(97deg, var(--color-blue) calc(50% - 1rem), var(--color-red) 0, var(--color-red) calc(50% + 0rem), var(--color-yellow) 0, var(--color-yellow) calc(50% + 1rem), var(--color-background) 0)"></div>
+<div class="square" style="height: 10rem;background: linear-gradient(-187deg, var(--color-blue) calc(50% - 1rem), var(--color-red) 0, var(--color-red) calc(50% + 0rem), var(--color-yellow) 0, var(--color-yellow) calc(50% + 1rem), var(--color-background) 0)"></div>
+<p>(In Ausnahmefällen:)</p>
+<div class="square" style="height: 10rem;background: linear-gradient(83deg, var(--color-background) calc(50% - 1rem), var(--color-yellow) 0, var(--color-yellow) calc(50% + 0rem), var(--color-red) 0, var(--color-red) calc(50% + 1rem), var(--color-blue) 0)"></div>
+<h3 id="falsch">Falsch</h3>
+<div class="square" style="height: 10rem;background: linear-gradient(200deg, var(--color-blue) calc(50% - 1rem), var(--color-red) 0, var(--color-red) calc(50% + 0rem), var(--color-yellow) 0, var(--color-yellow) calc(50% + 1rem), var(--color-background) 0)"></div>
+<h2 id="icons">Icons</h2>
+<p>Für Icons verwenden wir <a href="https://fonts.google.com/icons">Google Material Icons</a>, möglichst in gefüllter Form.</p>
+<h2 id="schriftart">Schriftart</h2>
+<p>Als Schriftart verwenden wir die variable Schriftart <a href="https://github.com/mona-sans">Mona Sans</a>.</p>
+<div class="break"></div>
+<h2 id="rahmen">Rahmen</h2>
+<p>Wir verwenden normal keine Rahmen.
+In Dokumenten, die von Teilnehmern oder in großer Stückzahl gedruckt werden, dürfen Hintergrundfarben durch Rahmen ersetzt werden.</p>
+<h3 id="richtig">Richtig</h3>
+<div class="square" style="background: var(--color-background); height: 10rem; padding:2rem;">
+<div class="square" style="background: var(--color-blue); height: 10rem;"></div>
+</div>
+<p>Für Druck:</p>
+<div class="square" style="background: var(--color-background); height: 10rem; padding:2rem;">
+<div class="square" style="border: .3rem solid var(--color-red); height: 10rem;"></div>
+</div>
+<h3 id="falsch">Falsch</h3>
+<div class="square" style="background: var(--color-background); height: 10rem; padding:2rem;">
+<div class="square" style="background: var(--color-blue);border: .3rem solid var(--color-red); height: 10rem;"></div>
+</div>
+
+</body>
+</html>
