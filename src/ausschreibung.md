@@ -78,80 +78,76 @@ den Bund Deutscher Radfahrer e.V. (BDR)
 :::iconBoxIcon
 <i class="material-icon">date_range</i>
 Vorläufiger
-Beginn
+Zeitplan
 :::
 :::iconBoxContent
 
 <table>
   <tbody>
     <tr>
-      <td rowspan="3" class="table_devider">Freitag</td>
-      <td class="right">14:00</td>
-      <td>Einfahrhalle zum Warmfahren geöffnet</td>
+      <td rowspan="3"><strong>Freitag</strong> <br>27.10.2023<br>Ab ca. 16:00 Uhr</td>
+      <td rowspan="3"><strong>Vorläufe</strong><br>Einzelküren</td>
+      <td>U11</td>
+      <td rowspan="3">3 Minuten</td>
     </tr>
     <tr>
-      <td class="right">15:30</td>
-      <td>Juryeinweisung</td>
+      <td>U13</td>
     </tr>
     <tr class="table_devider">
-      <td class="right">16:00</td>
-      <td>Wettkampfstart</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td rowspan="3" class="table_devider">Samstag</td>
-      <td class="right">7:00</td>
-      <td>Einfahrhalle zum Warmfahren geöffnet</td>
+      <td>U15</td>
     </tr>
     <tr>
-      <td class="right">7:00</td>
-      <td>Juryeinweisung</td>
-    </tr>
-   <tr class="table_devider">
-      <td class="right">8:00</td>
-      <td>Wettkampfstart</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td rowspan="3">Sonntag</td>
-      <td class="right">7:30</td>
-      <td>Einfahrhalle zum Warmfahren geöffnet</td>
+      <td rowspan="3"><strong>Samstag</strong> <br>28.10.2023<br>Ab ca. 8:00 Uhr</td>
+      <td><strong>Vorläufe</strong><br>Einzelküren</td>
+      <td>15+</td>
+      <td>4 Minuten</td>
     </tr>
     <tr>
-      <td class="right">8:00</td>
-      <td>Juryeinweisung</td>
+      <td rowspan="2"><strong>Vorläufe</strong><br>Paarküren</td>
+      <td>U15</td>
+      <td>3 Minuten</td>
     </tr>
-   <tr>
-      <td class="right">8:30</td>
-      <td>Wettkampfstart</td>
+    <tr class="table_devider">
+      <td>15+</td>
+      <td>4 Minuten</td>
+    </tr>
+    <tr>
+      <td rowspan="6"><strong>Sonntag</strong> <br>29.10.2023<br>Ab ca. 8:00 Uhr</td>
+      <td rowspan="2"><strong>Finale</strong><br>Einzel-/ Paarküren</td>
+      <td>Junior-Expert</td>
+      <td>3 Minuten</td>
+    </tr>
+    <tr>
+      <td>Expert</td>
+      <td>4 Minuten</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Finale</strong><br>Kleingruppen<br>3-8 Teilnehmer</td>
+      <td>U15</td>
+      <td>4 Minuten</td>
+    </tr>
+    <tr>
+      <td>15+</td>
+      <td>5 Minuten</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Finale</strong><br>Großgruppen<br>ab 9 Teilnehmern</td>
+      <td>U15</td>
+      <td>5 Minuten</td>
+    </tr>
+    <tr>
+      <td>15+</td>
+      <td>5 Minuten</td>
     </tr>
   </tbody>
 </table>
-:::
-::::
-
-::::iconBox
-:::iconBoxIcon
-<i class="material-icon">timeline</i>
-Vorläufiger
-Zeitplan
-:::
-:::iconBoxContent
-
-|         |                                 |
-| :------ | :------------------------------ |
-| Freitag | Einzelküren                     |
-| Samstag | Einzel- und Paarküren           |
-| Sonntag | Einzel-, Paar- und Gruppenküren |
 
 :::
 ::::
 
 ## Teilnahmeberechtigung
 
-Die Teilnehmer qualifizieren sich über die jeweiligen Landesmeisterschaften.
+Die Teilnehmer qualifizieren sich über die jeweiligen Landesmeisterschaften. Details zum Qualifikationsprozess sind im [Konzept Gemeinsame Wettkämpfe im Einrad Freestyle Neufassung 2023](https://www.einradverband.de/wp-content/uploads/2023/02/Konzept-gemeinsame-Wettkampfe-2021-Stand-Februar-2023-Ueberarbeitung.pdf){target="_blank"} zu finden.
 
 ---
 
@@ -164,24 +160,14 @@ Die Teilnehmer qualifizieren sich über die jeweiligen Landesmeisterschaften.
 | 3 oder mehr |         36 € |
 
 :::warningBox
-Die Startgebühren bitte mit dem Vermerk NDM Freestyle 2023 und Angabe des Vereinsnamens bis spätestens **{{event.fristen.zahlung | niceDate}}** überweisen.
+Die notwendigen Zahlungsinformationen werden nach Anmeldeschluss an alle Teilnehmer per Mail versendet.
 :::
-
-### Bankverbindung
-
-|                  |                                         |
-| :--------------- | :-------------------------------------- |
-| Kontoinhaber     | Peter Kaufmann                          |
-| IBAN             | DE65 1203 0000 1060 4054 85             |
-| BIC              | BYLADEM1001                             |
-| Bank             | DKB Berlin                              |
-| Verwendungszweck | Meldung NDM Freestyle 2023, Vereinsname |
 
 ## Anmeldung
 
-Die Details zum Anmeldeverfahren werden in Kürze auf der [Anmeldeseite](https://anmeldung.ndmfreestyle23.de) gesondert bekannt gegeben. Die Anmeldung erfolgt vereinsweise. Abmeldungen für einzelne Disziplinen oder den gesamten Wettkampf sind bis zum Meldeschluss ({{event.fristen.anmeldung | niceDate}}) möglich. Bei späteren Abmeldungen ist eine Erstattung der Startgebühr nur bei krankheitsbedingtem Grund und der Vorlage eines ärztlichen Attestes möglich.
+Die Anmeldung erfolgt über https://anmeldung.ndmfreestyle23.de. Abmeldungen für einzelne Disziplinen oder den gesamten Wettkampf sind bis zum Meldeschluss möglich. Bei späteren Abmeldungen ist eine Erstattung der Startgebühr nur bei krankheitsbedingtem Grund möglich.
 
-Teilnehmer von vereinsübergreifenden Gruppenküren sollen vom jeweiligen Verein gemeldet werden, der die Startgebühren bezahlt. Außerdem bitten wir die Trainer von vereinsübergreifenden Gruppenküren eine Gesamtliste ihrer Gruppe an XXXXXX zu senden.
+Außerdem bitten wir die Trainer von Gruppenküren eine Gesamtliste ihrer Gruppe an gruppe@ndmfreestyle23.de zu senden.
 
 :::infoBox
 **Allgemeine Hinweise**
@@ -238,8 +224,6 @@ Alle Vereine sind verpflichtet, abhängig von der Teilnehmerzahl eine Mindestanz
 
 Vereine, die die geforderten Juroren nicht stellen können, können vor dem Meldeschluss per Mail über [jury@ndmfreestyle23.de](mailto:jury@ndmfreestyle23.de) bei der Juryleitung eine Ausnahme von der Regelung beantragen.
 
----
-
 ## Ehrungen
 
 Die Plätze 1 – 3 in den Altersklassen-Vorläufen werden mit Medaillen geehrt.
@@ -261,7 +245,11 @@ Die Teilnehmer sind verpflichtet, die Musik beim Wettkampf zusätzlich auf einem
 
 ## Unterkünfte
 
-Hotels und Pensionen müssen privat gebucht werden. Es gibt eine Vielzahl von Unterkünften (Hotels-Pensionen-Ferienwohnungen) auch in der näheren Umgebung, die über Online-Such-Portale zu finden sind.
+### Hotels und Pensionen
+
+Hotels und Pensionen müssen privat gebucht werden. 
+Es gibt eine Vielzahl von Unterkünften (Hotels-Pensionen-Ferienwohnungen) auch in der näheren Umgebung, die über Online-Such-Portale zu finden sind.
+Eine gute Informationsquelle sind auch die Seiten der Gemeinde Nümbrecht selbst (https://nuembrecht.de). Weiter gibt es eine sehr schöne Wellnessjugendherberge im benachbarten Wiehl (https://www.jugendherberge.de/jugendherbergen/wiehl/ ca. 6km) und eine wirklich sehenswerte Jugendherberge im benachbarten Waldbröl (https://panarbora.de ca. 8km).
 
 ## Verpflegung
 
