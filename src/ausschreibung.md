@@ -88,7 +88,7 @@ Zeitplan
       <td rowspan="3"><strong>Freitag</strong> <br>27.10.2023<br>Ab ca. 16:00 Uhr</td>
       <td rowspan="3"><strong>Vorläufe</strong><br>Einzelküren</td>
       <td>U11</td>
-      <td rowspan="3">3 Minuten</td>
+      <td rowspan="3">3 Min.</td>
     </tr>
     <tr>
       <td>U13</td>
@@ -100,44 +100,44 @@ Zeitplan
       <td rowspan="3"><strong>Samstag</strong> <br>28.10.2023<br>Ab ca. 8:00 Uhr</td>
       <td><strong>Vorläufe</strong><br>Einzelküren</td>
       <td>15+</td>
-      <td>4 Minuten</td>
+      <td>4 Min.</td>
     </tr>
     <tr>
       <td rowspan="2"><strong>Vorläufe</strong><br>Paarküren</td>
       <td>U15</td>
-      <td>3 Minuten</td>
+      <td>3 Min.</td>
     </tr>
     <tr class="table_devider">
       <td>15+</td>
-      <td>4 Minuten</td>
+      <td>4 Min.</td>
     </tr>
     <tr>
       <td rowspan="6"><strong>Sonntag</strong> <br>29.10.2023<br>Ab ca. 8:00 Uhr</td>
       <td rowspan="2"><strong>Finale</strong><br>Einzel-/ Paarküren</td>
       <td>Junior-Expert</td>
-      <td>3 Minuten</td>
+      <td>3 Min.</td>
     </tr>
     <tr>
       <td>Expert</td>
-      <td>4 Minuten</td>
+      <td>4 Min.</td>
     </tr>
     <tr>
       <td rowspan="2"><strong>Finale</strong><br>Kleingruppen<br>3-8 Teilnehmer</td>
       <td>U15</td>
-      <td>4 Minuten</td>
+      <td>4 Min.</td>
     </tr>
     <tr>
       <td>15+</td>
-      <td>5 Minuten</td>
+      <td>5 Min.</td>
     </tr>
     <tr>
       <td rowspan="2"><strong>Finale</strong><br>Großgruppen<br>ab 9 Teilnehmern</td>
       <td>U15</td>
-      <td>5 Minuten</td>
+      <td>5 Min.</td>
     </tr>
     <tr>
       <td>15+</td>
-      <td>5 Minuten</td>
+      <td>5 Min.</td>
     </tr>
   </tbody>
 </table>
