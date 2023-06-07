@@ -41,7 +41,7 @@
     "markdown-it-emoji": "^2.0.2",
     "playwright": "^1.34.3",
     "png-to-ico": "^2.1.8",
-    "rollup": "^3.23.1",
+    "rollup": "^3.24.0",
     "subset-font": "^2.1.0"
   }
 }
