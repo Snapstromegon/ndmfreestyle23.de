@@ -112,6 +112,7 @@ const registerFileConfigs = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("assets/img");
   eleventyConfig.addPassthroughCopy("assets/video");
   eleventyConfig.addPassthroughCopy("assets/fonts");
+  eleventyConfig.addPassthroughCopy("assets/documents");
 };
 
 const addFilters = (eleventyConfig) => {
