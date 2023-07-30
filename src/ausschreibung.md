@@ -19,10 +19,6 @@ fullHeader: true
 
 ---
 
-<div class="warningBox" id="prerelease_warning">
-Vorabversion, nicht für die Veröffentlichung gedacht!
-</div>
-
 :::infoBox {.hide-print}
 Die Ausschreibung ist [hier als PDF verfügbar](/assets/documents/AusschreibungNDM23_Stand25.06.23.pdf){target="_blank"}.
 :::
