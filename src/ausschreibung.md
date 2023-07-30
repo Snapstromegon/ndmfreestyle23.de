@@ -24,7 +24,7 @@ Vorabversion, nicht für die Veröffentlichung gedacht!
 </div>
 
 :::infoBox {.hide-print}
-Die Ausschreibung ist [hier als PDF verfügbar](/downloads/ausschreibung.pdf){target="_blank"}.
+Die Ausschreibung ist [hier als PDF verfügbar](/assets/documents/AusschreibungNDM23_Stand25.06.23.pdf){target="_blank"}.
 :::
 
 ## Allgemeine Informationen
@@ -167,7 +167,7 @@ Die notwendigen Zahlungsinformationen werden nach Anmeldeschluss an alle Teilneh
 
 Die Anmeldung erfolgt über https://anmeldung.ndmfreestyle23.de. Abmeldungen für einzelne Disziplinen oder den gesamten Wettkampf sind bis zum Meldeschluss möglich. Bei späteren Abmeldungen ist eine Erstattung der Startgebühr nur bei krankheitsbedingtem Grund möglich.
 
-Außerdem bitten wir die Trainer von Gruppenküren eine Gesamtliste ihrer Gruppe an gruppe@ndmfreestyle23.de zu senden.
+Außerdem bitten wir die Trainer von Gruppenküren eine Gesamtliste ihrer Gruppe an gruppe@ndmfreestyle23.de zu senden. Dabei sollten Ersatzfahrer gekennzeichnet werden.
 
 :::infoBox
 **Allgemeine Hinweise**
@@ -180,12 +180,10 @@ Die Inhalte dieser Ausschreibung sprechen weibliche und männliche Teilnehmer gl
 
 ## Wettkampfordnung/Einsprüche
 
-Es gelten die Regeln des [IUF-Rulebook 2019](https://unicycling.org/files/iufrulebook-2019.pdf){target="_blank"} sowie die Ausführungen hierzu im Konzept [Konzept Gemeinsame Wettkämpfe im Einrad Freestyle Neufassung 2023](https://www.einradverband.de/wp-content/uploads/2023/02/Konzept-gemeinsame-Wettkampfe-2021-Stand-Februar-2023-Ueberarbeitung.pdf){target="_blank"}, das auf den Homepages des BDR und EVD einsehbar ist.
+Es gelten die Regeln des [IUF-Rulebook 2019](https://unicycling.org/files/iuf-rulebook-2019.pdf){target="_blank"} sowie die Ausführungen hierzu im Konzept [Konzept Gemeinsame Wettkämpfe im Einrad Freestyle Neufassung 2023](https://www.einradverband.de/wp-content/uploads/2023/02/Konzept-gemeinsame-Wettkampfe-2021-Stand-Februar-2023-Ueberarbeitung.pdf){target="_blank"}, das auf den Homepages des BDR und EVD einsehbar ist.
 
 Jeder Teilnehmer ist für das pünktliche Erscheinen zur vorgegebenen Startzeit selbst verantwortlich.
-Verpasst ein Sportler seinen Start, hat er keinen Anspruch auf einen späteren Start.
-
-Begründete Abmeldungen müssen bei der Wettkampfleitung vor Aufruf der jeweiligen Altersklasse bekannt gegeben werden.
+Wird der Start verpasst, besteht kein Anspruch auf einen späteren Start. Begründete Abmeldungen müssen bei der Wettkampfleitung vor Aufruf der jeweiligen Altersklasse bekannt gegeben werden.
 
 Das Einfahren auf der Wettkampffläche ist nur den Teilnehmern der Küren gestattet, die als nächstes starten. Trainingsmöglichkeit besteht Freitag ab ca. 14 Uhr, am Samstag und Sonntag 1h vor Wettkampfbeginn in einer separaten Halle der Sportanlage.
 
@@ -213,6 +211,7 @@ Personalausweis oder Pass ist auf Nachfrage vorzulegen
 ## Jury
 
 Alle Vereine sind verpflichtet, abhängig von der Teilnehmerzahl eine Mindestanzahl an ausgebildeten Juroren zu stellen.
+Je mehr ein Verein meldet, desto besser, dies kann nur zu einem fairen Wettkampf beitragen.
 
 | Anzahl der Teilnehmer | Anzahl der Juroren |
 | :-------------------: | :----------------: |
@@ -222,7 +221,7 @@ Alle Vereine sind verpflichtet, abhängig von der Teilnehmerzahl eine Mindestanz
 |        21 - 30        |         4          |
 |        über 30        |         5          |
 
-Vereine, die die geforderten Juroren nicht stellen können, können vor dem Meldeschluss per Mail über [jury@ndmfreestyle23.de](mailto:jury@ndmfreestyle23.de) bei der Juryleitung eine Ausnahme von der Regelung beantragen.
+Falls Vereine nicht in der Lage sind, die erforderliche Anzahl an Juroren zu stellen, können sie sich durch eigenständige Absprache mit anderen Vereinen Jurymitglieder leihen. Vereine, die die geforderten Juroren dennoch nicht stellen können, müssen pro fehlendem Kampfrichter eine Gebühr von 50,00 € begleichen.
 
 ## Ehrungen
 
@@ -249,7 +248,7 @@ Die Teilnehmer sind verpflichtet, die Musik beim Wettkampf zusätzlich auf einem
 
 Hotels und Pensionen müssen privat gebucht werden. 
 Es gibt eine Vielzahl von Unterkünften (Hotels-Pensionen-Ferienwohnungen) auch in der näheren Umgebung, die über Online-Such-Portale zu finden sind.
-Eine gute Informationsquelle sind auch die Seiten der Gemeinde Nümbrecht selbst (https://nuembrecht.de). Weiter gibt es eine sehr schöne Wellnessjugendherberge im benachbarten Wiehl (https://www.jugendherberge.de/jugendherbergen/wiehl/ ca. 6km) und eine wirklich sehenswerte Jugendherberge im benachbarten Waldbröl (https://panarbora.de ca. 8km).
+Eine gute Informationsquelle sind auch die Seiten der Gemeinde Nümbrecht selbst (https://nuembrecht.de). Weiter gibt es eine sehr schöne Wellnessjugendherberge im benachbarten Wiehl (https://www.jugendherberge.de/jugendherbergen/wiehl/ ca. 6km) und eine wirklich sehenswerte Jugendherberge im benachbarten Waldbröl (https://panarbora.de ca. 8km). Darüber hinaus befindet sich in unmittelbarer Nähe zur GWN Arena ein [Wohnmobilstellplatz](https://www.nuembrecht.de/zu-gast-in-nuembrecht/uebernachtengastronomie/detail/ort/wohnmobilstellplatz/).
 
 ## Verpflegung
 

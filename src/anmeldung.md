@@ -1,11 +1,11 @@
 ---
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 permalink: false
 eleventyNavigation:
   icon: how_to_vote
   key: Anmeldung
-  order: 4
-  url: https://dm2023.reg.unicycling-software.com/de
+  order: 6
+  url: https://anmeldung.ndmfreestyle23.de/
 layout: "layouts/page.njk"
 tags: ["page"]
 ---
