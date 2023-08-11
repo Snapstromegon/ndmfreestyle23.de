@@ -1,0 +1,128 @@
+{
+  "db": {
+    "domain": "https://jury-db.uberspace.ndmfreestyle23.de/"
+  },
+  "kategorien": [
+    {
+      "name": "Einzel Männlich",
+      "gruppen": [
+        {
+          "name": "Junior Expert",
+          "altersklassen": [
+            "U11",
+            "U13",
+            "U15"
+          ]
+        },
+        {
+          "name": "Expert",
+          "altersklassen": [
+            "U17",
+            "U19",
+            "U21"
+          ]
+        },
+        {
+          "name": "Senior Expert",
+          "altersklassen": [
+            "U23",
+            "U25",
+            "25+"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Einzel Weiblich",
+      "gruppen": [
+        {
+          "name": "Junior Expert",
+          "altersklassen": [
+            "U11",
+            "U13",
+            "U15"
+          ]
+        },
+        {
+          "name": "Expert",
+          "altersklassen": [
+            "U17",
+            "U19",
+            "U21"
+          ]
+        },
+        {
+          "name": "Senior Expert",
+          "altersklassen": [
+            "U23",
+            "U25",
+            "25+"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paar",
+      "gruppen": [
+        {
+          "name": "Junior Expert",
+          "altersklassen": [
+            "U11",
+            "U13",
+            "U15"
+          ]
+        },
+        {
+          "name": "Expert",
+          "altersklassen": [
+            "U17",
+            "U19",
+            "U21"
+          ]
+        },
+        {
+          "name": "Senior Expert",
+          "altersklassen": [
+            "U23",
+            "U25",
+            "25+"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kleingruppe",
+      "gruppen": [
+        {
+          "name": "Junior Expert",
+          "altersklassen": [
+            "U15"
+          ]
+        },
+        {
+          "name": "Expert",
+          "altersklassen": [
+            "15+"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Großgruppe",
+      "gruppen": [
+        {
+          "name": "Junior Expert",
+          "altersklassen": [
+            "U15"
+          ]
+        },
+        {
+          "name": "Expert",
+          "altersklassen": [
+            "15+"
+          ]
+        }
+      ]
+    }
+  ]
+}
