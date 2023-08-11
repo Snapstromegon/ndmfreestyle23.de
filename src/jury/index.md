@@ -125,13 +125,13 @@ input {
 <form method="post" action="{{db.domain}}save">
 <fieldset>
   <label for="vorname">Vorname</label>
-  <input id="vorname" name="firstname"/>
+  <input id="vorname" name="firstname" required/>
   <label for="nachname">Nachname</label>
-  <input id="nachname" name="lastname"/>
+  <input id="nachname" name="lastname" required/>
   <label for="verein">Verein</label>
-  <input id="verein" name="team" placeholder="Name des Vereins, für den man als Jurymitglied antritt"/>
+  <input id="verein" name="team" placeholder="Name des Vereins, für den man als Jurymitglied antritt" required/>
   <label for="email">Email</label>
-  <input id="email" type="email" name="email"/>
+  <input id="email" type="email" name="email" required/>
   <input id="jurycode" type="text" name="jurycode" value="" hidden/>
 </fieldset>
 
