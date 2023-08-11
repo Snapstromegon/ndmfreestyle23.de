@@ -20,7 +20,7 @@
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@eslint/js": "^8.47.0",
-    "@playwright/test": "^1.36.2",
+    "@playwright/test": "^1.37.0",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-typescript": "^11.1.2",
     "@types/dom-navigation": "^1.0.0",
