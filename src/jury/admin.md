@@ -8,7 +8,7 @@ tags: ["page"]
 <main>
 <form method="post" id="password">
 <label>Admin Passwort:</label>
-<input type="password" id="pass" value="bewertung">
+<input type="password" id="pass" value="">
 <input type="submit" value="Laden">
 </form>
 
