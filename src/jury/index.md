@@ -1,7 +1,7 @@
 ---
 layout: "layouts/page.njk"
 eleventyNavigation:
-  icon: how_to_vote
+  icon: gavel
   key: Jury Anmeldung
   order: 7
 tags: ["page"]
