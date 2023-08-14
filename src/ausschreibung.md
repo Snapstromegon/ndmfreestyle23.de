@@ -163,7 +163,9 @@ Die notwendigen Zahlungsinformationen werden nach Anmeldeschluss an alle Teilneh
 
 Die Anmeldung erfolgt über https://anmeldung.ndmfreestyle23.de. Abmeldungen für einzelne Disziplinen oder den gesamten Wettkampf sind bis zum Meldeschluss möglich. Bei späteren Abmeldungen ist eine Erstattung der Startgebühr nur bei krankheitsbedingtem Grund möglich.
 
+:::warningBox
 Außerdem bitten wir die Trainer von Gruppenküren eine Gesamtliste ihrer Gruppe an gruppe@ndmfreestyle23.de zu senden. Dabei sollten Ersatzfahrer gekennzeichnet werden.
+:::
 
 :::infoBox
 **Allgemeine Hinweise**

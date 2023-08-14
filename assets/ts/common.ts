@@ -7,6 +7,6 @@ import "./components/SnapUtils/snap-privacy-frame.js";
 // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
 if (navigator.serviceWorker) {
   await navigator.serviceWorker.register("/sw.js", {
-    scope: "/"
+    scope: "/",
   });
 }
