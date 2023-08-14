@@ -176,7 +176,7 @@ tags: ["page"]
     const usersByTeams = groupByTeams(data);
     let result = "";
     for(const [team, users] of usersByTeams.entries()) {
-      result+= `<tr><td rowspan=${users.length}>${team}</td><td rowspan=${users.length}>${users.length}</td><td>
+      result+= `<tr><td>${team}</td><td>${users.length}</td><td>
       <details><summary>Juroren</summary>
       <table><thead><tr>
         <th>Jurycode</th>
