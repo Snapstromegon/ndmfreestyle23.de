@@ -48,7 +48,7 @@ export default class SnapRouted extends LitElement {
   }
 
   updateLinks() {
-    for (const link of [...document.querySelectorAll("a"),] as HTMLAnchorElement[]) {
+    for (const link of [...document.querySelectorAll("a")] as HTMLAnchorElement[]) {
       if (this.isCurrentUrl(link.href)) {
         link.setAttribute("active", "");
       } else {
@@ -68,24 +68,24 @@ export default class SnapRouted extends LitElement {
     }
 
     return document.startViewTransition(() => {
-      setInnerHTML(this, newHTML);
+      this.setInnerHTML(this, newHTML);
     });
   }
-}
 
-function setInnerHTML(elm: HTMLElement, html: string) {
-  elm.innerHTML = html;
+  setInnerHTML(elm: HTMLElement, newHtml: string) {
+    elm.innerHTML = newHtml;
 
-  Array.from(elm.querySelectorAll("script")).forEach((oldScriptEl) => {
-    const newScriptEl = document.createElement("script");
+    Array.from(elm.querySelectorAll("script")).forEach((oldScriptEl) => {
+      const newScriptEl = document.createElement("script");
 
-    Array.from(oldScriptEl.attributes).forEach((attr) => {
-      newScriptEl.setAttribute(attr.name, attr.value);
+      Array.from(oldScriptEl.attributes).forEach((attr) =>
+        newScriptEl.setAttribute(attr.name, attr.value)
+      );
+
+      const scriptText = document.createTextNode(oldScriptEl.innerHTML);
+      newScriptEl.appendChild(scriptText);
+
+      oldScriptEl.parentNode?.replaceChild(newScriptEl, oldScriptEl);
     });
-
-    const scriptText = document.createTextNode(oldScriptEl.innerHTML);
-    newScriptEl.appendChild(scriptText);
-
-    oldScriptEl.parentNode?.replaceChild(newScriptEl, oldScriptEl);
-  });
+  }
 }
