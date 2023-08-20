@@ -16,6 +16,37 @@
     {% lightningcss "assets/css/print.css", "print" %}
     {% rollup "assets/ts/common.ts" %}
     {% favicon meta.favicon %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Norddeutsche Meisterschaft Einrad Freestyle 2023",
+      "description": "Die NDM 23 ist die norddeutsche Meisterschaft im Einrad Freestyle des EVD und BDRs und wird in Nümbrecht ausgetragen.",
+      "startDate": "2023-10-27",
+      "endDate": "2023-10-29",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {		
+        "@type": "Place",
+        "name": "GWN Arena",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Gouvieuxstraße",
+          "addressLocality": "Nümbrecht",
+          "postalCode": "51588",
+          "addressCountry": "DE"
+        }
+      },
+      "image": [
+        "https://ndmfreestyle23.de/img/h3lgFhJq7z-1900.avif"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "SSV Nümbrecht Einrad",
+        "url": "https://www.ssvnuembrecht-turnen.de/index.php/abteilungen/einradfahren"
+      }
+    }
+    </script>
   </head>
   <body>
     <aside>
