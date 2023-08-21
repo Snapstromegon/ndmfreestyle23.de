@@ -4,10 +4,10 @@
   },
   "kategorien": [
     {
-      "name": "Einzel Männlich",
+      "name": "Paar",
       "gruppen": [
         {
-          "name": "Junior Expert Finale",
+          "name": "Junior Expert Vorrunde",
           "altersklassen": [
             "U11",
             "U13",
@@ -15,11 +15,19 @@
           ]
         },
         {
-          "name": "Expert Finale",
+          "name": "Expert Vorrunde",
           "altersklassen": [
             "U17",
             "U19",
             "U21"
+          ]
+        },
+        {
+          "name": "Senior Expert Vorrunde",
+          "altersklassen": [
+            "U23",
+            "U25",
+            "25+"
           ]
         }
       ]
@@ -50,7 +58,36 @@
             "U25",
             "25+"
           ]
+        }
+      ]
+    },
+    {
+      "name": "Einzel Männlich",
+      "gruppen": [
+        {
+          "name": "Junior Expert Finale",
+          "altersklassen": [
+            "U11",
+            "U13",
+            "U15"
+          ]
         },
+        {
+          "name": "Expert Finale",
+          "altersklassen": [
+            "U17",
+            "U19",
+            "U21",
+            "U23",
+            "U25",
+            "25+"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Einzel Weiblich",
+      "gruppen": [
         {
           "name": "Junior Expert Finale",
           "altersklassen": [
@@ -75,30 +112,6 @@
     {
       "name": "Paar",
       "gruppen": [
-        {
-          "name": "Junior Expert Vorrunde",
-          "altersklassen": [
-            "U11",
-            "U13",
-            "U15"
-          ]
-        },
-        {
-          "name": "Expert Vorrunde",
-          "altersklassen": [
-            "U17",
-            "U19",
-            "U21"
-          ]
-        },
-        {
-          "name": "Senior Expert Vorrunde",
-          "altersklassen": [
-            "U23",
-            "U25",
-            "25+"
-          ]
-        },
         {
           "name": "Junior Expert Finale",
           "altersklassen": [
