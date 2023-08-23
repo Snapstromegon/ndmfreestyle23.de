@@ -374,6 +374,7 @@ main p {
 
 .iconBoxContent {
   flex-grow: 1;
+  overflow: auto;
 }
 
 .infoBox,

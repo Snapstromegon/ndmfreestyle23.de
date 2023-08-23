@@ -81,30 +81,31 @@ Zeitplan
 <table>
   <tbody>
     <tr>
-      <td rowspan="3"><strong>Freitag</strong> <br>27.10.2023<br>Ab ca. 16:00 Uhr</td>
-      <td rowspan="3"><strong>Vorläufe</strong><br>Einzelküren</td>
-      <td>U11</td>
-      <td rowspan="3">3 Min.</td>
+      <td rowspan="3"><strong>Freitag</strong> <br>27.10.2023<br>Ab ca. 11:30 Uhr</td>
+      <td rowspan="3"><strong>Vorläufe</strong><br>Paarküren</td>
+      <td>Junior Expert</td>
+      <td>3 Min.</td>
     </tr>
     <tr>
-      <td>U13</td>
+      <td>Expert</td>
+      <td>4 Min.</td>
     </tr>
     <tr class="table_devider">
-      <td>U15</td>
-    </tr>
-    <tr>
-      <td rowspan="3"><strong>Samstag</strong> <br>28.10.2023<br>Ab ca. 8:00 Uhr</td>
-      <td><strong>Vorläufe</strong><br>Einzelküren</td>
-      <td>15+</td>
+      <td>Senior Expert</td>
       <td>4 Min.</td>
     </tr>
     <tr>
-      <td rowspan="2"><strong>Vorläufe</strong><br>Paarküren</td>
-      <td>U15</td>
+      <td rowspan="3"><strong>Samstag</strong> <br>28.10.2023<br>Ab ca. 8:00 Uhr</td>
+      <td rowspan="3"><strong>Vorläufe</strong><br>Einzelküren Weiblich</td>
+      <td>Junior Expert</td>
       <td>3 Min.</td>
     </tr>
+    <tr>
+      <td>Expert</td>
+      <td>4 Min.</td>
+    </tr>
     <tr class="table_devider">
-      <td>15+</td>
+      <td>Senior Expert</td>
       <td>4 Min.</td>
     </tr>
     <tr>
@@ -140,6 +141,12 @@ Zeitplan
 
 :::
 ::::
+
+:::warningBox
+**Achtung: Paarküren finden Freitag statt und Einzelküren Samstag!**
+
+Diese Änderung wurde vorgenommen, um Starts nach 23Uhr zu verhindern.
+:::
 
 ## Teilnahmeberechtigung
 
