@@ -215,7 +215,7 @@ Personalausweis oder Pass ist auf Nachfrage vorzulegen
 
 ## Jury
 
-Alle Vereine sind verpflichtet, abhängig von der Teilnehmerzahl eine Mindestanzahl an ausgebildeten Juroren zu stellen.
+Alle Vereine sind verpflichtet, abhängig von der Teilnehmerzahl eine Mindestanzahl an nach dem IUF-Rulebook 2019 geschulten Juroren zu stellen
 Je mehr ein Verein meldet, desto besser, dies kann nur zu einem fairen Wettkampf beitragen.
 
 | Anzahl der Teilnehmer | Anzahl der Juroren |
@@ -228,12 +228,17 @@ Je mehr ein Verein meldet, desto besser, dies kann nur zu einem fairen Wettkampf
 
 Falls Vereine nicht in der Lage sind, die erforderliche Anzahl an Juroren zu stellen, können sie sich durch eigenständige Absprache mit anderen Vereinen Jurymitglieder leihen. Vereine, die die geforderten Juroren dennoch nicht stellen können, müssen pro fehlendem Kampfrichter eine Gebühr von 50,00 € begleichen.
 
+Die Anmeldung von Juroren findet in unserer [Jury Anmeldung](/jury) statt.
+
+## Feldgröße
+
+Im Sinne der IUF-Regeln dienen am Boden markierte Felder nur zur Orientierung und spielen für die Bewertung keine Rolle. Für alle Disziplinen steht eine Wettkampffläche von mindestens 15x28 m zur Verfügung.
+
 ## Ehrungen
 
-Die Plätze 1 – 3 in den Altersklassen-Vorläufen werden mit Medaillen geehrt.
+Die Plätze 1 – 3 in den Altersklassen-Vorläufen werden mit Medaillen geehrt und sind 1./2./3. Sieger der entsprechenden Altersklasse.
 
-Die Meister / Juniorenmeister werden für Platz 1 – 3 mit Medaillen geehrt.
-Die jeweiligen Sieger erhalten einen Pokal.
+Die jeweiligen Sieger der Finalläufe erhalten einen Pokal sowie eine Medaille und sind Norddeutscher (Junioren-)Meister. Die 2. und 3. Platzierten der jeweiligen Finalläufe erhalten Medaillen und sind Norddeutscher Vize(junioren)meister bzw. 3. Platzierter (Junior) bei der Norddeutschen Meisterschaft.
 
 Alle Teilnehmer erhalten Urkunden.
 
@@ -272,10 +277,6 @@ Die T-Shirts der Meisterschaft können ausschließlich über das Anmeldeformular
 ## Aktuelle Informationen
 
 Diese Ausschreibung enthält vorläufige Informationen. Aktualisierungen findet ihr demnächst auf unserer [Homepage](https://ndmfreestyle23.de).
-
-## Möglichkeiten der Darbietungen
-
-Verschiedene Einräder sind möglich, auch Seile, Bänder, Schirme usw. Es dürfen keine spitzen Gegenstände benutzt werden oder solche, die Verletzungen verursachen können.
 
 ## Kontakt
 
