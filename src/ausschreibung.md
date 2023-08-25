@@ -20,7 +20,7 @@ fullHeader: true
 ---
 
 :::infoBox {.hide-print}
-Die Ausschreibung ist [hier als PDF verfügbar](/assets/documents/AusschreibungNDM23_Stand25.06.23.pdf){target="_blank"}.
+Die Ausschreibung ist [hier als PDF verfügbar](/assets/documents/Ausschreibung.pdf){target="_blank"}.
 :::
 
 ## Allgemeine Informationen
