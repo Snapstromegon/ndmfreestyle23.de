@@ -81,26 +81,28 @@ Zeitplan
 <table>
   <tbody>
     <tr>
-      <td rowspan="3"><strong>Freitag</strong> <br>27.10.2023<br>Ab ca. 11:30 Uhr</td>
-      <td rowspan="3"><strong>Vorläufe</strong><br>Paarküren</td>
+      <td rowspan="2"><strong>Freitag</strong> <br>27.10.2023<br>Ab ca. 13:00 Uhr</td>
+      <td rowspan="2"><strong>Vorläufe</strong><br>Einzelküren Weiblich</td>
+      <td>Junior Expert</td>
+      <td>3 Min.</td>
+    </tr>
+    <tr class="table_devider">
+      <td>Expert</td>
+      <td>4 Min.</td>
+    </tr>
+    <tr>
+      <td rowspan="4"><strong>Samstag</strong> <br>28.10.2023<br>Ab ca. 8:00 Uhr</td>
+      <td><strong>Vorläufe</strong><br>Paarküren</td>
       <td>Junior Expert</td>
       <td>3 Min.</td>
     </tr>
     <tr>
-      <td>Expert</td>
-      <td>4 Min.</td>
-    </tr>
-    <tr class="table_devider">
+      <td><strong>Vorläufe</strong><br>Einzelküren Weiblich</td>
       <td>Senior Expert</td>
       <td>4 Min.</td>
     </tr>
     <tr>
-      <td rowspan="3"><strong>Samstag</strong> <br>28.10.2023<br>Ab ca. 8:00 Uhr</td>
-      <td rowspan="3"><strong>Vorläufe</strong><br>Einzelküren Weiblich</td>
-      <td>Junior Expert</td>
-      <td>3 Min.</td>
-    </tr>
-    <tr>
+      <td rowspan="2"><strong>Vorläufe</strong><br>Paarküren</td>
       <td>Expert</td>
       <td>4 Min.</td>
     </tr>
@@ -143,9 +145,9 @@ Zeitplan
 ::::
 
 :::warningBox
-**Achtung: Paarküren finden Freitag statt und Einzelküren Samstag!**
+**Achtung 31.08.2023: Paarküren finden Samstag statt, Einzelküren finden teils Freitag und teils Samstag statt!**
 
-Diese Änderung wurde vorgenommen, um Starts nach 23Uhr zu verhindern.
+Diese Änderung wurde vorgenommen, um Starts nach 23Uhr zu verhindern und trotzdem möglichst allen Startern die Teilnahme zu ermöglichen.
 :::
 
 ## Teilnahmeberechtigung
