@@ -260,7 +260,7 @@ Die Teilnehmer sind verpflichtet, die Musik beim Wettkampf zusätzlich auf einem
 
 Hotels und Pensionen müssen privat gebucht werden. 
 Es gibt eine Vielzahl von Unterkünften (Hotels-Pensionen-Ferienwohnungen) auch in der näheren Umgebung, die über Online-Such-Portale zu finden sind.
-Eine gute Informationsquelle sind auch die Seiten der Gemeinde Nümbrecht selbst (https://nuembrecht.de). Weiter gibt es eine sehr schöne Wellnessjugendherberge im benachbarten Wiehl (https://www.jugendherberge.de/jugendherbergen/wiehl/ ca. 6km) und eine wirklich sehenswerte Jugendherberge im benachbarten Waldbröl (https://panarbora.de ca. 8km). Darüber hinaus befindet sich in unmittelbarer Nähe zur GWN Arena ein [Wohnmobilstellplatz](https://www.nuembrecht.de/zu-gast-in-nuembrecht/uebernachtengastronomie/detail/ort/wohnmobilstellplatz/).
+Eine gute Informationsquelle sind auch die Seiten der Gemeinde Nümbrecht selbst (https://nuembrecht.de). Weiter gibt es eine sehr schöne Wellnessjugendherberge im benachbarten Wiehl ([Jugendherberge Wiehl](https://www.jugendherberge.de/jugendherbergen/wiehl/) ca. 6km) und eine wirklich sehenswerte Jugendherberge im benachbarten Waldbröl (https://panarbora.de ca. 8km). Darüber hinaus befindet sich in unmittelbarer Nähe zur GWN Arena ein [Wohnmobilstellplatz](https://www.nuembrecht.de/zu-gast-in-nuembrecht/uebernachtengastronomie/detail/ort/wohnmobilstellplatz/).
 
 ## Verpflegung
 
