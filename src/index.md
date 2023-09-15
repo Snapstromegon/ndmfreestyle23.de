@@ -8,6 +8,18 @@ layout: "layouts/page.njk"
 tags: ["page"]
 ---
 
+:::warningBox
+**Zahlungsaufforderungen sind verschickt!**
+Wir haben die Zahlungsaufforderungen für die Startgebühren (ohne T-Shirts) an die Verantwortlichen der Vereine geschickt. Sollte euer Verein **KEINE** Zahlungsaufforderung erhalten haben, meldet euch bitte umgehend bei [kasse@ndmfreestyle23.de](mailto:kasse@ndmfreestyle23.de).
+
+Wir nehmen die Zahlungen **nur Vereinsweise** entgegen.
+
+**Zahlungsfrist ist der 29.09.2023!**
+
+Informationen zur T-Shirt Bestellung folgen in Kürze.
+:::
+
+
 # Hallo!
 
 Nach der ODM 2016 und der DM 2019 freuen wir uns als SSV Nümbrecht 2023 wieder eine Meisterschaft in unserem schönen Luftkurort ausrichten zu dürfen. Dieses mal ist es die **Norddeutsche Meisterschaft im Freestyle**.
