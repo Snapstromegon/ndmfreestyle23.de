@@ -24,14 +24,17 @@ Die Ausschreibung ist [hier als PDF verfügbar](/assets/documents/Ausschreibung.
 :::
 
 :::warningBox
+**T-Shirt Bestellungen sind jetzt über die Vereine möglich.**
+Nähere Informationen wurden an die Verantwortlichen aller Vereine per Mail geschicht.
+:::
+
+:::warningBox
 **Zahlungsaufforderungen sind verschickt!**
 Wir haben die Zahlungsaufforderungen für die Startgebühren (ohne T-Shirts) an die Verantwortlichen der Vereine geschickt. Sollte euer Verein **KEINE** Zahlungsaufforderung erhalten haben, meldet euch bitte umgehend bei [kasse@ndmfreestyle23.de](mailto:kasse@ndmfreestyle23.de).
 
 Wir nehmen die Zahlungen **nur Vereinsweise** entgegen.
 
 **Zahlungsfrist ist der 29.09.2023!**
-
-Informationen zur T-Shirt Bestellung folgen in Kürze.
 :::
 
 ## Allgemeine Informationen
