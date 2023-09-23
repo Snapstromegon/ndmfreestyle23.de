@@ -10,7 +10,7 @@ tags: ["page"]
 
 :::warningBox
 **T-Shirt Bestellungen sind jetzt über die Vereine möglich.**
-Nähere Informationen wurden an die Verantwortlichen aller Vereine per Mail geschicht.
+Nähere Informationen wurden an die Verantwortlichen aller Vereine per Mail geschickt.
 :::
 
 :::warningBox
