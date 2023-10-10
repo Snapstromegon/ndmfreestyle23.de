@@ -542,3 +542,7 @@ td {
   /* Don't fade the new view in */
   animation: none;
 }
+
+.table-wrapper {
+  overflow: auto;
+}
