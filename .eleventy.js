@@ -138,6 +138,7 @@ const addFilters = (eleventyConfig) => {
       weekday: "short",
       hour: "2-digit",
       minute: "2-digit",
+      timeZone: "Europe/Berlin",
     }).format(date)
   );
   eleventyConfig.addFilter("minutesToTime", (minutes) => {
