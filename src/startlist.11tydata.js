@@ -6,17 +6,19 @@ module.exports = {
       for (const day of timeplan.days) {
         const dayStartlistWithEvents = [];
         for (const group of day.groups) {
+          let groupWarmup = false;
           const startsInGroup = startlist.filter(start => start.group === group);
           let currentAK = null;
           const starts = []
           for (const start of startsInGroup) {
-            if(start.category !== currentAK) {
+            if(!start.group.startsWith("Finale") && start.category !== currentAK || groupWarmup == false) {
               starts.push({
                 type: "event",
                 name: "Einfahrzeit",
                 duration: timeplan.durations.groups[group].warmup,
               });
               currentAK = start.category;
+              groupWarmup = true;
             }
             starts.push({
               type: "start",
