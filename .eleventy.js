@@ -130,7 +130,16 @@ const addFilters = (eleventyConfig) => {
   eleventyConfig.addNunjucksAsyncFilter("imageFormats", (src, callback) =>
     generateImageFormats(src).then((data) => callback(null, data))
   );
-  eleventyConfig.addFilter("niceDate", (date) => new Intl.DateTimeFormat("de", { dateStyle: "medium" }).format(date));
+  eleventyConfig.addFilter("niceDate", (date) =>
+    new Intl.DateTimeFormat("de", { dateStyle: "medium" }).format(date)
+  );
+  eleventyConfig.addFilter("shortTime", (date) =>
+    Intl.DateTimeFormat("de", {
+      weekday: "short",
+      hour: "2-digit",
+      minute: "2-digit",
+    }).format(date)
+  );
   eleventyConfig.addFilter("minutesToTime", (minutes) => {
     const hours = Math.floor(minutes / 60)
       .toString()
@@ -178,7 +187,7 @@ const generateIconFont = (eleventyConfig) => {
   });
 };
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   generateIconFont(eleventyConfig);
 
   eleventyConfig.amendLibrary("md", (mdLib) => {
@@ -207,7 +216,9 @@ module.exports = function(eleventyConfig) {
 
   registerFileConfigs(eleventyConfig);
 
-  eleventyConfig.addPlugin(renderPdf, [{ file: "downloads/ausschreibung.pdf", url: "/ausschreibung/" },]);
+  eleventyConfig.addPlugin(renderPdf, [
+    { file: "downloads/ausschreibung.pdf", url: "/ausschreibung/" },
+  ]);
 
   // Return your Object options:
   return {

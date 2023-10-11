@@ -546,3 +546,7 @@ td {
 .table-wrapper {
   overflow: auto;
 }
+
+.nowrap {
+  white-space: nowrap;
+}

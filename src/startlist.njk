@@ -10,22 +10,39 @@ fullHeader: false
 
 <h1>Startliste</h1>
 
-<p>Diese Startliste ist vorläufig und wir behalten uns letzte Änderungen innerhalb einer Altersklasse vor.</p>
+<p>
+  Diese Startliste ist vorläufig und wir behalten uns letzte Änderungen
+  innerhalb einer Altersklasse vor.
+</p>
 
 <div class="table-wrapper">
-<table>
-  <tbody>
-    {% for start in startlist %}
-    <tr>
-      <td>{{ loop.index }}</td>
-      <td>{{ start.event }}</td>
-      <td>{{ start.category }}</td>
-      <td>{{start.name or start.group}}</td>
-      {% if start.starters.length > 2 %}
-      <td>{{start.team or start.label}}</td>
-      <td>
-        <details>
-          <summary>Starter</summary>
+  <table>
+    <tbody>
+      {% for entry in startlistWithTime %}
+      <tr>
+        <td class="nowrap">{{ entry.starts | shortTime }}</td>
+        {% if entry.type == 'start' %} {% set start = entry.start %}
+        <td>{{ start.event }}</td>
+        <td class="nowrap">{{ start.category }}</td>
+        <td>{{start.name or start.group}}</td>
+        {% if start.starters.length > 2 %}
+        <td>
+          {{start.team or start.label}}<br />
+          <details>
+            <summary>Starter</summary>
+            <ul>
+              {% for starter in start.starters %}
+              <li>
+                #{{ starter.id }} {{ starter.firstname }} {{ starter.lastname }}
+              </li>
+              {%endfor%}
+            </ul>
+          </details>
+        </td>
+        {%elif start.starters.length == 0%}
+        <td>{{start.team or start.label}}</td>
+        {% else %}
+        <td>
           <ul>
             {% for starter in start.starters %}
             <li>
@@ -33,24 +50,11 @@ fullHeader: false
             </li>
             {%endfor%}
           </ul>
-        </details>
-      </td>
-      {%elif start.starters.length == 0%}
-      <td>{{start.team or start.label}}</td>
-      <td></td>
-      {% else %}
-      <td colspan="2">
-        <ul>
-          {% for starter in start.starters %}
-          <li>
-            #{{ starter.id }} {{ starter.firstname }} {{ starter.lastname }}
-          </li>
-          {%endfor%}
-        </ul>
-      </td>
-      {%endif%}
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+        </td>
+        {%endif%} {% else %}
+        <td colspan="4">{{ entry.name }}</td>
+      </tr>
+      {%endif%} {% endfor %}
+    </tbody>
+  </table>
 </div>
