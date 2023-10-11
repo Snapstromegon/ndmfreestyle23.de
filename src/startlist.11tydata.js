@@ -78,7 +78,7 @@ module.exports = {
           const starts = getGroupStarts(startlist, group, timeplan, day);
           dayStartlistWithEvents.push(
             ...starts,
-            dayAddExtraEventsAfterGroup(day, group)
+            ...dayAddExtraEventsAfterGroup(day, group)
           );
         }
         startlistWithEvents.push(
