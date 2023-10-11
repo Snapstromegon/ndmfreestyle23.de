@@ -135,10 +135,10 @@ const addFilters = (eleventyConfig) => {
   );
   eleventyConfig.addFilter("shortTime", (date) =>
     Intl.DateTimeFormat("de", {
-      weekday: "short",
       hour: "2-digit",
       minute: "2-digit",
       timeZone: "Europe/Berlin",
+      weekday: "short",
     }).format(date)
   );
   eleventyConfig.addFilter("minutesToTime", (minutes) => {
@@ -188,7 +188,7 @@ const generateIconFont = (eleventyConfig) => {
   });
 };
 
-module.exports = function (eleventyConfig) {
+module.exports = (eleventyConfig) => {
   generateIconFont(eleventyConfig);
 
   eleventyConfig.amendLibrary("md", (mdLib) => {
@@ -217,9 +217,7 @@ module.exports = function (eleventyConfig) {
 
   registerFileConfigs(eleventyConfig);
 
-  eleventyConfig.addPlugin(renderPdf, [
-    { file: "downloads/ausschreibung.pdf", url: "/ausschreibung/" },
-  ]);
+  eleventyConfig.addPlugin(renderPdf, [{ file: "downloads/ausschreibung.pdf", url: "/ausschreibung/" }]);
 
   // Return your Object options:
   return {
