@@ -542,3 +542,15 @@ td {
   /* Don't fade the new view in */
   animation: none;
 }
+
+.table-wrapper {
+  overflow: auto;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+tr.startlist-type-event {
+  background: var(--color-red);
+}

@@ -1,0 +1,66 @@
+---
+eleventyNavigation:
+  icon: list
+  key: Startliste
+  order: 4
+layout: "layouts/page.njk"
+tags: ["page"]
+fullHeader: false
+---
+
+<h1>Startliste</h1>
+
+<p>
+  Diese Startliste ist vorläufig und wir behalten uns letzte Änderungen
+  innerhalb einer Altersklasse vor.
+</p>
+
+<div class="infoBox">
+Wenn ihr unsere Moderation unterstützen wollt, dann findet ihr jetzt <a href="/assets/documents/Moderationsbogen.pdf" target="_blank">hier unseren Moderationsbogen</a> zum Download.
+Bringt diesen einfach ausgefüllt am Wettkampftag mit und gebt ihn beim Musikvorhören ab.
+</div>
+
+<div class="table-wrapper">
+  <table>
+    <tbody>
+      {% for entry in startlistWithTime %}
+      <tr class="startlist-type-{{entry.type}}">
+        <td class="nowrap">{{ entry.starts | shortTime }}</td>
+        {% if entry.type == 'start' %} {% set start = entry.start %}
+        <td>{{ start.event }}</td>
+        <td class="nowrap">{{ start.category }}</td>
+        {% if start.starters.length > 2 %}
+        <td>
+          {{start.team or start.label}}<br />
+          <details>
+            <summary>Starter</summary>
+            <ul>
+              {% for starter in start.starters %}
+              <li>
+                #{{ starter.id }} {{ starter.firstname }} {{ starter.lastname }}
+              </li>
+              {%endfor%}
+            </ul>
+          </details>
+        </td>
+        {%elif start.starters.length == 0%}
+        <td>{{start.team or start.label}}</td>
+        {% else %}
+        <td>
+          <ul>
+            {% for starter in start.starters %}
+            <li>
+              #{{ starter.id }} {{ starter.firstname }} {{ starter.lastname }}
+            </li>
+            {%endfor%}
+          </ul>
+        </td>
+        {%endif%}
+        <td>{{start.name or start.group}}</td>
+        {% else %}
+        <td colspan="4">{{ entry.name }}</td>
+      </tr>
+      {%endif%} {% endfor %}
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,120 @@
+days:
+  - start: 2023-10-27T13:00:00+02:00
+    name: "Freitag"
+    groups:
+      - Einzel Weiblich Juniorexpert
+      - Einzel Weiblich Expert
+    extraEvents:
+      - name: Siegerehrung
+        duration: 60
+        position:
+          afterGroup: Einzel Weiblich Expert
+  - start: 2023-10-28T08:00:00+02:00
+    name: "Samstag"
+    groups:
+      - Paar Juniorexpert
+      - Einzel Weiblich Seniorexpert
+      - Paar Expert
+      - Paar Seniorexpert
+    extraEvents:
+      - name: Mittagspause
+        duration: 30
+        position:
+          afterGroup: Einzel Weiblich Seniorexpert
+      - name: Siegerehrung
+        duration: 60
+        position:
+          afterGroup: Paar Seniorexpert
+  - start: 2023-10-29T08:00:00+01:00
+    name: "Sonntag"
+    groups:
+      - Finale Einzel Weiblich Juniorexpert
+      - Finale Einzel Männlich Juniorexpert
+      - Finale Einzel Weiblich Expert
+      - Finale Einzel Männlich Expert
+      - Finale Paar Juniorexpert
+      - Finale Paar Expert
+      - Kleingruppe Juniorexpert
+      - Kleingruppe Expert
+      - Großgruppe Juniorexpert
+      - Großgruppe Expert
+    extraEvents:
+      - name: Siegerehrung Einzel
+        duration: 45
+        position:
+          afterGroup: Finale Paar Expert
+      - name: Einfahrzeit
+        duration: 10
+        position:
+          inGroup: Großgruppe Expert
+          position: 6
+      - name: Siegerehrung
+        duration: 60
+        position:
+          afterGroup: Großgruppe Expert
+durations:
+  groups:
+    Einzel Weiblich Juniorexpert:
+      act: 3
+      jury: 3
+      warmup: 10
+    Einzel Weiblich Expert:
+      act: 4
+      jury: 3
+      warmup: 10
+    Einzel Weiblich Seniorexpert:
+      act: 4
+      jury: 3
+      warmup: 10
+    Finale Einzel Weiblich Juniorexpert:
+      act: 3
+      jury: 3
+      warmup: 10
+    Finale Einzel Weiblich Expert:
+      act: 4
+      jury: 3
+      warmup: 10
+    Finale Einzel Männlich Juniorexpert:
+      act: 3
+      jury: 3
+      warmup: 10
+    Finale Einzel Männlich Expert:
+      act: 4
+      jury: 3
+      warmup: 10
+    Paar Juniorexpert:
+      act: 3
+      jury: 3
+      warmup: 10
+    Paar Expert:
+      act: 4
+      jury: 3
+      warmup: 10
+    Paar Seniorexpert:
+      act: 4
+      jury: 3
+      warmup: 10
+    Finale Paar Juniorexpert:
+      act: 3
+      jury: 3
+      warmup: 10
+    Finale Paar Expert:
+      act: 4
+      jury: 3
+      warmup: 10
+    Kleingruppe Juniorexpert:
+      act: 4
+      jury: 3
+      warmup: 10
+    Kleingruppe Expert:
+      act: 5
+      jury: 3
+      warmup: 10
+    Großgruppe Juniorexpert:
+      act: 5
+      jury: 3
+      warmup: 10
+    Großgruppe Expert:
+      act: 5
+      jury: 3
+      warmup: 10

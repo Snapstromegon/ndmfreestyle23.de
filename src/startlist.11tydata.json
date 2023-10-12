@@ -1,0 +1,6993 @@
+{
+  "startlist": [
+    {
+      "id": 55,
+      "label": null,
+      "name": "Osterhase",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U11",
+      "starters": [
+        {
+          "id": 330,
+          "firstname": "Isalie",
+          "lastname": "Glander",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 7,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 53,
+      "label": null,
+      "name": "Die kleine Moorhexe",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U11",
+      "starters": [
+        {
+          "id": 98,
+          "firstname": "Paulina",
+          "lastname": "Lodahl",
+          "gender": "Female",
+          "club": "SV Fortuna Dingelstedt",
+          "age": 7,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 54,
+      "label": null,
+      "name": "Einmal um die Welt",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U11",
+      "starters": [
+        {
+          "id": 231,
+          "firstname": "Lia",
+          "lastname": "Niemeyer",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 10,
+          "akSwitcher": true
+        }
+      ],
+      "akSwitcher": true
+    },
+    {
+      "id": 52,
+      "label": null,
+      "name": "Try Everything",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U11",
+      "starters": [
+        {
+          "id": 49,
+          "firstname": "Leni",
+          "lastname": "Neumann",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 10,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 51,
+      "label": null,
+      "name": "Küss den Frosch",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U13",
+      "starters": [
+        {
+          "id": 346,
+          "firstname": "Sinja",
+          "lastname": "Martens",
+          "gender": "Female",
+          "club": "Einradkids Hamburg - SiB-Club",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 50,
+      "label": null,
+      "name": "Harry Potter",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U13",
+      "starters": [
+        {
+          "id": 256,
+          "firstname": "Matilda",
+          "lastname": "Zumpe",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 11,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 49,
+      "label": null,
+      "name": "Mulan",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U13",
+      "starters": [
+        {
+          "id": 239,
+          "firstname": "Sira",
+          "lastname": "Brockhaus",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 46,
+      "label": null,
+      "name": "Der kleine Rabe Socke",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U13",
+      "starters": [
+        {
+          "id": 133,
+          "firstname": "Kaya",
+          "lastname": "Kummerow",
+          "gender": "Female",
+          "club": "TSV Plön",
+          "age": 11,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 47,
+      "label": null,
+      "name": "Matilda",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U13",
+      "starters": [
+        {
+          "id": 148,
+          "firstname": "Emilia",
+          "lastname": "Nöcker",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 41,
+      "label": null,
+      "name": "Tabaluga",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U13",
+      "starters": [
+        {
+          "id": 41,
+          "firstname": "Neela",
+          "lastname": "Hagen",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 43,
+      "label": null,
+      "name": "Zirkus",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U13",
+      "starters": [
+        {
+          "id": 56,
+          "firstname": "Lara",
+          "lastname": "Bachmaier",
+          "gender": "Female",
+          "club": "Wild Wheelz",
+          "age": 11,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 44,
+      "label": null,
+      "name": "Encanto",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U13",
+      "starters": [
+        {
+          "id": 84,
+          "firstname": "Jette",
+          "lastname": "Gerdes",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 11,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 42,
+      "label": null,
+      "name": "Space Dreamer",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U13",
+      "starters": [
+        {
+          "id": 47,
+          "firstname": "Marit",
+          "lastname": "Isern",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 11,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 45,
+      "label": null,
+      "name": "Fluch der Karibik",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U13",
+      "starters": [
+        {
+          "id": 130,
+          "firstname": "Emilija",
+          "lastname": "Lentwojt",
+          "gender": "Female",
+          "club": "SV Tungendorf",
+          "age": 11,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 48,
+      "label": null,
+      "name": "Winnetou - Der Schatz im Silbersee ",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U13",
+      "starters": [
+        {
+          "id": 164,
+          "firstname": "Mariella",
+          "lastname": "Schütz",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 65,
+      "label": null,
+      "name": "Kämpferin des Waldes",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U15",
+      "starters": [
+        {
+          "id": 345,
+          "firstname": "Emmalina",
+          "lastname": "Köpke",
+          "gender": "Female",
+          "club": "Einradkids Hamburg - SiB-Club",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 60,
+      "label": null,
+      "name": "It´s party time!",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U15",
+      "starters": [
+        {
+          "id": 185,
+          "firstname": "Anna",
+          "lastname": "Schittkowski",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 59,
+      "label": null,
+      "name": "Wednesday",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U15",
+      "starters": [
+        {
+          "id": 157,
+          "firstname": "Nina",
+          "lastname": "Wilhelm",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 64,
+      "label": null,
+      "name": "Rapunzel",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U15",
+      "starters": [
+        {
+          "id": 301,
+          "firstname": "Alina",
+          "lastname": "Simara",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 58,
+      "label": null,
+      "name": "James Bond",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U15",
+      "starters": [
+        {
+          "id": 64,
+          "firstname": "Malin",
+          "lastname": "Weßnigk",
+          "gender": "Female",
+          "club": "SFC Ottendorf",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 56,
+      "label": null,
+      "name": "Alex der Löwe",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U15",
+      "starters": [
+        {
+          "id": 52,
+          "firstname": "Leonie",
+          "lastname": "Ziolkowski",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 62,
+      "label": null,
+      "name": "Piratin",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U15",
+      "starters": [
+        {
+          "id": 293,
+          "firstname": "Sophie",
+          "lastname": "Teixeira",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 57,
+      "label": null,
+      "name": "Shake it off!",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U15",
+      "starters": [
+        {
+          "id": 55,
+          "firstname": "Helene",
+          "lastname": "Wollscheid",
+          "gender": "Female",
+          "club": "Wild Wheelz",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 61,
+      "label": null,
+      "name": "Rebell",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U15",
+      "starters": [
+        {
+          "id": 264,
+          "firstname": "Jolina",
+          "lastname": "Schmäck",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 63,
+      "label": null,
+      "name": "Der gestiefelte Kater",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U15",
+      "starters": [
+        {
+          "id": 294,
+          "firstname": "Leni",
+          "lastname": "Eggers",
+          "gender": "Female",
+          "club": "SG Padenstedt",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 29,
+      "label": null,
+      "name": "Musikalische Zeitreise ",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U17",
+      "starters": [
+        {
+          "id": 59,
+          "firstname": "Katharina",
+          "lastname": "Surrey",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 28,
+      "label": null,
+      "name": "Raya und der letzte Drache",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U17",
+      "starters": [
+        {
+          "id": 32,
+          "firstname": "Fro",
+          "lastname": "Fölster",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 30,
+      "label": null,
+      "name": "Matrose",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U17",
+      "starters": [
+        {
+          "id": 68,
+          "firstname": "Nike",
+          "lastname": "Bäumer",
+          "gender": "Female",
+          "club": "Vfl Grafenwald",
+          "age": 15,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 27,
+      "label": null,
+      "name": "Flashdance",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U17",
+      "starters": [
+        {
+          "id": 30,
+          "firstname": "Zoe",
+          "lastname": "Sellmann",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 15,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 34,
+      "label": null,
+      "name": "Ice",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U17",
+      "starters": [
+        {
+          "id": 321,
+          "firstname": "Khadija",
+          "lastname": "Compaore",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 33,
+      "label": null,
+      "name": "Träum schön!",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U17",
+      "starters": [
+        {
+          "id": 240,
+          "firstname": "Laura",
+          "lastname": "Schmahl",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 32,
+      "label": null,
+      "name": "Come into my Dreams",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U17",
+      "starters": [
+        {
+          "id": 112,
+          "firstname": "Celina",
+          "lastname": "Ritter",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 31,
+      "label": null,
+      "name": "Swan Lake",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U17",
+      "starters": [
+        {
+          "id": 73,
+          "firstname": "Hannah",
+          "lastname": "Althoff",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 17,
+      "label": null,
+      "name": "Rapunzel ",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U19",
+      "starters": [
+        {
+          "id": 38,
+          "firstname": "Luisa",
+          "lastname": "Lehnhoff",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 18,
+      "label": null,
+      "name": "Japanische Kampfkunst",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U19",
+      "starters": [
+        {
+          "id": 57,
+          "firstname": "Carla",
+          "lastname": "Schulte-Bockum",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 23,
+      "label": null,
+      "name": "Now you see me!",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U19",
+      "starters": [
+        {
+          "id": 183,
+          "firstname": "Helene",
+          "lastname": "Schmohl",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 17,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 26,
+      "label": null,
+      "name": "Ausbruch aus der Psychiatrie",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U19",
+      "starters": [
+        {
+          "id": 253,
+          "firstname": "Stella",
+          "lastname": "Panknin",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 21,
+      "label": null,
+      "name": "Der Grinch",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U19",
+      "starters": [
+        {
+          "id": 110,
+          "firstname": "Theresa",
+          "lastname": "Strangemann",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 22,
+      "label": null,
+      "name": "Fight Song!",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U19",
+      "starters": [
+        {
+          "id": 165,
+          "firstname": "Jana",
+          "lastname": "Bastigkeit",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 19,
+      "label": null,
+      "name": "Mittelalter ",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U19",
+      "starters": [
+        {
+          "id": 67,
+          "firstname": "Nia",
+          "lastname": "Sauerbach",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 16,
+      "label": null,
+      "name": "The Crow",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U19",
+      "starters": [
+        {
+          "id": 29,
+          "firstname": "Lea",
+          "lastname": "Bosse",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 25,
+      "label": null,
+      "name": "Arabian Nights ",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U19",
+      "starters": [
+        {
+          "id": 251,
+          "firstname": "Lisa",
+          "lastname": "Hansen",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 24,
+      "label": null,
+      "name": "Loki",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U19",
+      "starters": [
+        {
+          "id": 248,
+          "firstname": "Undine",
+          "lastname": "Falland",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 20,
+      "label": null,
+      "name": "Irish dance",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U19",
+      "starters": [
+        {
+          "id": 109,
+          "firstname": "Amanda",
+          "lastname": "Vogt",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 13,
+      "label": null,
+      "name": "Nacht der Musicals",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U21",
+      "starters": [
+        {
+          "id": 18,
+          "firstname": "Rieke",
+          "lastname": "Tonn",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 19,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 12,
+      "label": null,
+      "name": "Rocky",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U21",
+      "starters": [
+        {
+          "id": 17,
+          "firstname": "Linda",
+          "lastname": "Gossen",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 20,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 14,
+      "label": null,
+      "name": "Moulin Rouge",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U21",
+      "starters": [
+        {
+          "id": 24,
+          "firstname": "Nike",
+          "lastname": "Möck",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 20,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 15,
+      "label": null,
+      "name": "Amy Winehouse",
+      "team": "",
+      "group": "Einzel Weiblich Expert",
+      "event": "Einzelkür",
+      "category": "W U21",
+      "starters": [
+        {
+          "id": 329,
+          "firstname": "Isabelle",
+          "lastname": "Bilkau",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 20,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 135,
+      "label": null,
+      "name": "Schule der magischen Tiere",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U11",
+      "starters": [
+        {
+          "id": 229,
+          "firstname": "Fia",
+          "lastname": "Keßler",
+          "gender": "Female",
+          "club": "Kieler Turnerbund Brunswik",
+          "age": 9,
+          "akSwitcher": false
+        },
+        {
+          "id": 265,
+          "firstname": "Rieke",
+          "lastname": "Stahlbock",
+          "gender": "Female",
+          "club": "Kieler Turnerbund Brunswik",
+          "age": 9,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 134,
+      "label": null,
+      "name": "Rapunzel - neu verföhnt!",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U11",
+      "starters": [
+        {
+          "id": 142,
+          "firstname": "Tilda",
+          "lastname": "Isern",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 9,
+          "akSwitcher": false
+        },
+        {
+          "id": 143,
+          "firstname": "Leefke",
+          "lastname": "Maurer",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 9,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 133,
+      "label": null,
+      "name": "Welcome to the candy world ",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U11",
+      "starters": [
+        {
+          "id": 101,
+          "firstname": "Jayla",
+          "lastname": "Arogundade",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 10,
+          "akSwitcher": false
+        },
+        {
+          "id": 102,
+          "firstname": "Jaydra",
+          "lastname": "Arogundade",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 8,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 122,
+      "label": null,
+      "name": "Tom & Jerry",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U13",
+      "starters": [
+        {
+          "id": 295,
+          "firstname": "Julina",
+          "lastname": "Baumgart",
+          "gender": "Female",
+          "club": "SG Padenstedt",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 296,
+          "firstname": "Josy",
+          "lastname": "Jansen",
+          "gender": "Female",
+          "club": "SG Padenstedt",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 120,
+      "label": null,
+      "name": "Minions",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U13",
+      "starters": [
+        {
+          "id": 187,
+          "firstname": "Marla",
+          "lastname": "Lewerentz",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 189,
+          "firstname": "Lisa",
+          "lastname": "Borchers",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 119,
+      "label": null,
+      "name": "Cheerleader",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U13",
+      "starters": [
+        {
+          "id": 93,
+          "firstname": "Svea",
+          "lastname": "Salden",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 148,
+          "firstname": "Emilia",
+          "lastname": "Nöcker",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 118,
+      "label": null,
+      "name": "Living the Pirate's Life",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U13",
+      "starters": [
+        {
+          "id": 47,
+          "firstname": "Marit",
+          "lastname": "Isern",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 49,
+          "firstname": "Leni",
+          "lastname": "Neumann",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 10,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 121,
+      "label": null,
+      "name": "Eine kleine Botschaft",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U13",
+      "starters": [
+        {
+          "id": 257,
+          "firstname": "Mia Lotta",
+          "lastname": "Berndt",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 258,
+          "firstname": "Faye",
+          "lastname": "Tavernier",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 123,
+      "label": null,
+      "name": "Biene Maja",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U13",
+      "starters": [
+        {
+          "id": 307,
+          "firstname": "Hanne",
+          "lastname": "Verheyen",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 9,
+          "akSwitcher": false
+        },
+        {
+          "id": 309,
+          "firstname": "Johanna",
+          "lastname": "Lühn",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 11,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 91,
+      "label": null,
+      "name": "Dick und Doof",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 62,
+          "firstname": "Jette",
+          "lastname": "Kahlenberg",
+          "gender": "Female",
+          "club": "SFC Ottendorf",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 63,
+          "firstname": "Enya",
+          "lastname": "Mikutta",
+          "gender": "Female",
+          "club": "SFC Ottendorf",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 90,
+      "label": null,
+      "name": "Schach matt",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 55,
+          "firstname": "Helene",
+          "lastname": "Wollscheid",
+          "gender": "Female",
+          "club": "Wild Wheelz",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 70,
+          "firstname": "Caterina",
+          "lastname": "Fischer",
+          "gender": "Female",
+          "club": "Wild Wheelz",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 97,
+      "label": null,
+      "name": "Wednesday & Enid",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 239,
+          "firstname": "Sira",
+          "lastname": "Brockhaus",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 301,
+          "firstname": "Alina",
+          "lastname": "Simara",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 93,
+      "label": null,
+      "name": "Lichter",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 111,
+          "firstname": "Emma",
+          "lastname": "Zurek",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 293,
+          "firstname": "Sophie",
+          "lastname": "Teixeira",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 96,
+      "label": null,
+      "name": "Cowgirls",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 185,
+          "firstname": "Anna",
+          "lastname": "Schittkowski",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 186,
+          "firstname": "Luisa",
+          "lastname": "Rensch",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 14,
+          "akSwitcher": true
+        }
+      ],
+      "akSwitcher": true
+    },
+    {
+      "id": 92,
+      "label": null,
+      "name": "80er Jahre",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 83,
+          "firstname": "Hanna",
+          "lastname": "Boege",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 85,
+          "firstname": "Ebba",
+          "lastname": "Kahlke",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 88,
+      "label": null,
+      "name": "Wednesday & Goody Addams",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 19,
+          "firstname": "Wencke",
+          "lastname": "Leuschel",
+          "gender": "Female",
+          "club": "SV Henstedt-Ulzburg",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 161,
+          "firstname": "Lucy",
+          "lastname": "Harkotte",
+          "gender": "Female",
+          "club": "SV Henstedt-Ulzburg",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 95,
+      "label": null,
+      "name": "Ahoi, Piraten!",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 162,
+          "firstname": "Rena",
+          "lastname": "Bruder",
+          "gender": "Female",
+          "club": "SV Henstedt-Ulzburg",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 166,
+          "firstname": "Charlize",
+          "lastname": "Rothwell",
+          "gender": "Female",
+          "club": "SV Henstedt-Ulzburg",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 89,
+      "label": null,
+      "name": "Party im wilden Westen ",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 43,
+          "firstname": "Tilda",
+          "lastname": "Jönßon",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 52,
+          "firstname": "Leonie",
+          "lastname": "Ziolkowski",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 94,
+      "label": null,
+      "name": "Pirates in Love",
+      "team": "",
+      "group": "Paar Juniorexpert",
+      "event": "Paarkür",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 159,
+          "firstname": "Louisa",
+          "lastname": "Hanack",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 163,
+          "firstname": "Mathilda",
+          "lastname": "Wagenknecht",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 8,
+      "label": null,
+      "name": "Spongebob",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U23",
+      "starters": [
+        {
+          "id": 246,
+          "firstname": "Eileen",
+          "lastname": "Hirschel",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 21,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 9,
+      "label": null,
+      "name": "Berta II",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U23",
+      "starters": [
+        {
+          "id": 254,
+          "firstname": "Jessica",
+          "lastname": "Fuchs",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 22,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 3,
+      "label": null,
+      "name": "Taylor Swift",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U23",
+      "starters": [
+        {
+          "id": 14,
+          "firstname": "Kim",
+          "lastname": "Höser",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 22,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 4,
+      "label": null,
+      "name": "Top Gun",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U23",
+      "starters": [
+        {
+          "id": 28,
+          "firstname": "Lena",
+          "lastname": "Ullmann",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 22,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 11,
+      "label": null,
+      "name": "Wakanda for ever",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U23",
+      "starters": [
+        {
+          "id": 322,
+          "firstname": "Amina",
+          "lastname": "Compaore",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 22,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 10,
+      "label": null,
+      "name": "Nightsky",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U23",
+      "starters": [
+        {
+          "id": 279,
+          "firstname": "Theresa",
+          "lastname": "Mausehund",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 21,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 7,
+      "label": null,
+      "name": "Eine Dystopie",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U23",
+      "starters": [
+        {
+          "id": 200,
+          "firstname": "Alina",
+          "lastname": "Raak",
+          "gender": "Female",
+          "club": "Circulum e.V.",
+          "age": 22,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 6,
+      "label": null,
+      "name": "Fire",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U23",
+      "starters": [
+        {
+          "id": 174,
+          "firstname": "Nina",
+          "lastname": "Kalinka",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 21,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 5,
+      "label": null,
+      "name": "Burlesque",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U23",
+      "starters": [
+        {
+          "id": 128,
+          "firstname": "Sina",
+          "lastname": "Lindenberg",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 22,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 39,
+      "label": null,
+      "name": "Wonder Woman ",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U25",
+      "starters": [
+        {
+          "id": 232,
+          "firstname": "Annika",
+          "lastname": "Gudladt",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 23,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 36,
+      "label": null,
+      "name": "Kriegerin",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U25",
+      "starters": [
+        {
+          "id": 96,
+          "firstname": "Annika",
+          "lastname": "Lodahl",
+          "gender": "Female",
+          "club": "SV Fortuna Dingelstedt",
+          "age": 23,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 37,
+      "label": null,
+      "name": "Horrormarionette",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U25",
+      "starters": [
+        {
+          "id": 147,
+          "firstname": "Jorina",
+          "lastname": "Auktun",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 24,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 35,
+      "label": null,
+      "name": "Rise like a Phoenix",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U25",
+      "starters": [
+        {
+          "id": 35,
+          "firstname": "Lara",
+          "lastname": "Kubiczek",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 24,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 38,
+      "label": null,
+      "name": "Dirty Dancing",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U25",
+      "starters": [
+        {
+          "id": 226,
+          "firstname": "Sophie",
+          "lastname": "Paape",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 23,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 40,
+      "label": null,
+      "name": "Halloween",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W U25",
+      "starters": [
+        {
+          "id": 339,
+          "firstname": "Nicole",
+          "lastname": "Kischlat",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 24,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 71,
+      "label": null,
+      "name": "Gonna Be A Good Day (Ich glaub ich spinne)",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W 25+",
+      "starters": [
+        {
+          "id": 199,
+          "firstname": "Alina",
+          "lastname": "Kermes",
+          "gender": "Female",
+          "club": "Circulum e.V.",
+          "age": 26,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "label": null,
+      "name": "Harley Quinn",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W 25+",
+      "starters": [
+        {
+          "id": 230,
+          "firstname": "Jule",
+          "lastname": "Segebrecht",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 25,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "label": null,
+      "name": "Motivatiooooon",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W 25+",
+      "starters": [
+        {
+          "id": 74,
+          "firstname": "Lorena",
+          "lastname": "Rehmsmeier",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 27,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "label": null,
+      "name": "Eingefroren",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W 25+",
+      "starters": [
+        {
+          "id": 284,
+          "firstname": "Swantje",
+          "lastname": "Wicker",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 27,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "label": null,
+      "name": "Matrix",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W 25+",
+      "starters": [
+        {
+          "id": 326,
+          "firstname": "Isabell",
+          "lastname": "Haase",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 27,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "label": null,
+      "name": "Maleficent",
+      "team": "",
+      "group": "Einzel Weiblich Seniorexpert",
+      "event": "Einzelkür",
+      "category": "W 25+",
+      "starters": [
+        {
+          "id": 125,
+          "firstname": "Anna-Lena",
+          "lastname": "Heitmann",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 26,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "label": null,
+      "name": "Hippies",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U17",
+      "starters": [
+        {
+          "id": 59,
+          "firstname": "Katharina",
+          "lastname": "Surrey",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 94,
+          "firstname": "Mia Aniek",
+          "lastname": "von Rüden",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 128,
+      "label": null,
+      "name": "Phantom of the Opera",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U17",
+      "starters": [
+        {
+          "id": 156,
+          "firstname": "Lina",
+          "lastname": "Burger",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 158,
+          "firstname": "Lia",
+          "lastname": "Pickrahn",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 130,
+      "label": null,
+      "name": "Dirty Dancing",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U17",
+      "starters": [
+        {
+          "id": 227,
+          "firstname": "Dana",
+          "lastname": "Kiauka",
+          "gender": "Female",
+          "club": "TSV Eintracht Groß Grönau",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 228,
+          "firstname": "Inga",
+          "lastname": "Rothmeister",
+          "gender": "Female",
+          "club": "TSV Eintracht Groß Grönau",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 129,
+      "label": null,
+      "name": "Deutsche Fußballmannschaft",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U17",
+      "starters": [
+        {
+          "id": 201,
+          "firstname": "Frida",
+          "lastname": "Große-Sender",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 202,
+          "firstname": "Lotta",
+          "lastname": "Große-Sender",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 15,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 126,
+      "label": null,
+      "name": "Prison Break ",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U17",
+      "starters": [
+        {
+          "id": 66,
+          "firstname": "Mirja",
+          "lastname": "Tajhar",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 69,
+          "firstname": "Ronja",
+          "lastname": "Nöcker",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 124,
+      "label": null,
+      "name": "Dark Queens",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U17",
+      "starters": [
+        {
+          "id": 51,
+          "firstname": "Jeele",
+          "lastname": "Bruns",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 53,
+          "firstname": "Maike",
+          "lastname": "Bovensiepen",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 127,
+      "label": null,
+      "name": "Drachenzähmen",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U17",
+      "starters": [
+        {
+          "id": 95,
+          "firstname": "Pauline",
+          "lastname": "Janssen",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 105,
+          "firstname": "Taline",
+          "lastname": "Böttner",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 132,
+      "label": null,
+      "name": "Money",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U17",
+      "starters": [
+        {
+          "id": 336,
+          "firstname": "Tyra",
+          "lastname": "Adjei",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 337,
+          "firstname": "Noa",
+          "lastname": "Rudolf",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 131,
+      "label": null,
+      "name": "70er",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U17",
+      "starters": [
+        {
+          "id": 266,
+          "firstname": "Martha",
+          "lastname": "Betge",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 267,
+          "firstname": "Ronja",
+          "lastname": "Dittrich",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 109,
+      "label": null,
+      "name": "Festival",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U19",
+      "starters": [
+        {
+          "id": 57,
+          "firstname": "Carla",
+          "lastname": "Schulte-Bockum",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 119,
+          "firstname": "Sarah",
+          "lastname": "Schulte-Bockum",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 115,
+      "label": null,
+      "name": "Drachen-Fire and Blood",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U19",
+      "starters": [
+        {
+          "id": 248,
+          "firstname": "Undine",
+          "lastname": "Falland",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 253,
+          "firstname": "Stella",
+          "lastname": "Panknin",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 117,
+      "label": null,
+      "name": "Rapunzel & Flynn",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U19",
+      "starters": [
+        {
+          "id": 334,
+          "firstname": "Marieke",
+          "lastname": "Bredtmann",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 335,
+          "firstname": "Maja",
+          "lastname": "Bolten",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 15,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 107,
+      "label": null,
+      "name": "Stuntshow",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U19",
+      "starters": [
+        {
+          "id": 38,
+          "firstname": "Luisa",
+          "lastname": "Lehnhoff",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 110,
+          "firstname": "Theresa",
+          "lastname": "Strangemann",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 106,
+      "label": null,
+      "name": "Outer Banks",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U19",
+      "starters": [
+        {
+          "id": 37,
+          "firstname": "Stina",
+          "lastname": "Brauckmann",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 67,
+          "firstname": "Nia",
+          "lastname": "Sauerbach",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 113,
+      "label": null,
+      "name": "Auf in die Welt",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U19",
+      "starters": [
+        {
+          "id": 240,
+          "firstname": "Laura",
+          "lastname": "Schmahl",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 241,
+          "firstname": "Jonna",
+          "lastname": "Schröder",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 17,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 108,
+      "label": null,
+      "name": "The Golden 20's",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U19",
+      "starters": [
+        {
+          "id": 44,
+          "firstname": "Maren",
+          "lastname": "Bovensiepen",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 46,
+          "firstname": "Rieke",
+          "lastname": "Bahrs",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 110,
+      "label": null,
+      "name": "Mädchen von Haithabu",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U19",
+      "starters": [
+        {
+          "id": 153,
+          "firstname": "Fabienne",
+          "lastname": "Detlefs",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 233,
+          "firstname": "Annika",
+          "lastname": "Kröger",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 114,
+      "label": null,
+      "name": "Voulez-Vous",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U19",
+      "starters": [
+        {
+          "id": 251,
+          "firstname": "Lisa",
+          "lastname": "Hansen",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 268,
+          "firstname": "Jette",
+          "lastname": "Kanefendt",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 112,
+      "label": null,
+      "name": "Känguru-Chroniken ",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U19",
+      "starters": [
+        {
+          "id": 238,
+          "firstname": "Korinna",
+          "lastname": "Voß",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 247,
+          "firstname": "Ronja",
+          "lastname": "Armbrecht",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 116,
+      "label": null,
+      "name": "Rubinrot",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U19",
+      "starters": [
+        {
+          "id": 332,
+          "firstname": "Carolina",
+          "lastname": "Glander",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 333,
+          "firstname": "Verena",
+          "lastname": "Zbikowski",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 17,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 111,
+      "label": null,
+      "name": "Wilde Kerle",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U19",
+      "starters": [
+        {
+          "id": 182,
+          "firstname": "Paulina",
+          "lastname": "Rögner",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 184,
+          "firstname": "Julia",
+          "lastname": "Zedel",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 86,
+      "label": null,
+      "name": "Poe Cup",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U21",
+      "starters": [
+        {
+          "id": 320,
+          "firstname": "Hanna",
+          "lastname": "Czikowski",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 321,
+          "firstname": "Khadija",
+          "lastname": "Compaore",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 84,
+      "label": null,
+      "name": "Wann wachen wir auf",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U21",
+      "starters": [
+        {
+          "id": 23,
+          "firstname": "Janne",
+          "lastname": "Langhein",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 24,
+          "firstname": "Nike",
+          "lastname": "Möck",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 20,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 85,
+      "label": null,
+      "name": "Cars",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U21",
+      "starters": [
+        {
+          "id": 27,
+          "firstname": "Sophia",
+          "lastname": "Karstensen",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 32,
+          "firstname": "Fro",
+          "lastname": "Fölster",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 83,
+      "label": null,
+      "name": "Samba",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U21",
+      "starters": [
+        {
+          "id": 16,
+          "firstname": "Wita",
+          "lastname": "Gossen",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 18,
+          "firstname": "Rieke",
+          "lastname": "Tonn",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 19,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 87,
+      "label": null,
+      "name": "Ryan & Sharpay",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U21",
+      "starters": [
+        {
+          "id": 329,
+          "firstname": "Isabelle",
+          "lastname": "Bilkau",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 331,
+          "firstname": "Felix",
+          "lastname": "Adjei",
+          "gender": "Male",
+          "club": "TSV Kronshagen",
+          "age": 20,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 81,
+      "label": null,
+      "name": "Pandora",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "U23",
+      "starters": [
+        {
+          "id": 279,
+          "firstname": "Theresa",
+          "lastname": "Mausehund",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 306,
+          "firstname": "Viola",
+          "lastname": "Weigmann",
+          "gender": "Female",
+          "club": "RKB Freestyle Team",
+          "age": 20,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 80,
+      "label": null,
+      "name": "Tron Legacy",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "U23",
+      "starters": [
+        {
+          "id": 128,
+          "firstname": "Sina",
+          "lastname": "Lindenberg",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 165,
+          "firstname": "Jana",
+          "lastname": "Bastigkeit",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 78,
+      "label": null,
+      "name": "Joker & Harley",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "U23",
+      "starters": [
+        {
+          "id": 14,
+          "firstname": "Kim",
+          "lastname": "Höser",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 290,
+          "firstname": "Jonas",
+          "lastname": "Figge",
+          "gender": "Male",
+          "club": "SKV Büdesheim",
+          "age": 20,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 82,
+      "label": null,
+      "name": "Rio",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "U23",
+      "starters": [
+        {
+          "id": 322,
+          "firstname": "Amina",
+          "lastname": "Compaore",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 324,
+          "firstname": "Jana",
+          "lastname": "Riedel",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 79,
+      "label": null,
+      "name": "Schamanen ",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "U23",
+      "starters": [
+        {
+          "id": 104,
+          "firstname": "Emma",
+          "lastname": "Heimann",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 107,
+          "firstname": "Anna",
+          "lastname": "Götzl",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 21,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 136,
+      "label": null,
+      "name": "Zurück in die Zukunft",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "U25",
+      "starters": [
+        {
+          "id": 103,
+          "firstname": "Karoline",
+          "lastname": "Voß",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 237,
+          "firstname": "Nina",
+          "lastname": "Beckmann",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 23,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 139,
+      "label": null,
+      "name": "Wicked",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "U25",
+      "starters": [
+        {
+          "id": 174,
+          "firstname": "Nina",
+          "lastname": "Kalinka",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 181,
+          "firstname": "Yvonne",
+          "lastname": "Tekath",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 23,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 138,
+      "label": null,
+      "name": "Annabell",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "U25",
+      "starters": [
+        {
+          "id": 147,
+          "firstname": "Jorina",
+          "lastname": "Auktun",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 24,
+          "akSwitcher": false
+        },
+        {
+          "id": 232,
+          "firstname": "Annika",
+          "lastname": "Gudladt",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 23,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 137,
+      "label": null,
+      "name": "Fluch der Karibik",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "U25",
+      "starters": [
+        {
+          "id": 118,
+          "firstname": "Merle",
+          "lastname": "Korfhage",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 120,
+          "firstname": "Carina",
+          "lastname": "Bokern",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 23,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 140,
+      "label": null,
+      "name": "Trucker",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "U25",
+      "starters": [
+        {
+          "id": 338,
+          "firstname": "Nanna",
+          "lastname": "Wahl",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 339,
+          "firstname": "Nicole",
+          "lastname": "Kischlat",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 24,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 101,
+      "label": null,
+      "name": "Reise ins All",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "25+",
+      "starters": [
+        {
+          "id": 132,
+          "firstname": "Vanessa",
+          "lastname": "Behrens",
+          "gender": "Female",
+          "club": "SV Tungendorf",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 135,
+          "firstname": "Kristin",
+          "lastname": "Meier",
+          "gender": "Female",
+          "club": "SV Tungendorf",
+          "age": 25,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "label": null,
+      "name": "Shakira",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "25+",
+      "starters": [
+        {
+          "id": 21,
+          "firstname": "Anna",
+          "lastname": "Tegethoff-Harder",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 28,
+          "akSwitcher": false
+        },
+        {
+          "id": 22,
+          "firstname": "Janne",
+          "lastname": "Tegethoff-Harder",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 23,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "label": null,
+      "name": "Bonnie & Clyde",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "25+",
+      "starters": [
+        {
+          "id": 154,
+          "firstname": "Josephine",
+          "lastname": "Theer",
+          "gender": "Female",
+          "club": "Circulum/TSV Falkensee",
+          "age": 25,
+          "akSwitcher": false
+        },
+        {
+          "id": 183,
+          "firstname": "Helene",
+          "lastname": "Schmohl",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 17,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "label": null,
+      "name": "Ich bin ein Star-Holt mich hier raus",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "25+",
+      "starters": [
+        {
+          "id": 169,
+          "firstname": "Celine",
+          "lastname": "Anhöck",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 24,
+          "akSwitcher": false
+        },
+        {
+          "id": 171,
+          "firstname": "Lena",
+          "lastname": "Gottlieb",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 29,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "label": null,
+      "name": "Fly",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "25+",
+      "starters": [
+        {
+          "id": 284,
+          "firstname": "Swantje",
+          "lastname": "Wicker",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 27,
+          "akSwitcher": false
+        },
+        {
+          "id": 292,
+          "firstname": "Lena",
+          "lastname": "Vocke",
+          "gender": "Female",
+          "club": "RKB Freestyle Team",
+          "age": 20,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "label": null,
+      "name": "Time",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "25+",
+      "starters": [
+        {
+          "id": 35,
+          "firstname": "Lara",
+          "lastname": "Kubiczek",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 24,
+          "akSwitcher": false
+        },
+        {
+          "id": 36,
+          "firstname": "Katharina",
+          "lastname": "Boll",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 31,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "label": null,
+      "name": "Stronger Together",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "25+",
+      "starters": [
+        {
+          "id": 125,
+          "firstname": "Anna-Lena",
+          "lastname": "Heitmann",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 26,
+          "akSwitcher": false
+        },
+        {
+          "id": 230,
+          "firstname": "Jule",
+          "lastname": "Segebrecht",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 25,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "label": null,
+      "name": "Sand",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "25+",
+      "starters": [
+        {
+          "id": 305,
+          "firstname": "Sandra",
+          "lastname": "Tomanek",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 47,
+          "akSwitcher": false
+        },
+        {
+          "id": 317,
+          "firstname": "Susanne",
+          "lastname": "Krämer",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 51,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": null,
+      "label": "1. Vorlauf",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Juniorexpert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "2. Vorlauf",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Juniorexpert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "3. Vorlauf",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Juniorexpert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "4. Vorlauf",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Juniorexpert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "5. Vorlauf",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Juniorexpert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": 75,
+      "label": null,
+      "name": "Spiderman",
+      "team": "",
+      "group": "Finale Einzel Männlich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "M U11",
+      "starters": [
+        {
+          "id": 97,
+          "firstname": "Florian",
+          "lastname": "Lodahl",
+          "gender": "Male",
+          "club": "SV Fortuna Dingelstedt",
+          "age": 9,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 77,
+      "label": null,
+      "name": "Simba",
+      "team": "",
+      "group": "Finale Einzel Männlich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "M U13",
+      "starters": [
+        {
+          "id": 323,
+          "firstname": "Issa",
+          "lastname": "Compaore",
+          "gender": "Male",
+          "club": "Norderstedter SV",
+          "age": 11,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": null,
+      "label": "1. Vorlauf E",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "2. Vorlauf E",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "3. Vorlauf E",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "4. Vorlauf E",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "5. Vorlauf E",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "1. Vorlauf SE",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "2. Vorlauf SE",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "3. Vorlauf SE",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "4. Vorlauf SE",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "5. Vorlauf SE",
+      "name": null,
+      "team": null,
+      "group": "Finale Einzel Weiblich Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": 66,
+      "label": null,
+      "name": "Vaiana",
+      "team": "",
+      "group": "Finale Einzel Männlich Expert",
+      "event": "Einzelkür",
+      "category": "M U17",
+      "starters": [
+        {
+          "id": 65,
+          "firstname": "Kjell",
+          "lastname": "Heidt",
+          "gender": "Male",
+          "club": "SFC Ottendorf",
+          "age": 15,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 67,
+      "label": null,
+      "name": "Super Mario",
+      "team": "",
+      "group": "Finale Einzel Männlich Expert",
+      "event": "Einzelkür",
+      "category": "M U17",
+      "starters": [
+        {
+          "id": 99,
+          "firstname": "J. Manuel",
+          "lastname": "Reyes",
+          "gender": "Male",
+          "club": "SV Fortuna Dingelstedt",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 68,
+      "label": null,
+      "name": "Rittersporn",
+      "team": "",
+      "group": "Finale Einzel Männlich Expert",
+      "event": "Einzelkür",
+      "category": "M U17",
+      "starters": [
+        {
+          "id": 302,
+          "firstname": "Jonas",
+          "lastname": "Tomanek",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 1,
+      "label": null,
+      "name": "breakdance",
+      "team": "",
+      "group": "Finale Einzel Männlich Expert",
+      "event": "Einzelkür",
+      "category": "M U21",
+      "starters": [
+        {
+          "id": 8,
+          "firstname": "Ben",
+          "lastname": "Niediek",
+          "gender": "Male",
+          "club": "RideOne",
+          "age": 20,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 2,
+      "label": null,
+      "name": "Mr. Gaga",
+      "team": "",
+      "group": "Finale Einzel Männlich Expert",
+      "event": "Einzelkür",
+      "category": "M U21",
+      "starters": [
+        {
+          "id": 331,
+          "firstname": "Felix",
+          "lastname": "Adjei",
+          "gender": "Male",
+          "club": "TSV Kronshagen",
+          "age": 20,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 76,
+      "label": null,
+      "name": "X-Style Reloaded",
+      "team": "",
+      "group": "Finale Einzel Männlich Expert",
+      "event": "Einzelkür",
+      "category": "M 25+",
+      "starters": [
+        {
+          "id": 297,
+          "firstname": "Jan",
+          "lastname": "Vocke",
+          "gender": "Male",
+          "club": "VfL Grafenwald",
+          "age": 29,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": null,
+      "label": "1. Vorlauf",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Juniorexpert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "2. Vorlauf",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Juniorexpert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "3. Vorlauf",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Juniorexpert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "4. Vorlauf",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Juniorexpert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "5. Vorlauf",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Juniorexpert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "1. Vorlauf E",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "2. Vorlauf E",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "3. Vorlauf E",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "4. Vorlauf E",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "5. Vorlauf E",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "1. Vorlauf SE",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "2. Vorlauf SE",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "3. Vorlauf SE",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "4. Vorlauf SE",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": null,
+      "label": "5. Vorlauf SE",
+      "name": null,
+      "team": null,
+      "group": "Finale Paar Expert",
+      "event": null,
+      "category": null,
+      "starters": []
+    },
+    {
+      "id": 152,
+      "label": null,
+      "name": "The Prom",
+      "team": "Unicycle-Team Harpstedt",
+      "group": "Kleingruppe Juniorexpert",
+      "event": "Kleingruppe",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 54,
+          "firstname": "Marie",
+          "lastname": "Lachmann",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 138,
+          "firstname": "Mira",
+          "lastname": "Constabel",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 139,
+          "firstname": "Laura",
+          "lastname": "Neumann",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 140,
+          "firstname": "Juelina",
+          "lastname": "Wiesener",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 141,
+          "firstname": "Fenna",
+          "lastname": "Bruns",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 207,
+          "firstname": "Jette",
+          "lastname": "Fajen",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 274,
+          "firstname": "Iska",
+          "lastname": "Ondra",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 276,
+          "firstname": "Sana",
+          "lastname": "Philipp",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 156,
+      "label": null,
+      "name": "Es war einmal...",
+      "team": "Eagles 2",
+      "group": "Kleingruppe Juniorexpert",
+      "event": "Kleingruppe",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 185,
+          "firstname": "Anna",
+          "lastname": "Schittkowski",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 186,
+          "firstname": "Luisa",
+          "lastname": "Rensch",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 14,
+          "akSwitcher": true
+        },
+        {
+          "id": 187,
+          "firstname": "Marla",
+          "lastname": "Lewerentz",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 188,
+          "firstname": "Tilda",
+          "lastname": "Lewerentz",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 189,
+          "firstname": "Lisa",
+          "lastname": "Borchers",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 190,
+          "firstname": "Marietta",
+          "lastname": "Stödter",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 191,
+          "firstname": "Lena",
+          "lastname": "Zedel",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 192,
+          "firstname": "Antonia",
+          "lastname": "Thimm",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 193,
+          "firstname": "Angelika",
+          "lastname": "Justus",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 206,
+          "firstname": "Eric",
+          "lastname": "Brozyna",
+          "gender": "Male",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 9,
+          "akSwitcher": false
+        },
+        {
+          "id": 211,
+          "firstname": "Antonia",
+          "lastname": "Brandt",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": true
+    },
+    {
+      "id": 154,
+      "label": null,
+      "name": "Matrosen",
+      "team": "Schmalfelder SV",
+      "group": "Kleingruppe Juniorexpert",
+      "event": "Kleingruppe",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 83,
+          "firstname": "Hanna",
+          "lastname": "Boege",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 84,
+          "firstname": "Jette",
+          "lastname": "Gerdes",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 85,
+          "firstname": "Ebba",
+          "lastname": "Kahlke",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 87,
+          "firstname": "Joleen",
+          "lastname": "Seferovic",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 88,
+          "firstname": "Jette",
+          "lastname": "Wellschmied",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 89,
+          "firstname": "Nele",
+          "lastname": "Geserick",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 90,
+          "firstname": "Ashley",
+          "lastname": "Koch",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 155,
+      "label": null,
+      "name": "Birds of paradise",
+      "team": "TSV Falkensee ",
+      "group": "Kleingruppe Juniorexpert",
+      "event": "Kleingruppe",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 157,
+          "firstname": "Nina",
+          "lastname": "Wilhelm",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 163,
+          "firstname": "Mathilda",
+          "lastname": "Wagenknecht",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 164,
+          "firstname": "Mariella",
+          "lastname": "Schütz",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 153,
+      "label": null,
+      "name": "Jim Knopf und Lukas der Lokomotivführer",
+      "team": "TV Werther",
+      "group": "Kleingruppe Juniorexpert",
+      "event": "Kleingruppe",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 76,
+          "firstname": "Lina",
+          "lastname": "Hansmeyer",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 77,
+          "firstname": "Grete",
+          "lastname": "Ebke",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 78,
+          "firstname": "Elsa",
+          "lastname": "Gutjahr",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 10,
+          "akSwitcher": false
+        },
+        {
+          "id": 79,
+          "firstname": "Stina",
+          "lastname": "König",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 10,
+          "akSwitcher": false
+        },
+        {
+          "id": 80,
+          "firstname": "Mealene",
+          "lastname": "Nolte",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 10,
+          "akSwitcher": false
+        },
+        {
+          "id": 81,
+          "firstname": "Matea",
+          "lastname": "Lauterbach",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 10,
+          "akSwitcher": false
+        },
+        {
+          "id": 82,
+          "firstname": "Helene",
+          "lastname": "Schürmann",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 151,
+      "label": null,
+      "name": "Safari",
+      "team": "SV Westerrade",
+      "group": "Kleingruppe Juniorexpert",
+      "event": "Kleingruppe",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 40,
+          "firstname": "Emma",
+          "lastname": "Ehlers",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 41,
+          "firstname": "Neela",
+          "lastname": "Hagen",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 42,
+          "firstname": "Carlotta",
+          "lastname": "Huckert",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 9,
+          "akSwitcher": false
+        },
+        {
+          "id": 43,
+          "firstname": "Tilda",
+          "lastname": "Jönßon",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 45,
+          "firstname": "Alma",
+          "lastname": "Kannecht",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 48,
+          "firstname": "Katharina",
+          "lastname": "Klein",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 50,
+          "firstname": "Levke",
+          "lastname": "Lensch",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 52,
+          "firstname": "Leonie",
+          "lastname": "Ziolkowski",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 150,
+      "label": null,
+      "name": "Die Minions sind los!",
+      "team": "SV Henstedt-Ulzburg",
+      "group": "Kleingruppe Juniorexpert",
+      "event": "Kleingruppe",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 19,
+          "firstname": "Wencke",
+          "lastname": "Leuschel",
+          "gender": "Female",
+          "club": "SV Henstedt-Ulzburg",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 161,
+          "firstname": "Lucy",
+          "lastname": "Harkotte",
+          "gender": "Female",
+          "club": "SV Henstedt-Ulzburg",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 162,
+          "firstname": "Rena",
+          "lastname": "Bruder",
+          "gender": "Female",
+          "club": "SV Henstedt-Ulzburg",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 166,
+          "firstname": "Charlize",
+          "lastname": "Rothwell",
+          "gender": "Female",
+          "club": "SV Henstedt-Ulzburg",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 157,
+      "label": null,
+      "name": "RocknRoll",
+      "team": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+      "group": "Kleingruppe Juniorexpert",
+      "event": "Kleingruppe",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 256,
+          "firstname": "Matilda",
+          "lastname": "Zumpe",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 258,
+          "firstname": "Faye",
+          "lastname": "Tavernier",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 260,
+          "firstname": "Nele",
+          "lastname": "Berndt",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 9,
+          "akSwitcher": false
+        },
+        {
+          "id": 261,
+          "firstname": "Lena",
+          "lastname": "Arndt",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 262,
+          "firstname": "Elisabeth",
+          "lastname": "Fritzen",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 263,
+          "firstname": "Lina",
+          "lastname": "Henze",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 264,
+          "firstname": "Jolina",
+          "lastname": "Schmäck",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 308,
+          "firstname": "Pia",
+          "lastname": "Freigang",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 11,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 149,
+      "label": null,
+      "name": "Gestrandet",
+      "team": "Norderstedter SV",
+      "group": "Kleingruppe Expert",
+      "event": "Kleingruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 278,
+          "firstname": "Hanna Louise",
+          "lastname": "Ricker",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 319,
+          "firstname": "Hanna",
+          "lastname": "Nachtigall",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 30,
+          "akSwitcher": false
+        },
+        {
+          "id": 320,
+          "firstname": "Hanna",
+          "lastname": "Czikowski",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 321,
+          "firstname": "Khadija",
+          "lastname": "Compaore",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 322,
+          "firstname": "Amina",
+          "lastname": "Compaore",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 324,
+          "firstname": "Jana",
+          "lastname": "Riedel",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 325,
+          "firstname": "Miriam",
+          "lastname": "Seemann",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 326,
+          "firstname": "Isabell",
+          "lastname": "Haase",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 27,
+          "akSwitcher": false
+        },
+        {
+          "id": 331,
+          "firstname": "Felix",
+          "lastname": "Adjei",
+          "gender": "Male",
+          "club": "TSV Kronshagen",
+          "age": 20,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "label": null,
+      "name": "Geheimagenten",
+      "team": "Circulum",
+      "group": "Kleingruppe Expert",
+      "event": "Kleingruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 154,
+          "firstname": "Josephine",
+          "lastname": "Theer",
+          "gender": "Female",
+          "club": "Circulum/TSV Falkensee",
+          "age": 25,
+          "akSwitcher": false
+        },
+        {
+          "id": 183,
+          "firstname": "Helene",
+          "lastname": "Schmohl",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 199,
+          "firstname": "Alina",
+          "lastname": "Kermes",
+          "gender": "Female",
+          "club": "Circulum e.V.",
+          "age": 26,
+          "akSwitcher": false
+        },
+        {
+          "id": 200,
+          "firstname": "Alina",
+          "lastname": "Raak",
+          "gender": "Female",
+          "club": "Circulum e.V.",
+          "age": 22,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "label": null,
+      "name": "Cheerleader",
+      "team": "Adler 07",
+      "group": "Kleingruppe Expert",
+      "event": "Kleingruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 167,
+          "firstname": "Kira",
+          "lastname": "Over",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 169,
+          "firstname": "Celine",
+          "lastname": "Anhöck",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 24,
+          "akSwitcher": false
+        },
+        {
+          "id": 171,
+          "firstname": "Lena",
+          "lastname": "Gottlieb",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 29,
+          "akSwitcher": false
+        },
+        {
+          "id": 173,
+          "firstname": "Joelyn",
+          "lastname": "Honnen",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 174,
+          "firstname": "Nina",
+          "lastname": "Kalinka",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 175,
+          "firstname": "Jolin",
+          "lastname": "Klein",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 178,
+          "firstname": "Lena",
+          "lastname": "Schacht",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 181,
+          "firstname": "Yvonne",
+          "lastname": "Tekath",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 23,
+          "akSwitcher": false
+        },
+        {
+          "id": 203,
+          "firstname": "Annika",
+          "lastname": "Zehrt",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 27,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "label": null,
+      "name": "Prisoners",
+      "team": "SV Boostedt, SG Seth",
+      "group": "Kleingruppe Expert",
+      "event": "Kleingruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 16,
+          "firstname": "Wita",
+          "lastname": "Gossen",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 17,
+          "firstname": "Linda",
+          "lastname": "Gossen",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 18,
+          "firstname": "Rieke",
+          "lastname": "Tonn",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 24,
+          "firstname": "Nike",
+          "lastname": "Möck",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 165,
+          "firstname": "Jana",
+          "lastname": "Bastigkeit",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "label": null,
+      "name": "Im Sonnentempel von Machu Picchu",
+      "team": "TSV Falkensee",
+      "group": "Kleingruppe Expert",
+      "event": "Kleingruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 112,
+          "firstname": "Celina",
+          "lastname": "Ritter",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 156,
+          "firstname": "Lina",
+          "lastname": "Burger",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 158,
+          "firstname": "Lia",
+          "lastname": "Pickrahn",
+          "gender": "Female",
+          "club": "TSV Falkensee",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "label": null,
+      "name": "Avatar",
+      "team": "SG Seth",
+      "group": "Kleingruppe Expert",
+      "event": "Kleingruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 128,
+          "firstname": "Sina",
+          "lastname": "Lindenberg",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 131,
+          "firstname": "Annika",
+          "lastname": "Gripp",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 147,
+          "firstname": "Jorina",
+          "lastname": "Auktun",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 24,
+          "akSwitcher": false
+        },
+        {
+          "id": 232,
+          "firstname": "Annika",
+          "lastname": "Gudladt",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 23,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "label": null,
+      "name": "Tragedy of Gods",
+      "team": "VfL Grafenwald ",
+      "group": "Kleingruppe Expert",
+      "event": "Kleingruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 35,
+          "firstname": "Lara",
+          "lastname": "Kubiczek",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 24,
+          "akSwitcher": false
+        },
+        {
+          "id": 36,
+          "firstname": "Katharina",
+          "lastname": "Boll",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 31,
+          "akSwitcher": false
+        },
+        {
+          "id": 104,
+          "firstname": "Emma",
+          "lastname": "Heimann",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 107,
+          "firstname": "Anna",
+          "lastname": "Götzl",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 21,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "label": null,
+      "name": "S.W.A.T. - Die Spezialeinheit",
+      "team": "VfL Grafenwald",
+      "group": "Kleingruppe Expert",
+      "event": "Kleingruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 38,
+          "firstname": "Luisa",
+          "lastname": "Lehnhoff",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 57,
+          "firstname": "Carla",
+          "lastname": "Schulte-Bockum",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 110,
+          "firstname": "Theresa",
+          "lastname": "Strangemann",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 119,
+          "firstname": "Sarah",
+          "lastname": "Schulte-Bockum",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "label": null,
+      "name": "Assassins",
+      "team": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+      "group": "Kleingruppe Expert",
+      "event": "Kleingruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 245,
+          "firstname": "Paula",
+          "lastname": "Hartig",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 248,
+          "firstname": "Undine",
+          "lastname": "Falland",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 253,
+          "firstname": "Stella",
+          "lastname": "Panknin",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 254,
+          "firstname": "Jessica",
+          "lastname": "Fuchs",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 255,
+          "firstname": "Eliza",
+          "lastname": "Dobberstein",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 17,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "label": null,
+      "name": "Nimmerland",
+      "team": "Freestylekader Schleswig-Holstein",
+      "group": "Großgruppe Juniorexpert",
+      "event": "Kader Großgruppe",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 19,
+          "firstname": "Wencke",
+          "lastname": "Leuschel",
+          "gender": "Female",
+          "club": "SV Henstedt-Ulzburg",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 39,
+          "firstname": "Henrike",
+          "lastname": "Klapper",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 41,
+          "firstname": "Neela",
+          "lastname": "Hagen",
+          "gender": "Female",
+          "club": "SV Westerrade",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 63,
+          "firstname": "Enya",
+          "lastname": "Mikutta",
+          "gender": "Female",
+          "club": "SFC Ottendorf",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 64,
+          "firstname": "Malin",
+          "lastname": "Weßnigk",
+          "gender": "Female",
+          "club": "SFC Ottendorf",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 83,
+          "firstname": "Hanna",
+          "lastname": "Boege",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 85,
+          "firstname": "Ebba",
+          "lastname": "Kahlke",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 88,
+          "firstname": "Jette",
+          "lastname": "Wellschmied",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 105,
+          "firstname": "Taline",
+          "lastname": "Böttner",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 161,
+          "firstname": "Lucy",
+          "lastname": "Harkotte",
+          "gender": "Female",
+          "club": "SV Henstedt-Ulzburg",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 212,
+          "firstname": "Judith",
+          "lastname": "Zacharias",
+          "gender": "Female",
+          "club": "Freestylekader Schleswig-Holstein",
+          "age": 14,
+          "akSwitcher": true
+        },
+        {
+          "id": 310,
+          "firstname": "Hannah Katharina",
+          "lastname": "Jesse",
+          "gender": "Female",
+          "club": "TSV Plön",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 316,
+          "firstname": "Christin",
+          "lastname": "Wolf",
+          "gender": "Female",
+          "club": "Freestylekader Schleswig-Holstein",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 318,
+          "firstname": "Isabel",
+          "lastname": "Kohn",
+          "gender": "Female",
+          "club": "Freestylekader Schleswig-Holstein",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 341,
+          "firstname": "Maja",
+          "lastname": "Schneider",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 342,
+          "firstname": "Carlotta",
+          "lastname": "Beckmann",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 350,
+          "firstname": "Pia",
+          "lastname": "Kellner",
+          "gender": "Female",
+          "club": "Freestylekader Schleswig-Holstein",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": true
+    },
+    {
+      "id": 167,
+      "label": null,
+      "name": "Elfen",
+      "team": "Zeven",
+      "group": "Großgruppe Juniorexpert",
+      "event": "Großgruppe",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 196,
+          "firstname": "Mika-Joel",
+          "lastname": "Gallasch",
+          "gender": "Male",
+          "club": "Einrad Zeven",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 213,
+          "firstname": "Amelie",
+          "lastname": "Rehbock",
+          "gender": "Female",
+          "club": "Einrad Zeven",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 214,
+          "firstname": "Kristina",
+          "lastname": "Schwarz",
+          "gender": "Female",
+          "club": "Einrad Zeven",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 215,
+          "firstname": "Serafina",
+          "lastname": "Matys",
+          "gender": "Female",
+          "club": "Einrad Zeven",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 217,
+          "firstname": "Lena",
+          "lastname": "Cordes",
+          "gender": "Female",
+          "club": "Einrad Zeven",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 219,
+          "firstname": "Solja",
+          "lastname": "Brandt",
+          "gender": "Female",
+          "club": "Einrad Zeven",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 221,
+          "firstname": "Maira",
+          "lastname": "Schnoewitz",
+          "gender": "Female",
+          "club": "Einrad Zeven",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 222,
+          "firstname": "Nala",
+          "lastname": "Fohgrup",
+          "gender": "Female",
+          "club": "Einrad Zeven",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 223,
+          "firstname": "Sophia",
+          "lastname": "Burrow",
+          "gender": "Female",
+          "club": "Einrad Zeven",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 224,
+          "firstname": "Marie",
+          "lastname": "Eichner",
+          "gender": "Female",
+          "club": "Einrad Zeven",
+          "age": 8,
+          "akSwitcher": false
+        },
+        {
+          "id": 225,
+          "firstname": "Lena",
+          "lastname": "Stößel",
+          "gender": "Female",
+          "club": "Einrad Zeven",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 259,
+          "firstname": "Julia",
+          "lastname": "Schwarz",
+          "gender": "Female",
+          "club": "Einrad Zeven",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 165,
+      "label": null,
+      "name": "Endlich Ferien!",
+      "team": "Unicycle-Team Harpstedt",
+      "group": "Großgruppe Juniorexpert",
+      "event": "Großgruppe",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 47,
+          "firstname": "Marit",
+          "lastname": "Isern",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 49,
+          "firstname": "Leni",
+          "lastname": "Neumann",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 10,
+          "akSwitcher": false
+        },
+        {
+          "id": 142,
+          "firstname": "Tilda",
+          "lastname": "Isern",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 9,
+          "akSwitcher": false
+        },
+        {
+          "id": 143,
+          "firstname": "Leefke",
+          "lastname": "Maurer",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 9,
+          "akSwitcher": false
+        },
+        {
+          "id": 208,
+          "firstname": "Lene",
+          "lastname": "Constabel",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 10,
+          "akSwitcher": false
+        },
+        {
+          "id": 209,
+          "firstname": "Lenia",
+          "lastname": "Döpke",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 8,
+          "akSwitcher": false
+        },
+        {
+          "id": 210,
+          "firstname": "Malin Antonia",
+          "lastname": "Erbe",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 269,
+          "firstname": "Lina",
+          "lastname": "Herzog",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 270,
+          "firstname": "Frida",
+          "lastname": "Konnemann",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 9,
+          "akSwitcher": false
+        },
+        {
+          "id": 271,
+          "firstname": "Kurpjoweit",
+          "lastname": "Pauline",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 272,
+          "firstname": "Enya",
+          "lastname": "Lehmann",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 10,
+          "akSwitcher": false
+        },
+        {
+          "id": 273,
+          "firstname": "Mayra",
+          "lastname": "Lux",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 274,
+          "firstname": "Iska",
+          "lastname": "Ondra",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 275,
+          "firstname": "Klea",
+          "lastname": "Schröder",
+          "gender": "Female",
+          "club": "Unicycle-Team Harpstedt",
+          "age": 10,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 166,
+      "label": null,
+      "name": "Bunte Blumenwiese",
+      "team": "VFL Grafenwald",
+      "group": "Großgruppe Juniorexpert",
+      "event": "Großgruppe",
+      "category": "U15",
+      "starters": [
+        {
+          "id": 71,
+          "firstname": "Janna",
+          "lastname": "Fischer",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 10,
+          "akSwitcher": false
+        },
+        {
+          "id": 91,
+          "firstname": "Klara",
+          "lastname": "Willemsen",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 9,
+          "akSwitcher": false
+        },
+        {
+          "id": 92,
+          "firstname": "Nele",
+          "lastname": "Tkocz",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 93,
+          "firstname": "Svea",
+          "lastname": "Salden",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 94,
+          "firstname": "Mia Aniek",
+          "lastname": "von Rüden",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 14,
+          "akSwitcher": true
+        },
+        {
+          "id": 101,
+          "firstname": "Jayla",
+          "lastname": "Arogundade",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 10,
+          "akSwitcher": false
+        },
+        {
+          "id": 102,
+          "firstname": "Jaydra",
+          "lastname": "Arogundade",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 8,
+          "akSwitcher": false
+        },
+        {
+          "id": 111,
+          "firstname": "Emma",
+          "lastname": "Zurek",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 113,
+          "firstname": "Neele",
+          "lastname": "Sommer",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 114,
+          "firstname": "Paula",
+          "lastname": "Sommer",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 10,
+          "akSwitcher": false
+        },
+        {
+          "id": 115,
+          "firstname": "Ida",
+          "lastname": "Habermüller",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 116,
+          "firstname": "Thea",
+          "lastname": "Stumpf",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 148,
+          "firstname": "Emilia",
+          "lastname": "Nöcker",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 293,
+          "firstname": "Sophie",
+          "lastname": "Teixeira",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 14,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": true
+    },
+    {
+      "id": 158,
+      "label": null,
+      "name": "Der Sonne hinterher",
+      "team": "Schmalfelder SV",
+      "group": "Großgruppe Expert",
+      "event": "Großgruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 16,
+          "firstname": "Wita",
+          "lastname": "Gossen",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 18,
+          "firstname": "Rieke",
+          "lastname": "Tonn",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 21,
+          "firstname": "Anna",
+          "lastname": "Tegethoff-Harder",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 28,
+          "akSwitcher": false
+        },
+        {
+          "id": 22,
+          "firstname": "Janne",
+          "lastname": "Tegethoff-Harder",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 23,
+          "akSwitcher": false
+        },
+        {
+          "id": 23,
+          "firstname": "Janne",
+          "lastname": "Langhein",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 24,
+          "firstname": "Nike",
+          "lastname": "Möck",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 27,
+          "firstname": "Sophia",
+          "lastname": "Karstensen",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 28,
+          "firstname": "Lena",
+          "lastname": "Ullmann",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 29,
+          "firstname": "Lea",
+          "lastname": "Bosse",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 30,
+          "firstname": "Zoe",
+          "lastname": "Sellmann",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 32,
+          "firstname": "Fro",
+          "lastname": "Fölster",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 33,
+          "firstname": "Mia",
+          "lastname": "Ludwig",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "label": null,
+      "name": "I have a voice",
+      "team": "TSV Kronshagen",
+      "group": "Großgruppe Expert",
+      "event": "Großgruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 17,
+          "firstname": "Linda",
+          "lastname": "Gossen",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 329,
+          "firstname": "Isabelle",
+          "lastname": "Bilkau",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 331,
+          "firstname": "Felix",
+          "lastname": "Adjei",
+          "gender": "Male",
+          "club": "TSV Kronshagen",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 332,
+          "firstname": "Carolina",
+          "lastname": "Glander",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 333,
+          "firstname": "Verena",
+          "lastname": "Zbikowski",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 334,
+          "firstname": "Marieke",
+          "lastname": "Bredtmann",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 335,
+          "firstname": "Maja",
+          "lastname": "Bolten",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 336,
+          "firstname": "Tyra",
+          "lastname": "Adjei",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 337,
+          "firstname": "Noa",
+          "lastname": "Rudolf",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 338,
+          "firstname": "Nanna",
+          "lastname": "Wahl",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 339,
+          "firstname": "Nicole",
+          "lastname": "Kischlat",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 24,
+          "akSwitcher": false
+        },
+        {
+          "id": 340,
+          "firstname": "Nadja",
+          "lastname": "Sievers",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 344,
+          "firstname": "Neele",
+          "lastname": "Bredtmann",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 19,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "label": null,
+      "name": "Astronaut",
+      "team": "Eagles 1",
+      "group": "Großgruppe Expert",
+      "event": "Großgruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 167,
+          "firstname": "Kira",
+          "lastname": "Over",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 169,
+          "firstname": "Celine",
+          "lastname": "Anhöck",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 24,
+          "akSwitcher": false
+        },
+        {
+          "id": 170,
+          "firstname": "Michelle",
+          "lastname": "Braun",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 25,
+          "akSwitcher": false
+        },
+        {
+          "id": 171,
+          "firstname": "Lena",
+          "lastname": "Gottlieb",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 29,
+          "akSwitcher": false
+        },
+        {
+          "id": 172,
+          "firstname": "Janyce",
+          "lastname": "Honnen",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 173,
+          "firstname": "Joelyn",
+          "lastname": "Honnen",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 174,
+          "firstname": "Nina",
+          "lastname": "Kalinka",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 175,
+          "firstname": "Jolin",
+          "lastname": "Klein",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 177,
+          "firstname": "Mara",
+          "lastname": "Over",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 178,
+          "firstname": "Lena",
+          "lastname": "Schacht",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 179,
+          "firstname": "Sophie",
+          "lastname": "Schmelz",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 26,
+          "akSwitcher": false
+        },
+        {
+          "id": 180,
+          "firstname": "Ida",
+          "lastname": "Schneider",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 182,
+          "firstname": "Paulina",
+          "lastname": "Rögner",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 184,
+          "firstname": "Julia",
+          "lastname": "Zedel",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 201,
+          "firstname": "Frida",
+          "lastname": "Große-Sender",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 202,
+          "firstname": "Lotta",
+          "lastname": "Große-Sender",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 204,
+          "firstname": "Jessica",
+          "lastname": "Kuntke",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 30,
+          "akSwitcher": false
+        },
+        {
+          "id": 205,
+          "firstname": "Lena",
+          "lastname": "Ristow",
+          "gender": "Female",
+          "club": "DJK Adler 07 Bottrop",
+          "age": 23,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "label": null,
+      "name": "Tribute of Panem",
+      "team": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+      "group": "Großgruppe Expert",
+      "event": "Großgruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 245,
+          "firstname": "Paula",
+          "lastname": "Hartig",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 246,
+          "firstname": "Eileen",
+          "lastname": "Hirschel",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 248,
+          "firstname": "Undine",
+          "lastname": "Falland",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 249,
+          "firstname": "Janine",
+          "lastname": "Bleske",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 35,
+          "akSwitcher": false
+        },
+        {
+          "id": 252,
+          "firstname": "Clara",
+          "lastname": "Milde",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 253,
+          "firstname": "Stella",
+          "lastname": "Panknin",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 254,
+          "firstname": "Jessica",
+          "lastname": "Fuchs",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 256,
+          "firstname": "Matilda",
+          "lastname": "Zumpe",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 11,
+          "akSwitcher": false
+        },
+        {
+          "id": 261,
+          "firstname": "Lena",
+          "lastname": "Arndt",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 264,
+          "firstname": "Jolina",
+          "lastname": "Schmäck",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 266,
+          "firstname": "Martha",
+          "lastname": "Betge",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 267,
+          "firstname": "Ronja",
+          "lastname": "Dittrich",
+          "gender": "Female",
+          "club": "Einradtruppe Fredersdorf-Vogelsdorf e.V.",
+          "age": 13,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "label": null,
+      "name": "High School Musical",
+      "team": "TV Cloppenburg",
+      "group": "Großgruppe Expert",
+      "event": "Großgruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 117,
+          "firstname": "Eva",
+          "lastname": "Lampe",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 118,
+          "firstname": "Merle",
+          "lastname": "Korfhage",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 120,
+          "firstname": "Carina",
+          "lastname": "Bokern",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 23,
+          "akSwitcher": false
+        },
+        {
+          "id": 121,
+          "firstname": "Vera",
+          "lastname": "Lampe",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 122,
+          "firstname": "Louisa",
+          "lastname": "Vaske",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 123,
+          "firstname": "FREYA",
+          "lastname": "Riecken",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 124,
+          "firstname": "Anna-Sophie",
+          "lastname": "Jaekel",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 126,
+          "firstname": "Lara",
+          "lastname": "Schütte",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 26,
+          "akSwitcher": false
+        },
+        {
+          "id": 145,
+          "firstname": "Eva",
+          "lastname": "Dalinghaus",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 194,
+          "firstname": "Selena",
+          "lastname": "Herrmann",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 197,
+          "firstname": "Miriam",
+          "lastname": "Jakoby",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 226,
+          "firstname": "Sophie",
+          "lastname": "Paape",
+          "gender": "Female",
+          "club": "TV Cloppenburg",
+          "age": 23,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "label": null,
+      "name": "Newsies",
+      "team": "Elmshorner MTV & Blau-Weiß 96 Schenefeld",
+      "group": "Großgruppe Expert",
+      "event": "Großgruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 34,
+          "firstname": "Kim",
+          "lastname": "Blanck",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 95,
+          "firstname": "Pauline",
+          "lastname": "Janssen",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 103,
+          "firstname": "Karoline",
+          "lastname": "Voß",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 105,
+          "firstname": "Taline",
+          "lastname": "Böttner",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 106,
+          "firstname": "Isabel",
+          "lastname": "Bröder",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 125,
+          "firstname": "Anna-Lena",
+          "lastname": "Heitmann",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 26,
+          "akSwitcher": false
+        },
+        {
+          "id": 153,
+          "firstname": "Fabienne",
+          "lastname": "Detlefs",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 230,
+          "firstname": "Jule",
+          "lastname": "Segebrecht",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 25,
+          "akSwitcher": false
+        },
+        {
+          "id": 233,
+          "firstname": "Annika",
+          "lastname": "Kröger",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 234,
+          "firstname": "Milena",
+          "lastname": "Bendt",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 236,
+          "firstname": "Hannah",
+          "lastname": "Jensen",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 238,
+          "firstname": "Korinna",
+          "lastname": "Voß",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 240,
+          "firstname": "Laura",
+          "lastname": "Schmahl",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 241,
+          "firstname": "Jonna",
+          "lastname": "Schröder",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 243,
+          "firstname": "Paula",
+          "lastname": "Nickel",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 247,
+          "firstname": "Ronja",
+          "lastname": "Armbrecht",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 251,
+          "firstname": "Lisa",
+          "lastname": "Hansen",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 268,
+          "firstname": "Jette",
+          "lastname": "Kanefendt",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 315,
+          "firstname": "Laura",
+          "lastname": "Weise",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 24,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "label": null,
+      "name": "Safari in Afrika",
+      "team": "VfL Grafenwald",
+      "group": "Großgruppe Expert",
+      "event": "Großgruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 35,
+          "firstname": "Lara",
+          "lastname": "Kubiczek",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 24,
+          "akSwitcher": false
+        },
+        {
+          "id": 37,
+          "firstname": "Stina",
+          "lastname": "Brauckmann",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 38,
+          "firstname": "Luisa",
+          "lastname": "Lehnhoff",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 57,
+          "firstname": "Carla",
+          "lastname": "Schulte-Bockum",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 59,
+          "firstname": "Katharina",
+          "lastname": "Surrey",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 66,
+          "firstname": "Mirja",
+          "lastname": "Tajhar",
+          "gender": "Female",
+          "club": "VFL Grafenwald",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 67,
+          "firstname": "Nia",
+          "lastname": "Sauerbach",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 68,
+          "firstname": "Nike",
+          "lastname": "Bäumer",
+          "gender": "Female",
+          "club": "Vfl Grafenwald",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 69,
+          "firstname": "Ronja",
+          "lastname": "Nöcker",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 104,
+          "firstname": "Emma",
+          "lastname": "Heimann",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 107,
+          "firstname": "Anna",
+          "lastname": "Götzl",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 108,
+          "firstname": "Nele",
+          "lastname": "Büning",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 109,
+          "firstname": "Amanda",
+          "lastname": "Vogt",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 110,
+          "firstname": "Theresa",
+          "lastname": "Strangemann",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 119,
+          "firstname": "Sarah",
+          "lastname": "Schulte-Bockum",
+          "gender": "Female",
+          "club": "VfL Grafenwald",
+          "age": 18,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "label": null,
+      "name": "Secret Service",
+      "team": "RKB Freestyle Team",
+      "group": "Großgruppe Expert",
+      "event": "Kader Großgruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 14,
+          "firstname": "Kim",
+          "lastname": "Höser",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 73,
+          "firstname": "Hannah",
+          "lastname": "Althoff",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 239,
+          "firstname": "Sira",
+          "lastname": "Brockhaus",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 12,
+          "akSwitcher": false
+        },
+        {
+          "id": 279,
+          "firstname": "Theresa",
+          "lastname": "Mausehund",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 281,
+          "firstname": "Lara",
+          "lastname": "Wiehage",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 282,
+          "firstname": "Janne",
+          "lastname": "Wiehage",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 283,
+          "firstname": "Florentina",
+          "lastname": "Timpe",
+          "gender": "Female",
+          "club": "TV Werther",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 284,
+          "firstname": "Swantje",
+          "lastname": "Wicker",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 27,
+          "akSwitcher": false
+        },
+        {
+          "id": 285,
+          "firstname": "Sarah-Maria",
+          "lastname": "Brockhaus",
+          "gender": "Female",
+          "club": "SKV Büdesheim",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 286,
+          "firstname": "Marvin",
+          "lastname": "Janßen",
+          "gender": "Male",
+          "club": "SKV Büdesheim",
+          "age": 24,
+          "akSwitcher": false
+        },
+        {
+          "id": 287,
+          "firstname": "Anna-Lena",
+          "lastname": "Jansen",
+          "gender": "Female",
+          "club": "SKV Büdesheim",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 288,
+          "firstname": "Felicitas",
+          "lastname": "Teichert",
+          "gender": "Female",
+          "club": "SKV Büdesheim",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 289,
+          "firstname": "Annika",
+          "lastname": "Stingl",
+          "gender": "Female",
+          "club": "SKV Büdesheim",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 290,
+          "firstname": "Jonas",
+          "lastname": "Figge",
+          "gender": "Male",
+          "club": "SKV Büdesheim",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 291,
+          "firstname": "Annabel",
+          "lastname": "Jäger-Kec",
+          "gender": "Female",
+          "club": "SKV Büdesheim",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 292,
+          "firstname": "Lena",
+          "lastname": "Vocke",
+          "gender": "Female",
+          "club": "RKB Freestyle Team",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 301,
+          "firstname": "Alina",
+          "lastname": "Simara",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 13,
+          "akSwitcher": false
+        },
+        {
+          "id": 302,
+          "firstname": "Jonas",
+          "lastname": "Tomanek",
+          "gender": "Female",
+          "club": "SSV Nümbrecht",
+          "age": 16,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "label": null,
+      "name": "Footloose",
+      "team": "Freestylekader Schleswig-Holstein",
+      "group": "Großgruppe Expert",
+      "event": "Kader Großgruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 11,
+          "firstname": "Julissa",
+          "lastname": "Reimann",
+          "gender": "Female",
+          "club": "Freestylekader Schleswig-Holstein",
+          "age": 23,
+          "akSwitcher": false
+        },
+        {
+          "id": 28,
+          "firstname": "Lena",
+          "lastname": "Ullmann",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 106,
+          "firstname": "Isabel",
+          "lastname": "Bröder",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 129,
+          "firstname": "Katharina",
+          "lastname": "Cassebaum",
+          "gender": "Female",
+          "club": "TSV Plön",
+          "age": 33,
+          "akSwitcher": false
+        },
+        {
+          "id": 233,
+          "firstname": "Annika",
+          "lastname": "Kröger",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 235,
+          "firstname": "Marike",
+          "lastname": "Niemeyer",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 238,
+          "firstname": "Korinna",
+          "lastname": "Voß",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 240,
+          "firstname": "Laura",
+          "lastname": "Schmahl",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 247,
+          "firstname": "Ronja",
+          "lastname": "Armbrecht",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 251,
+          "firstname": "Lisa",
+          "lastname": "Hansen",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 268,
+          "firstname": "Jette",
+          "lastname": "Kanefendt",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 278,
+          "firstname": "Hanna Louise",
+          "lastname": "Ricker",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 320,
+          "firstname": "Hanna",
+          "lastname": "Czikowski",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 321,
+          "firstname": "Khadija",
+          "lastname": "Compaore",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 325,
+          "firstname": "Miriam",
+          "lastname": "Seemann",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 332,
+          "firstname": "Carolina",
+          "lastname": "Glander",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 334,
+          "firstname": "Marieke",
+          "lastname": "Bredtmann",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 335,
+          "firstname": "Maja",
+          "lastname": "Bolten",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 15,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "label": null,
+      "name": "Soul of Egypt",
+      "team": "Freestylekader Schleswig-Holstein",
+      "group": "Großgruppe Expert",
+      "event": "Kader Großgruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 16,
+          "firstname": "Wita",
+          "lastname": "Gossen",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 17,
+          "firstname": "Linda",
+          "lastname": "Gossen",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 18,
+          "firstname": "Rieke",
+          "lastname": "Tonn",
+          "gender": "Female",
+          "club": "SV Boostedt",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 24,
+          "firstname": "Nike",
+          "lastname": "Möck",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 32,
+          "firstname": "Fro",
+          "lastname": "Fölster",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 103,
+          "firstname": "Karoline",
+          "lastname": "Voß",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 125,
+          "firstname": "Anna-Lena",
+          "lastname": "Heitmann",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 26,
+          "akSwitcher": false
+        },
+        {
+          "id": 128,
+          "firstname": "Sina",
+          "lastname": "Lindenberg",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 131,
+          "firstname": "Annika",
+          "lastname": "Gripp",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 147,
+          "firstname": "Jorina",
+          "lastname": "Auktun",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 24,
+          "akSwitcher": false
+        },
+        {
+          "id": 165,
+          "firstname": "Jana",
+          "lastname": "Bastigkeit",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 232,
+          "firstname": "Annika",
+          "lastname": "Gudladt",
+          "gender": "Female",
+          "club": "SG Seth",
+          "age": 23,
+          "akSwitcher": false
+        },
+        {
+          "id": 322,
+          "firstname": "Amina",
+          "lastname": "Compaore",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 324,
+          "firstname": "Jana",
+          "lastname": "Riedel",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 326,
+          "firstname": "Isabell",
+          "lastname": "Haase",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 27,
+          "akSwitcher": false
+        },
+        {
+          "id": 329,
+          "firstname": "Isabelle",
+          "lastname": "Bilkau",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 331,
+          "firstname": "Felix",
+          "lastname": "Adjei",
+          "gender": "Male",
+          "club": "TSV Kronshagen",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 338,
+          "firstname": "Nanna",
+          "lastname": "Wahl",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 339,
+          "firstname": "Nicole",
+          "lastname": "Kischlat",
+          "gender": "Female",
+          "club": "TSV Kronshagen",
+          "age": 24,
+          "akSwitcher": false
+        }
+      ]
+    }
+  ]
+}
