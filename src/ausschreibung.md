@@ -154,8 +154,6 @@ Diese Änderung wurde vorgenommen, um Starts nach 23Uhr zu verhindern und trotzd
 
 Die Teilnehmer qualifizieren sich über die jeweiligen Landesmeisterschaften. Details zum Qualifikationsprozess sind im [Konzept Gemeinsame Wettkämpfe im Einrad Freestyle Neufassung 2023](https://www.einradverband.de/wp-content/uploads/2023/02/Konzept-gemeinsame-Wettkampfe-2021-Stand-Februar-2023-Ueberarbeitung.pdf){target="_blank"} zu finden.
 
----
-
 ## Startgebühr
 
 |   Starts    | Gesamtgebühr |
@@ -206,6 +204,8 @@ Während des Wettbewerbs müssen sich alle Teilnehmer im Interesse der Chancengl
 
 Die Einräder müssen in einem sauberen und technisch einwandfreien Zustand sein und dürfen keine gefährlichen Anbauten haben. Metall-, Klick- und Korbpedale sind nicht erlaubt. Der Veranstalter / Ausrichter behält sich das Recht vor, im Zweifelsfall zu entscheiden, ob das Einrad zulässig ist oder nicht. Eine Nichtbeachtung der Regeln kann zur Disqualifikation für den gesamten Wettkampf und zu Regresspflicht bei Schäden führen. In den Hallen werden nur Einräder mit abriebfestem Mantel zum Start zugelassen. Saubere, abriebfeste Hallenturnschuhe werden vorausgesetzt.
 
+---
+
 ## Altersklassen
 
 Hier wird verwiesen auf das [Konzept Gemeinsame Wettkämpfe im Einrad Freestyle Neufassung 2023](https://www.einradverband.de/wp-content/uploads/2023/02/Konzept-gemeinsame-Wettkampfe-2021-Stand-Februar-2023-Ueberarbeitung.pdf){target="_blank"}, das auf den Homepages des BDR und EVD einsehbar ist.
@@ -236,6 +236,8 @@ Die Anmeldung von Juroren findet in unserer [Jury Anmeldung](/jury) statt.
 
 Im Sinne der IUF-Regeln dienen am Boden markierte Felder nur zur Orientierung und spielen für die Bewertung keine Rolle. Für alle Disziplinen steht eine Wettkampffläche von mindestens 15x28 m zur Verfügung.
 
+---
+
 ## Ehrungen
 
 Die Plätze 1 – 3 in den Altersklassen-Vorläufen werden mit Medaillen geehrt und sind 1./2./3. Sieger der entsprechenden Altersklasse.
@@ -261,6 +263,8 @@ Die Teilnehmer sind verpflichtet, die Musik beim Wettkampf zusätzlich auf einem
 Hotels und Pensionen müssen privat gebucht werden. 
 Es gibt eine Vielzahl von Unterkünften (Hotels-Pensionen-Ferienwohnungen) auch in der näheren Umgebung, die über Online-Such-Portale zu finden sind.
 Eine gute Informationsquelle sind auch die Seiten der Gemeinde Nümbrecht selbst (https://nuembrecht.de). Weiter gibt es eine sehr schöne Wellnessjugendherberge im benachbarten Wiehl ([Jugendherberge Wiehl](https://www.jugendherberge.de/jugendherbergen/wiehl/) ca. 6km) und eine wirklich sehenswerte Jugendherberge im benachbarten Waldbröl (https://panarbora.de ca. 8km). Darüber hinaus befindet sich in unmittelbarer Nähe zur GWN Arena ein [Wohnmobilstellplatz](https://www.nuembrecht.de/zu-gast-in-nuembrecht/uebernachtengastronomie/detail/ort/wohnmobilstellplatz/).
+
+---
 
 ## Verpflegung
 
