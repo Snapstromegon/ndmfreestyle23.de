@@ -5723,6 +5723,188 @@
       ]
     },
     {
+      "id": 160,
+      "label": null,
+      "name": "Newsies",
+      "team": "Elmshorner MTV & Blau-Weiß 96 Schenefeld",
+      "group": "Großgruppe Expert",
+      "event": "Großgruppe",
+      "category": "15+",
+      "starters": [
+        {
+          "id": 34,
+          "firstname": "Kim",
+          "lastname": "Blanck",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 95,
+          "firstname": "Pauline",
+          "lastname": "Janssen",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 15,
+          "akSwitcher": false
+        },
+        {
+          "id": 103,
+          "firstname": "Karoline",
+          "lastname": "Voß",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 105,
+          "firstname": "Taline",
+          "lastname": "Böttner",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 14,
+          "akSwitcher": false
+        },
+        {
+          "id": 106,
+          "firstname": "Isabel",
+          "lastname": "Bröder",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 21,
+          "akSwitcher": false
+        },
+        {
+          "id": 125,
+          "firstname": "Anna-Lena",
+          "lastname": "Heitmann",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 26,
+          "akSwitcher": false
+        },
+        {
+          "id": 153,
+          "firstname": "Fabienne",
+          "lastname": "Detlefs",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 230,
+          "firstname": "Jule",
+          "lastname": "Segebrecht",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 25,
+          "akSwitcher": false
+        },
+        {
+          "id": 233,
+          "firstname": "Annika",
+          "lastname": "Kröger",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 234,
+          "firstname": "Milena",
+          "lastname": "Bendt",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 236,
+          "firstname": "Hannah",
+          "lastname": "Jensen",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 238,
+          "firstname": "Korinna",
+          "lastname": "Voß",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 240,
+          "firstname": "Laura",
+          "lastname": "Schmahl",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 16,
+          "akSwitcher": false
+        },
+        {
+          "id": 241,
+          "firstname": "Jonna",
+          "lastname": "Schröder",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 17,
+          "akSwitcher": false
+        },
+        {
+          "id": 243,
+          "firstname": "Paula",
+          "lastname": "Nickel",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 20,
+          "akSwitcher": false
+        },
+        {
+          "id": 247,
+          "firstname": "Ronja",
+          "lastname": "Armbrecht",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 251,
+          "firstname": "Lisa",
+          "lastname": "Hansen",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 268,
+          "firstname": "Jette",
+          "lastname": "Kanefendt",
+          "gender": "Female",
+          "club": "Blau-Weiß 96 Schenefeld",
+          "age": 18,
+          "akSwitcher": false
+        },
+        {
+          "id": 315,
+          "firstname": "Laura",
+          "lastname": "Weise",
+          "gender": "Female",
+          "club": "Elmshorner MTV",
+          "age": 24,
+          "akSwitcher": false
+        }
+      ]
+    },
+    {
       "id": 163,
       "label": null,
       "name": "Astronaut",
@@ -6129,188 +6311,6 @@
           "gender": "Female",
           "club": "TV Cloppenburg",
           "age": 23,
-          "akSwitcher": false
-        }
-      ]
-    },
-    {
-      "id": 160,
-      "label": null,
-      "name": "Newsies",
-      "team": "Elmshorner MTV & Blau-Weiß 96 Schenefeld",
-      "group": "Großgruppe Expert",
-      "event": "Großgruppe",
-      "category": "15+",
-      "starters": [
-        {
-          "id": 34,
-          "firstname": "Kim",
-          "lastname": "Blanck",
-          "gender": "Female",
-          "club": "Elmshorner MTV",
-          "age": 19,
-          "akSwitcher": false
-        },
-        {
-          "id": 95,
-          "firstname": "Pauline",
-          "lastname": "Janssen",
-          "gender": "Female",
-          "club": "Blau-Weiß 96 Schenefeld",
-          "age": 15,
-          "akSwitcher": false
-        },
-        {
-          "id": 103,
-          "firstname": "Karoline",
-          "lastname": "Voß",
-          "gender": "Female",
-          "club": "Elmshorner MTV",
-          "age": 19,
-          "akSwitcher": false
-        },
-        {
-          "id": 105,
-          "firstname": "Taline",
-          "lastname": "Böttner",
-          "gender": "Female",
-          "club": "Blau-Weiß 96 Schenefeld",
-          "age": 14,
-          "akSwitcher": false
-        },
-        {
-          "id": 106,
-          "firstname": "Isabel",
-          "lastname": "Bröder",
-          "gender": "Female",
-          "club": "Blau-Weiß 96 Schenefeld",
-          "age": 21,
-          "akSwitcher": false
-        },
-        {
-          "id": 125,
-          "firstname": "Anna-Lena",
-          "lastname": "Heitmann",
-          "gender": "Female",
-          "club": "Blau-Weiß 96 Schenefeld",
-          "age": 26,
-          "akSwitcher": false
-        },
-        {
-          "id": 153,
-          "firstname": "Fabienne",
-          "lastname": "Detlefs",
-          "gender": "Female",
-          "club": "Elmshorner MTV",
-          "age": 17,
-          "akSwitcher": false
-        },
-        {
-          "id": 230,
-          "firstname": "Jule",
-          "lastname": "Segebrecht",
-          "gender": "Female",
-          "club": "Elmshorner MTV",
-          "age": 25,
-          "akSwitcher": false
-        },
-        {
-          "id": 233,
-          "firstname": "Annika",
-          "lastname": "Kröger",
-          "gender": "Female",
-          "club": "Elmshorner MTV",
-          "age": 16,
-          "akSwitcher": false
-        },
-        {
-          "id": 234,
-          "firstname": "Milena",
-          "lastname": "Bendt",
-          "gender": "Female",
-          "club": "Elmshorner MTV",
-          "age": 20,
-          "akSwitcher": false
-        },
-        {
-          "id": 236,
-          "firstname": "Hannah",
-          "lastname": "Jensen",
-          "gender": "Female",
-          "club": "Elmshorner MTV",
-          "age": 17,
-          "akSwitcher": false
-        },
-        {
-          "id": 238,
-          "firstname": "Korinna",
-          "lastname": "Voß",
-          "gender": "Female",
-          "club": "Elmshorner MTV",
-          "age": 18,
-          "akSwitcher": false
-        },
-        {
-          "id": 240,
-          "firstname": "Laura",
-          "lastname": "Schmahl",
-          "gender": "Female",
-          "club": "Blau-Weiß 96 Schenefeld",
-          "age": 16,
-          "akSwitcher": false
-        },
-        {
-          "id": 241,
-          "firstname": "Jonna",
-          "lastname": "Schröder",
-          "gender": "Female",
-          "club": "Blau-Weiß 96 Schenefeld",
-          "age": 17,
-          "akSwitcher": false
-        },
-        {
-          "id": 243,
-          "firstname": "Paula",
-          "lastname": "Nickel",
-          "gender": "Female",
-          "club": "Elmshorner MTV",
-          "age": 20,
-          "akSwitcher": false
-        },
-        {
-          "id": 247,
-          "firstname": "Ronja",
-          "lastname": "Armbrecht",
-          "gender": "Female",
-          "club": "Elmshorner MTV",
-          "age": 18,
-          "akSwitcher": false
-        },
-        {
-          "id": 251,
-          "firstname": "Lisa",
-          "lastname": "Hansen",
-          "gender": "Female",
-          "club": "Blau-Weiß 96 Schenefeld",
-          "age": 18,
-          "akSwitcher": false
-        },
-        {
-          "id": 268,
-          "firstname": "Jette",
-          "lastname": "Kanefendt",
-          "gender": "Female",
-          "club": "Blau-Weiß 96 Schenefeld",
-          "age": 18,
-          "akSwitcher": false
-        },
-        {
-          "id": 315,
-          "firstname": "Laura",
-          "lastname": "Weise",
-          "gender": "Female",
-          "club": "Elmshorner MTV",
-          "age": 24,
           "akSwitcher": false
         }
       ]
