@@ -15,6 +15,10 @@ tags: ["page"]
 Alle Angaben sind Schätzungen. Abweichungen sowohl nach vorne, als auch nach hinten sind am Wettbewerbstag möglich.
 :::
 
+:::infoBox
+[Die Startliste findet ihr jetzt hier](/startlist).
+:::
+
 <table>
   <tbody>
     <tr>

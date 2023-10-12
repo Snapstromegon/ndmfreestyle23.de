@@ -550,3 +550,7 @@ td {
 .nowrap {
   white-space: nowrap;
 }
+
+tr.startlist-type-event {
+  background: var(--color-red);
+}

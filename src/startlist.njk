@@ -19,12 +19,11 @@ fullHeader: false
   <table>
     <tbody>
       {% for entry in startlistWithTime %}
-      <tr>
+      <tr class="startlist-type-{{entry.type}}">
         <td class="nowrap">{{ entry.starts | shortTime }}</td>
         {% if entry.type == 'start' %} {% set start = entry.start %}
         <td>{{ start.event }}</td>
         <td class="nowrap">{{ start.category }}</td>
-        <td>{{start.name or start.group}}</td>
         {% if start.starters.length > 2 %}
         <td>
           {{start.team or start.label}}<br />
@@ -51,7 +50,9 @@ fullHeader: false
             {%endfor%}
           </ul>
         </td>
-        {%endif%} {% else %}
+        {%endif%}
+        <td>{{start.name or start.group}}</td>
+        {% else %}
         <td colspan="4">{{ entry.name }}</td>
       </tr>
       {%endif%} {% endfor %}
