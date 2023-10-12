@@ -10,4 +10,5 @@ tags: ["page"]
 # Downloads
 
 - [Ausschreibung](/assets/documents/Ausschreibung.pdf){target="_blank"}
+- [Startliste](/downloads/startliste.pdf){target="_blank"}
 - [Moderationsbogen](/assets/documents/Moderationsbogen.pdf){target="_blank"}

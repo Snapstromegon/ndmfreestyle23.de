@@ -15,13 +15,13 @@ fullHeader: false
   innerhalb einer Altersklasse vor.
 </p>
 
-<div class="infoBox">
+<div class="infoBox hide-print">
 Wenn ihr unsere Moderation unterstützen wollt, dann findet ihr jetzt <a href="/assets/documents/Moderationsbogen.pdf" target="_blank">hier unseren Moderationsbogen</a> zum Download.
 Bringt diesen einfach ausgefüllt am Wettkampftag mit und gebt ihn beim Musikvorhören ab.
 </div>
 
 <div class="table-wrapper">
-  <table>
+  <table class="ignore-page-break">
     <tbody>
       {% for entry in startlistWithTime %}
       <tr class="startlist-type-{{entry.type}}">
@@ -32,7 +32,7 @@ Bringt diesen einfach ausgefüllt am Wettkampftag mit und gebt ihn beim Musikvor
         {% if start.starters.length > 2 %}
         <td>
           {{start.team or start.label}}<br />
-          <details>
+          <details class="hide-print">
             <summary>Starter</summary>
             <ul>
               {% for starter in start.starters %}

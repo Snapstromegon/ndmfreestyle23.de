@@ -114,6 +114,10 @@ ol {
   page-break-inside: avoid;
 }
 
+table.ignore-page-break {
+  page-break-inside: auto;
+}
+
 #logo_driver {
   fill: var(--color-background-secondary);
   stroke: var(--color-background-secondary);

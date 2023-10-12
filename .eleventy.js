@@ -217,7 +217,10 @@ module.exports = (eleventyConfig) => {
 
   registerFileConfigs(eleventyConfig);
 
-  eleventyConfig.addPlugin(renderPdf, [{ file: "downloads/ausschreibung.pdf", url: "/ausschreibung/" }]);
+  eleventyConfig.addPlugin(renderPdf, [
+    { file: "downloads/ausschreibung.pdf", url: "/ausschreibung/" },
+    { file: "downloads/startliste.pdf", url: "/startlist/" },
+  ]);
 
   // Return your Object options:
   return {
