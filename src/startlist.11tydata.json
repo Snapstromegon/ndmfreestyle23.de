@@ -2884,36 +2884,6 @@
       "akSwitcher": false
     },
     {
-      "id": 82,
-      "label": null,
-      "name": "Rio",
-      "team": "",
-      "group": "Paar Seniorexpert",
-      "event": "Paarkür",
-      "category": "U23",
-      "starters": [
-        {
-          "id": 322,
-          "firstname": "Amina",
-          "lastname": "Compaore",
-          "gender": "Female",
-          "club": "Norderstedter SV",
-          "age": 22,
-          "akSwitcher": false
-        },
-        {
-          "id": 324,
-          "firstname": "Jana",
-          "lastname": "Riedel",
-          "gender": "Female",
-          "club": "Norderstedter SV",
-          "age": 18,
-          "akSwitcher": false
-        }
-      ],
-      "akSwitcher": false
-    },
-    {
       "id": 79,
       "label": null,
       "name": "Schamanen ",
@@ -2938,6 +2908,36 @@
           "gender": "Female",
           "club": "VfL Grafenwald",
           "age": 21,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 82,
+      "label": null,
+      "name": "Rio",
+      "team": "",
+      "group": "Paar Seniorexpert",
+      "event": "Paarkür",
+      "category": "U23",
+      "starters": [
+        {
+          "id": 322,
+          "firstname": "Amina",
+          "lastname": "Compaore",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 22,
+          "akSwitcher": false
+        },
+        {
+          "id": 324,
+          "firstname": "Jana",
+          "lastname": "Riedel",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 18,
           "akSwitcher": false
         }
       ],
