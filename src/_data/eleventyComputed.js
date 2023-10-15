@@ -1,6 +1,6 @@
 const dayStartlistToStartlist = (day, dayStartlist) => {
   const startlist = [];
-  const nextEntry = day.start;
+  const nextEntry = new Date(day.start);
   for (const entry of dayStartlist) {
     startlist.push({
       ...entry,
@@ -68,24 +68,22 @@ const getGroupStarts = (startlist, group, timeplan, day) => {
 };
 
 module.exports = {
-  eleventyComputed: {
-    startlistWithTime: (data) => {
-      const { startlist, timeplan } = data;
-      const startlistWithEvents = [];
-      for (const day of timeplan.days) {
-        const dayStartlistWithEvents = [];
-        for (const group of day.groups) {
-          const starts = getGroupStarts(startlist, group, timeplan, day);
-          dayStartlistWithEvents.push(
-            ...starts,
-            ...dayAddExtraEventsAfterGroup(day, group)
-          );
-        }
-        startlistWithEvents.push(
-          ...dayStartlistToStartlist(day, dayStartlistWithEvents)
+  startlistWithTime: (data) => {
+    const { startlist, timeplan } = data;
+    const startlistWithEvents = [];
+    for (const day of timeplan.days) {
+      const dayStartlistWithEvents = [];
+      for (const group of day.groups) {
+        const starts = getGroupStarts(startlist, group, timeplan, day);
+        dayStartlistWithEvents.push(
+          ...starts,
+          ...dayAddExtraEventsAfterGroup(day, group)
         );
       }
-      return startlistWithEvents;
-    },
+      startlistWithEvents.push(
+        ...dayStartlistToStartlist(day, dayStartlistWithEvents)
+      );
+    }
+    return startlistWithEvents;
   },
 };
