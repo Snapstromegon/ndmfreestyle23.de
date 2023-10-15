@@ -19,8 +19,13 @@ Wenn ihr unsere Moderation unterstützen wollt, dann findet ihr jetzt <a href="/
 Bringt diesen einfach ausgefüllt am Wettkampftag mit und gebt ihn beim Musikvorhören ab.
 </div>
 
+{% rollup "assets/ts/startlist-filter.ts" %}
+
+<label class="hide-print">Suche: <input type="text" id="startlistSearch"></label>
+<input type="reset" value="Reset" id="startlistReset" class="hide-print" />
+
 <div class="table-wrapper">
-  <table class="ignore-page-break">
+  <table class="ignore-page-break" id="startlist">
     <tbody>
       {% for entry in startlistWithTime %}
       <tr class="startlist-type-{{entry.type}}">
