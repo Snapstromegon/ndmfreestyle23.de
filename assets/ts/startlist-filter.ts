@@ -1,10 +1,6 @@
 const searchField = document.getElementById(
   "startlistSearch"
 ) as HTMLInputElement;
-document.querySelector("#startlistReset")?.addEventListener("click", () => {
-  searchField.value = "";
-  updateSearch();
-});
 const rows = document.querySelectorAll("#startlist tbody tr");
 
 const updateSearch = () => {
@@ -26,3 +22,7 @@ const updateSearch = () => {
 };
 
 searchField?.addEventListener("input", updateSearch);
+document.querySelector("#startlistReset")?.addEventListener("click", () => {
+  searchField.value = "";
+  updateSearch();
+});
