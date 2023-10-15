@@ -554,3 +554,7 @@ td {
 tr.startlist-type-event {
   background: var(--color-red);
 }
+
+.tabularNumbers {
+  font-variant: tabular-nums;
+}

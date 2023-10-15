@@ -32,7 +32,7 @@ Bringt diesen einfach ausgefüllt am Wettkampftag mit und gebt ihn beim Musikvor
       {% for entry in startlistWithTime %}
       <tr class="startlist-type-{{entry.type}}">
         <td>{% if entry.start.akSwitcher %}*{% endif %}</td>
-        <td class="nowrap">{{ entry.starts | shortTime }}</td>
+        <td class="nowrap tabularNumbers">{{ entry.starts | shortTime }}</td>
         {% if entry.type == 'start' %} {% set start = entry.start %}
         <td>{{ start.event }}</td>
         <td class="nowrap">{{ start.category }}</td>
