@@ -4,6 +4,7 @@ eleventyNavigation:
   icon: gavel
   key: Jury Anmeldung
   order: 7
+  parent: more
 tags: ["page"]
 ---
 

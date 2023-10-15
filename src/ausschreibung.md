@@ -3,6 +3,7 @@ eleventyNavigation:
   icon: description
   key: Ausschreibung
   order: 3
+  parent: more
 layout: "layouts/page.njk"
 tags: ["page"]
 fullHeader: true

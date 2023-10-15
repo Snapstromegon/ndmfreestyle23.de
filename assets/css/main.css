@@ -558,3 +558,33 @@ tr.startlist-type-event {
 .tabularNumbers {
   font-variant: tabular-nums;
 }
+
+.link_list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: var(--s);
+
+  & li {
+    background: var(--color-background-secondary);
+    --dot-size: 0.05rem;
+    --dot-space: var(--s);
+    background: radial-gradient(farthest-corner at 0 0, var(--color-background-secondary) 50%, transparent), radial-gradient(circle at center, var(--color-blue-light) var(--dot-size), transparent var(--dot-size)), var(--color-background-secondary);
+    background-size: cover, var(--dot-space) var(--dot-space), cover;
+    box-shadow: 0rem var(--xxs) var(--s) var(--color-middle-gray);
+  }
+
+  & a {
+    color: var(--text-color-sidebar);
+    text-decoration: none;
+    display: flex;
+    padding: var(--m);
+    gap: var(--m);
+    transition: color 0.2s;
+    
+    &:hover {
+      color: var(--color-yellow);
+    }
+  }
+}

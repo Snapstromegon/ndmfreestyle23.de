@@ -6,6 +6,6 @@ eleventyNavigation:
   key: Anmeldung
   order: 6
   url: https://anmeldung.ndmfreestyle23.de/
+  parent: more
 layout: "layouts/page.njk"
-tags: ["page"]
 ---
