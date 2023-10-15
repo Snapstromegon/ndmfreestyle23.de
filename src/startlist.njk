@@ -24,11 +24,14 @@ Bringt diesen einfach ausgefüllt am Wettkampftag mit und gebt ihn beim Musikvor
 <label class="hide-print">Suche: <input type="text" id="startlistSearch"></label>
 <input type="reset" value="Reset" id="startlistReset" class="hide-print" />
 
+<p>Altersklassenwechsler sind durch " * " markiert.</p>
+
 <div class="table-wrapper">
   <table class="ignore-page-break" id="startlist">
     <tbody>
       {% for entry in startlistWithTime %}
       <tr class="startlist-type-{{entry.type}}">
+        <td>{% if entry.start.akSwitcher %}*{% endif %}</td>
         <td class="nowrap">{{ entry.starts | shortTime }}</td>
         {% if entry.type == 'start' %} {% set start = entry.start %}
         <td>{{ start.event }}</td>
