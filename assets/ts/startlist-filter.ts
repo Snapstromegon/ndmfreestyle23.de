@@ -6,12 +6,15 @@ const rows = document.querySelectorAll("#startlist tbody tr");
 const updateSearch = () => {
   const searchValue = searchField?.value.toLowerCase();
 
+  location.hash = new URLSearchParams({
+    search: searchField?.value,
+  }).toString();
+
   rows.forEach((row) => {
     const cols = row.querySelectorAll("td");
     const shouldShow = [...cols]
       .map((col) => col.innerText)
       .some((text) => text.toLowerCase().includes(searchValue));
-    console.log(row, shouldShow);
 
     if (shouldShow || searchValue === "") {
       row.removeAttribute("hidden");
@@ -26,3 +29,19 @@ document.querySelector("#startlistReset")?.addEventListener("click", () => {
   searchField.value = "";
   updateSearch();
 });
+document.querySelector("#shareSearch")?.addEventListener("click", () => {
+  navigator.share({
+    url: location.href,
+    title: "NDM 2023 Startliste",
+    text: `Hier sind die Starts für die NDM 2023 für ${searchField?.value}: ${location.href}`,
+  });
+});
+
+if (location.hash) {
+  const params = new URLSearchParams(location.hash.slice(1));
+  const search = params.get("search");
+  if (search) {
+    searchField.value = search;
+    updateSearch();
+  }
+}
