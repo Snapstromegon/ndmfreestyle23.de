@@ -6,10 +6,10 @@ test("MPA Navigation works", async ({ page }) => {
   await expect(page.locator("article h1")).toHaveText("Hallo!");
   await expect(page.locator("a[active]")).toHaveAttribute("href", "/");
 
-  await page.goto("/ausschreibung/");
-  await expect(page.locator("article h1")).toHaveText("Ausschreibung");
+  await page.goto("/impressum/");
+  await expect(page.locator("article h1")).toHaveText("Impressum");
   await expect(page.locator("a[active]")).toHaveAttribute(
     "href",
-    "/ausschreibung/"
+    "/impressum/"
   );
 });

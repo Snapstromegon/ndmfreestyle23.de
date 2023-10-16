@@ -5,11 +5,11 @@ test("SPA Navigation works", async ({ page }) => {
 
   await expect(page.locator("article h1")).toHaveText("Hallo!");
   await expect(page.locator("a[active]")).toHaveAttribute("href", "/");
-  await page.locator("a").filter({ hasText: "Ausschreibung" })
+  await page.locator("a").filter({ hasText: "Impressum" })
     .click();
-  await expect(page.locator("article h1")).toHaveText("Ausschreibung");
+  await expect(page.locator("article h1")).toHaveText("Impressum");
   await expect(page.locator("a[active]")).toHaveAttribute(
     "href",
-    "/ausschreibung/"
+    "/impressum/"
   );
 });
