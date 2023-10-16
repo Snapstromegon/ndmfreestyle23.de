@@ -559,6 +559,11 @@ tr.startlist-type-event {
   font-variant: tabular-nums;
 }
 
+.summaryHeading {
+  display: inline-block;
+  padding-left: var(--xxs);
+}
+
 .link_list {
   list-style: none;
   padding: 0;
