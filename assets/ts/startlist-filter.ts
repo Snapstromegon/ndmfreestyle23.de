@@ -12,9 +12,10 @@ const updateSearch = () => {
 
   rows.forEach((row) => {
     const cols = row.querySelectorAll("td");
+    console.log([...cols].map((col) => col.innerText.toLowerCase()));
     const shouldShow = [...cols]
-      .map((col) => col.innerText)
-      .some((text) => text.toLowerCase().includes(searchValue));
+      .map((col) => col.innerText.toLowerCase())
+      .some((text) => text.includes(searchValue));
 
     if (shouldShow || searchValue === "") {
       row.removeAttribute("hidden");
@@ -30,12 +31,13 @@ document.querySelector("#startlistReset")?.addEventListener("click", () => {
   updateSearch();
 });
 document.querySelector("#shareSearch")?.addEventListener("click", () => {
-  navigator.share({
-    text: `Hier sind die Starts für die NDM 2023 für ${searchField?.value}:
-    ${location.href}`,
-    title: "NDM 2023 Startliste",
-    url: location.href,
-  }).catch(console.error);
+  navigator
+    .share({
+      text: `Hier sind die Starts für die NDM 2023 für ${searchField?.value}`,
+      title: "NDM 2023 Startliste",
+      url: location.href,
+    })
+    .catch(console.error);
 });
 
 if (location.hash) {
@@ -43,6 +45,7 @@ if (location.hash) {
   const search = params.get("search");
   if (search) {
     searchField.value = search;
+    setTimeout(updateSearch, 100);
     updateSearch();
   }
 }
