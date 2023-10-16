@@ -21,15 +21,53 @@ Bringt diesen einfach ausgefüllt am Wettkampftag mit und gebt ihn beim Musikvor
 
 {% rollup "assets/ts/startlist-filter.ts" %}
 
-<label class="hide-print">Suche: <input type="text" id="startlistSearch"></label>
-<input type="reset" value="Reset" id="startlistReset" class="hide-print" />
+<style>
+  .startlist-filter {
+    display: flex;
+    gap: var(--s);
+  }
+  .startlist-filter label {
+    display: flex;
+    align-items: center;
+  }
+  .startlist-filter input {
+    padding: var(--s);
+    border: none;
+    background: var(--color-blue-light);
+    color: #fff;
+    display: block;
+  }
+
+  #startlistSearch {
+    background: #fff;
+    color: #000;
+    border: 1px solid var(--color-blue);
+  }
+
+  #startlistReset {
+    background: var(--color-red);
+  }
+</style>
+
+<div class="startlist-filter">
+  <label class="hide-print" for="startlistSearch">Suche:</label>
+  <input type="text" id="startlistSearch">
+  <input type="reset" value="Reset" id="startlistReset" class="hide-print" />
+  <input type="button" id="shareSearch" class="material-icon" value="share" />
+</div>
 
 <p>Altersklassenwechsler sind durch " * " markiert.</p>
+
+{% for starts in startlistWithTimeByDay %}
+<details open>
+<summary>
+  <h2 class="summaryHeading">{{ starts[0].starts | dayName }}</h2>
+</summary>
 
 <div class="table-wrapper">
   <table class="ignore-page-break" id="startlist">
     <tbody>
-      {% for entry in startlistWithTime %}
+      {% for entry in starts %}
       <tr class="startlist-type-{{entry.type}}">
         <td>{% if entry.start.akSwitcher %}*{% endif %}</td>
         <td class="nowrap tabularNumbers">{{ entry.starts | shortTime }}</td>
@@ -44,7 +82,7 @@ Bringt diesen einfach ausgefüllt am Wettkampftag mit und gebt ihn beim Musikvor
             <ul>
               {% for starter in start.starters %}
               <li>
-                #{{ starter.id }} {{ starter.firstname }} {{ starter.lastname }}
+                #{{ starter.id }} {{ starter.firstname }} {{ starter.lastname }} ({{ starter.club }})
               </li>
               {%endfor%}
             </ul>
@@ -57,7 +95,8 @@ Bringt diesen einfach ausgefüllt am Wettkampftag mit und gebt ihn beim Musikvor
           <ul>
             {% for starter in start.starters %}
             <li>
-              #{{ starter.id }} {{ starter.firstname }} {{ starter.lastname }}
+              #{{ starter.id }} {{ starter.firstname }} {{ starter.lastname }}<br>
+              ({{ starter.club }})
             </li>
             {%endfor%}
           </ul>
@@ -71,3 +110,6 @@ Bringt diesen einfach ausgefüllt am Wettkampftag mit und gebt ihn beim Musikvor
     </tbody>
   </table>
 </div>
+
+</details>
+{%endfor%}

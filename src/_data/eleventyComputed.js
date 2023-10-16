@@ -67,23 +67,26 @@ const getGroupStarts = (startlist, group, timeplan, day) => {
   return injectExtraEvents(day, group, starts);
 };
 
-module.exports = {
-  startlistWithTime: (data) => {
-    const { startlist, timeplan } = data;
-    const startlistWithEvents = [];
-    for (const day of timeplan.days) {
-      const dayStartlistWithEvents = [];
-      for (const group of day.groups) {
-        const starts = getGroupStarts(startlist, group, timeplan, day);
-        dayStartlistWithEvents.push(
-          ...starts,
-          ...dayAddExtraEventsAfterGroup(day, group)
-        );
-      }
-      startlistWithEvents.push(
-        ...dayStartlistToStartlist(day, dayStartlistWithEvents)
+const startlistWithTimeByDay = (data) => {
+  const { startlist, timeplan } = data;
+  const startlistWithEvents = [];
+  for (const day of timeplan.days) {
+    const dayStartlistWithEvents = [];
+    for (const group of day.groups) {
+      const starts = getGroupStarts(startlist, group, timeplan, day);
+      dayStartlistWithEvents.push(
+        ...starts,
+        ...dayAddExtraEventsAfterGroup(day, group)
       );
     }
-    return startlistWithEvents;
-  },
+    startlistWithEvents.push(
+      dayStartlistToStartlist(day, dayStartlistWithEvents)
+    );
+  }
+  return startlistWithEvents;
+};
+
+module.exports = {
+  startlistWithTime: (data) => startlistWithTimeByDay(data).flat(),
+  startlistWithTimeByDay
 };

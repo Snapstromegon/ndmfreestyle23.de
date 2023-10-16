@@ -141,6 +141,11 @@ const addFilters = (eleventyConfig) => {
       weekday: "short",
     }).format(date)
   );
+  eleventyConfig.addFilter("dayName", (date) =>
+    Intl.DateTimeFormat("de", {
+      weekday: "long",
+    }).format(date)
+  );
   eleventyConfig.addFilter("minutesToTime", (minutes) => {
     const hours = Math.floor(minutes / 60)
       .toString()
