@@ -12,7 +12,6 @@ const updateSearch = () => {
 
   rows.forEach((row) => {
     const cols = row.querySelectorAll("td");
-    console.log([...cols].map((col) => col.innerText.toLowerCase()));
     const shouldShow = [...cols]
       .map((col) => col.innerText.toLowerCase())
       .some((text) => text.includes(searchValue));
