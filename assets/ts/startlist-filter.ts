@@ -45,7 +45,7 @@ if (location.hash) {
   const search = params.get("search");
   if (search) {
     searchField.value = search;
-    setTimeout(updateSearch, 100);
+    document.addEventListener("DOMContentLoaded", updateSearch);
     updateSearch();
   }
 }
