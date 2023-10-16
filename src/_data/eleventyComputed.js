@@ -87,8 +87,6 @@ const startlistWithTimeByDay = (data) => {
 };
 
 module.exports = {
-  startlistWithTime: (data) => {
-    return startlistWithTimeByDay(data).flat();
-  },
+  startlistWithTime: (data) => startlistWithTimeByDay(data).flat(),
   startlistWithTimeByDay
 };

@@ -31,10 +31,11 @@ document.querySelector("#startlistReset")?.addEventListener("click", () => {
 });
 document.querySelector("#shareSearch")?.addEventListener("click", () => {
   navigator.share({
-    url: location.href,
+    text: `Hier sind die Starts für die NDM 2023 für ${searchField?.value}:
+    ${location.href}`,
     title: "NDM 2023 Startliste",
-    text: `Hier sind die Starts für die NDM 2023 für ${searchField?.value}: ${location.href}`,
-  });
+    url: location.href,
+  }).catch(console.error);
 });
 
 if (location.hash) {
