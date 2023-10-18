@@ -7,6 +7,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U11",
+    "video": null,
     "starters": [
       {
         "id": 330,
@@ -28,6 +29,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U11",
+    "video": null,
     "starters": [
       {
         "id": 98,
@@ -49,6 +51,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U11",
+    "video": null,
     "starters": [
       {
         "id": 231,
@@ -70,6 +73,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U11",
+    "video": null,
     "starters": [
       {
         "id": 49,
@@ -91,6 +95,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U13",
+    "video": null,
     "starters": [
       {
         "id": 346,
@@ -112,6 +117,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U13",
+    "video": null,
     "starters": [
       {
         "id": 256,
@@ -133,6 +139,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U13",
+    "video": null,
     "starters": [
       {
         "id": 239,
@@ -154,6 +161,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U13",
+    "video": null,
     "starters": [
       {
         "id": 133,
@@ -175,6 +183,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U13",
+    "video": null,
     "starters": [
       {
         "id": 148,
@@ -196,6 +205,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U13",
+    "video": null,
     "starters": [
       {
         "id": 41,
@@ -217,6 +227,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U13",
+    "video": null,
     "starters": [
       {
         "id": 56,
@@ -238,6 +249,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U13",
+    "video": null,
     "starters": [
       {
         "id": 84,
@@ -259,6 +271,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U13",
+    "video": null,
     "starters": [
       {
         "id": 47,
@@ -280,6 +293,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U13",
+    "video": null,
     "starters": [
       {
         "id": 130,
@@ -301,6 +315,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U13",
+    "video": null,
     "starters": [
       {
         "id": 164,
@@ -322,6 +337,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U15",
+    "video": null,
     "starters": [
       {
         "id": 345,
@@ -343,6 +359,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U15",
+    "video": null,
     "starters": [
       {
         "id": 185,
@@ -364,6 +381,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U15",
+    "video": null,
     "starters": [
       {
         "id": 157,
@@ -385,6 +403,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U15",
+    "video": null,
     "starters": [
       {
         "id": 301,
@@ -406,6 +425,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U15",
+    "video": null,
     "starters": [
       {
         "id": 64,
@@ -427,6 +447,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U15",
+    "video": null,
     "starters": [
       {
         "id": 52,
@@ -448,6 +469,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U15",
+    "video": null,
     "starters": [
       {
         "id": 293,
@@ -462,27 +484,6 @@
     "akSwitcher": false
   },
   {
-    "id": 57,
-    "label": null,
-    "name": "Shake it off!",
-    "team": "",
-    "group": "Einzel Weiblich Juniorexpert",
-    "event": "Einzelkür",
-    "category": "W U15",
-    "starters": [
-      {
-        "id": 55,
-        "firstname": "Helene",
-        "lastname": "Wollscheid",
-        "gender": "Female",
-        "club": "Wild Wheelz",
-        "age": 13,
-        "akSwitcher": false
-      }
-    ],
-    "akSwitcher": false
-  },
-  {
     "id": 61,
     "label": null,
     "name": "Rebell",
@@ -490,6 +491,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U15",
+    "video": null,
     "starters": [
       {
         "id": 264,
@@ -511,6 +513,7 @@
     "group": "Einzel Weiblich Juniorexpert",
     "event": "Einzelkür",
     "category": "W U15",
+    "video": null,
     "starters": [
       {
         "id": 294,
@@ -525,6 +528,28 @@
     "akSwitcher": false
   },
   {
+    "id": 57,
+    "label": null,
+    "name": "Shake it off!",
+    "team": "",
+    "group": "Einzel Weiblich Juniorexpert",
+    "event": "Einzelkür",
+    "category": "W U15",
+    "video": "https://nx29674.your-storageshare.de/s/HAGcdk2dg9MaBNp",
+    "starters": [
+      {
+        "id": 55,
+        "firstname": "Helene",
+        "lastname": "Wollscheid",
+        "gender": "Female",
+        "club": "Wild Wheelz",
+        "age": 13,
+        "akSwitcher": false
+      }
+    ],
+    "akSwitcher": false
+  },
+  {
     "id": 29,
     "label": null,
     "name": "Musikalische Zeitreise ",
@@ -532,6 +557,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U17",
+    "video": null,
     "starters": [
       {
         "id": 59,
@@ -553,6 +579,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U17",
+    "video": null,
     "starters": [
       {
         "id": 32,
@@ -574,6 +601,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U17",
+    "video": null,
     "starters": [
       {
         "id": 68,
@@ -595,6 +623,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U17",
+    "video": null,
     "starters": [
       {
         "id": 30,
@@ -616,6 +645,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U17",
+    "video": null,
     "starters": [
       {
         "id": 321,
@@ -637,6 +667,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U17",
+    "video": null,
     "starters": [
       {
         "id": 240,
@@ -658,6 +689,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U17",
+    "video": null,
     "starters": [
       {
         "id": 112,
@@ -679,6 +711,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U17",
+    "video": null,
     "starters": [
       {
         "id": 73,
@@ -700,6 +733,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U19",
+    "video": null,
     "starters": [
       {
         "id": 38,
@@ -721,6 +755,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U19",
+    "video": null,
     "starters": [
       {
         "id": 57,
@@ -742,6 +777,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U19",
+    "video": null,
     "starters": [
       {
         "id": 183,
@@ -763,6 +799,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U19",
+    "video": null,
     "starters": [
       {
         "id": 253,
@@ -784,6 +821,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U19",
+    "video": null,
     "starters": [
       {
         "id": 110,
@@ -805,6 +843,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U19",
+    "video": null,
     "starters": [
       {
         "id": 165,
@@ -826,6 +865,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U19",
+    "video": null,
     "starters": [
       {
         "id": 67,
@@ -847,6 +887,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U19",
+    "video": null,
     "starters": [
       {
         "id": 29,
@@ -868,6 +909,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U19",
+    "video": null,
     "starters": [
       {
         "id": 251,
@@ -889,6 +931,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U19",
+    "video": null,
     "starters": [
       {
         "id": 248,
@@ -910,6 +953,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U19",
+    "video": null,
     "starters": [
       {
         "id": 109,
@@ -931,6 +975,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U21",
+    "video": null,
     "starters": [
       {
         "id": 18,
@@ -952,6 +997,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U21",
+    "video": null,
     "starters": [
       {
         "id": 17,
@@ -973,6 +1019,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U21",
+    "video": null,
     "starters": [
       {
         "id": 24,
@@ -994,6 +1041,7 @@
     "group": "Einzel Weiblich Expert",
     "event": "Einzelkür",
     "category": "W U21",
+    "video": null,
     "starters": [
       {
         "id": 329,
@@ -1015,6 +1063,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U11",
+    "video": null,
     "starters": [
       {
         "id": 229,
@@ -1045,6 +1094,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U11",
+    "video": null,
     "starters": [
       {
         "id": 142,
@@ -1075,6 +1125,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U11",
+    "video": null,
     "starters": [
       {
         "id": 101,
@@ -1105,6 +1156,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U13",
+    "video": null,
     "starters": [
       {
         "id": 295,
@@ -1135,6 +1187,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U13",
+    "video": null,
     "starters": [
       {
         "id": 187,
@@ -1165,6 +1218,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U13",
+    "video": null,
     "starters": [
       {
         "id": 93,
@@ -1195,6 +1249,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U13",
+    "video": null,
     "starters": [
       {
         "id": 47,
@@ -1225,6 +1280,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U13",
+    "video": null,
     "starters": [
       {
         "id": 257,
@@ -1255,6 +1311,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U13",
+    "video": null,
     "starters": [
       {
         "id": 307,
@@ -1278,96 +1335,6 @@
     "akSwitcher": false
   },
   {
-    "id": 91,
-    "label": null,
-    "name": "Dick und Doof",
-    "team": "",
-    "group": "Paar Juniorexpert",
-    "event": "Paarkür",
-    "category": "U15",
-    "starters": [
-      {
-        "id": 62,
-        "firstname": "Jette",
-        "lastname": "Kahlenberg",
-        "gender": "Female",
-        "club": "SFC Ottendorf",
-        "age": 14,
-        "akSwitcher": false
-      },
-      {
-        "id": 63,
-        "firstname": "Enya",
-        "lastname": "Mikutta",
-        "gender": "Female",
-        "club": "SFC Ottendorf",
-        "age": 13,
-        "akSwitcher": false
-      }
-    ],
-    "akSwitcher": false
-  },
-  {
-    "id": 90,
-    "label": null,
-    "name": "Schach matt",
-    "team": "",
-    "group": "Paar Juniorexpert",
-    "event": "Paarkür",
-    "category": "U15",
-    "starters": [
-      {
-        "id": 55,
-        "firstname": "Helene",
-        "lastname": "Wollscheid",
-        "gender": "Female",
-        "club": "Wild Wheelz",
-        "age": 13,
-        "akSwitcher": false
-      },
-      {
-        "id": 70,
-        "firstname": "Caterina",
-        "lastname": "Fischer",
-        "gender": "Female",
-        "club": "Wild Wheelz",
-        "age": 13,
-        "akSwitcher": false
-      }
-    ],
-    "akSwitcher": false
-  },
-  {
-    "id": 97,
-    "label": null,
-    "name": "Wednesday & Enid",
-    "team": "",
-    "group": "Paar Juniorexpert",
-    "event": "Paarkür",
-    "category": "U15",
-    "starters": [
-      {
-        "id": 239,
-        "firstname": "Sira",
-        "lastname": "Brockhaus",
-        "gender": "Female",
-        "club": "SSV Nümbrecht",
-        "age": 12,
-        "akSwitcher": false
-      },
-      {
-        "id": 301,
-        "firstname": "Alina",
-        "lastname": "Simara",
-        "gender": "Female",
-        "club": "SSV Nümbrecht",
-        "age": 13,
-        "akSwitcher": false
-      }
-    ],
-    "akSwitcher": false
-  },
-  {
     "id": 93,
     "label": null,
     "name": "Lichter",
@@ -1375,6 +1342,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 111,
@@ -1405,6 +1373,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 185,
@@ -1428,6 +1397,37 @@
     "akSwitcher": true
   },
   {
+    "id": 97,
+    "label": null,
+    "name": "Wednesday & Enid",
+    "team": "",
+    "group": "Paar Juniorexpert",
+    "event": "Paarkür",
+    "category": "U15",
+    "video": null,
+    "starters": [
+      {
+        "id": 239,
+        "firstname": "Sira",
+        "lastname": "Brockhaus",
+        "gender": "Female",
+        "club": "SSV Nümbrecht",
+        "age": 12,
+        "akSwitcher": false
+      },
+      {
+        "id": 301,
+        "firstname": "Alina",
+        "lastname": "Simara",
+        "gender": "Female",
+        "club": "SSV Nümbrecht",
+        "age": 13,
+        "akSwitcher": false
+      }
+    ],
+    "akSwitcher": false
+  },
+  {
     "id": 92,
     "label": null,
     "name": "80er Jahre",
@@ -1435,6 +1435,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 83,
@@ -1465,6 +1466,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 19,
@@ -1495,6 +1497,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 162,
@@ -1525,6 +1528,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 43,
@@ -1555,6 +1559,7 @@
     "group": "Paar Juniorexpert",
     "event": "Paarkür",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 159,
@@ -1578,6 +1583,68 @@
     "akSwitcher": false
   },
   {
+    "id": 90,
+    "label": null,
+    "name": "Schach matt",
+    "team": "",
+    "group": "Paar Juniorexpert",
+    "event": "Paarkür",
+    "category": "U15",
+    "video": "https://nx29674.your-storageshare.de/s/AFzYHEHSi6e2WAJ",
+    "starters": [
+      {
+        "id": 55,
+        "firstname": "Helene",
+        "lastname": "Wollscheid",
+        "gender": "Female",
+        "club": "Wild Wheelz",
+        "age": 13,
+        "akSwitcher": false
+      },
+      {
+        "id": 70,
+        "firstname": "Caterina",
+        "lastname": "Fischer",
+        "gender": "Female",
+        "club": "Wild Wheelz",
+        "age": 13,
+        "akSwitcher": false
+      }
+    ],
+    "akSwitcher": false
+  },
+  {
+    "id": 91,
+    "label": null,
+    "name": "Dick und Doof",
+    "team": "",
+    "group": "Paar Juniorexpert",
+    "event": "Paarkür",
+    "category": "U15",
+    "video": "https://nx29674.your-storageshare.de/s/TfyEYn9N2Pjq227?dir=undefined&path=%2F2023-05_LM%20f%C3%BCr%20SH%20und%20HH%2F02%20Samstag%2F012%20Paar%20U15&openfile=1674179",
+    "starters": [
+      {
+        "id": 62,
+        "firstname": "Jette",
+        "lastname": "Kahlenberg",
+        "gender": "Female",
+        "club": "SFC Ottendorf",
+        "age": 14,
+        "akSwitcher": false
+      },
+      {
+        "id": 63,
+        "firstname": "Enya",
+        "lastname": "Mikutta",
+        "gender": "Female",
+        "club": "SFC Ottendorf",
+        "age": 13,
+        "akSwitcher": false
+      }
+    ],
+    "akSwitcher": false
+  },
+  {
     "id": 8,
     "label": null,
     "name": "Spongebob",
@@ -1585,6 +1652,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U23",
+    "video": null,
     "starters": [
       {
         "id": 246,
@@ -1606,6 +1674,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U23",
+    "video": null,
     "starters": [
       {
         "id": 254,
@@ -1627,6 +1696,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U23",
+    "video": null,
     "starters": [
       {
         "id": 14,
@@ -1648,6 +1718,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U23",
+    "video": null,
     "starters": [
       {
         "id": 28,
@@ -1669,6 +1740,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U23",
+    "video": null,
     "starters": [
       {
         "id": 322,
@@ -1690,6 +1762,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U23",
+    "video": null,
     "starters": [
       {
         "id": 279,
@@ -1711,6 +1784,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U23",
+    "video": null,
     "starters": [
       {
         "id": 200,
@@ -1732,6 +1806,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U23",
+    "video": null,
     "starters": [
       {
         "id": 174,
@@ -1753,6 +1828,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U23",
+    "video": null,
     "starters": [
       {
         "id": 128,
@@ -1774,6 +1850,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U25",
+    "video": null,
     "starters": [
       {
         "id": 232,
@@ -1795,6 +1872,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U25",
+    "video": null,
     "starters": [
       {
         "id": 96,
@@ -1816,6 +1894,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U25",
+    "video": null,
     "starters": [
       {
         "id": 147,
@@ -1837,6 +1916,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U25",
+    "video": null,
     "starters": [
       {
         "id": 35,
@@ -1858,6 +1938,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U25",
+    "video": null,
     "starters": [
       {
         "id": 226,
@@ -1879,6 +1960,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W U25",
+    "video": null,
     "starters": [
       {
         "id": 339,
@@ -1900,6 +1982,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W 25+",
+    "video": null,
     "starters": [
       {
         "id": 199,
@@ -1920,6 +2003,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W 25+",
+    "video": null,
     "starters": [
       {
         "id": 230,
@@ -1940,6 +2024,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W 25+",
+    "video": null,
     "starters": [
       {
         "id": 74,
@@ -1960,6 +2045,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W 25+",
+    "video": null,
     "starters": [
       {
         "id": 284,
@@ -1980,6 +2066,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W 25+",
+    "video": null,
     "starters": [
       {
         "id": 326,
@@ -2000,6 +2087,7 @@
     "group": "Einzel Weiblich Seniorexpert",
     "event": "Einzelkür",
     "category": "W 25+",
+    "video": null,
     "starters": [
       {
         "id": 125,
@@ -2020,6 +2108,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U17",
+    "video": null,
     "starters": [
       {
         "id": 59,
@@ -2050,6 +2139,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U17",
+    "video": null,
     "starters": [
       {
         "id": 156,
@@ -2080,6 +2170,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U17",
+    "video": null,
     "starters": [
       {
         "id": 227,
@@ -2110,6 +2201,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U17",
+    "video": null,
     "starters": [
       {
         "id": 201,
@@ -2140,6 +2232,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U17",
+    "video": null,
     "starters": [
       {
         "id": 66,
@@ -2170,6 +2263,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U17",
+    "video": null,
     "starters": [
       {
         "id": 51,
@@ -2200,6 +2294,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U17",
+    "video": null,
     "starters": [
       {
         "id": 95,
@@ -2230,6 +2325,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U17",
+    "video": null,
     "starters": [
       {
         "id": 336,
@@ -2260,6 +2356,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U17",
+    "video": null,
     "starters": [
       {
         "id": 266,
@@ -2290,6 +2387,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U19",
+    "video": null,
     "starters": [
       {
         "id": 57,
@@ -2320,6 +2418,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U19",
+    "video": null,
     "starters": [
       {
         "id": 248,
@@ -2350,6 +2449,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U19",
+    "video": null,
     "starters": [
       {
         "id": 334,
@@ -2380,6 +2480,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U19",
+    "video": null,
     "starters": [
       {
         "id": 38,
@@ -2410,6 +2511,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U19",
+    "video": null,
     "starters": [
       {
         "id": 37,
@@ -2440,6 +2542,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U19",
+    "video": null,
     "starters": [
       {
         "id": 240,
@@ -2470,6 +2573,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U19",
+    "video": null,
     "starters": [
       {
         "id": 44,
@@ -2500,6 +2604,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U19",
+    "video": null,
     "starters": [
       {
         "id": 153,
@@ -2530,6 +2635,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U19",
+    "video": null,
     "starters": [
       {
         "id": 251,
@@ -2560,6 +2666,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U19",
+    "video": null,
     "starters": [
       {
         "id": 238,
@@ -2590,6 +2697,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U19",
+    "video": null,
     "starters": [
       {
         "id": 332,
@@ -2620,6 +2728,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U19",
+    "video": null,
     "starters": [
       {
         "id": 182,
@@ -2650,6 +2759,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U21",
+    "video": null,
     "starters": [
       {
         "id": 320,
@@ -2680,6 +2790,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U21",
+    "video": null,
     "starters": [
       {
         "id": 23,
@@ -2710,6 +2821,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U21",
+    "video": null,
     "starters": [
       {
         "id": 27,
@@ -2740,6 +2852,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U21",
+    "video": null,
     "starters": [
       {
         "id": 16,
@@ -2770,6 +2883,7 @@
     "group": "Paar Expert",
     "event": "Paarkür",
     "category": "U21",
+    "video": null,
     "starters": [
       {
         "id": 329,
@@ -2800,6 +2914,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "U23",
+    "video": null,
     "starters": [
       {
         "id": 279,
@@ -2830,6 +2945,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "U23",
+    "video": null,
     "starters": [
       {
         "id": 128,
@@ -2860,6 +2976,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "U23",
+    "video": null,
     "starters": [
       {
         "id": 14,
@@ -2890,6 +3007,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "U23",
+    "video": null,
     "starters": [
       {
         "id": 104,
@@ -2920,6 +3038,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "U23",
+    "video": "FEHLT",
     "starters": [
       {
         "id": 322,
@@ -2950,6 +3069,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "U25",
+    "video": null,
     "starters": [
       {
         "id": 103,
@@ -2980,6 +3100,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "U25",
+    "video": null,
     "starters": [
       {
         "id": 174,
@@ -3010,6 +3131,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "U25",
+    "video": null,
     "starters": [
       {
         "id": 147,
@@ -3040,6 +3162,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "U25",
+    "video": null,
     "starters": [
       {
         "id": 118,
@@ -3070,6 +3193,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "U25",
+    "video": null,
     "starters": [
       {
         "id": 338,
@@ -3100,6 +3224,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "25+",
+    "video": null,
     "starters": [
       {
         "id": 132,
@@ -3129,6 +3254,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "25+",
+    "video": null,
     "starters": [
       {
         "id": 21,
@@ -3158,6 +3284,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "25+",
+    "video": null,
     "starters": [
       {
         "id": 154,
@@ -3187,6 +3314,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "25+",
+    "video": null,
     "starters": [
       {
         "id": 169,
@@ -3216,6 +3344,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "25+",
+    "video": null,
     "starters": [
       {
         "id": 284,
@@ -3245,6 +3374,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "25+",
+    "video": null,
     "starters": [
       {
         "id": 35,
@@ -3274,6 +3404,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "25+",
+    "video": null,
     "starters": [
       {
         "id": 125,
@@ -3303,6 +3434,7 @@
     "group": "Paar Seniorexpert",
     "event": "Paarkür",
     "category": "25+",
+    "video": null,
     "starters": [
       {
         "id": 305,
@@ -3332,6 +3464,7 @@
     "group": "Finale Einzel Weiblich Juniorexpert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3342,6 +3475,7 @@
     "group": "Finale Einzel Weiblich Juniorexpert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3352,6 +3486,7 @@
     "group": "Finale Einzel Weiblich Juniorexpert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3362,6 +3497,7 @@
     "group": "Finale Einzel Weiblich Juniorexpert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3372,6 +3508,7 @@
     "group": "Finale Einzel Weiblich Juniorexpert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3382,6 +3519,7 @@
     "group": "Finale Einzel Männlich Juniorexpert",
     "event": "Einzelkür",
     "category": "M U11",
+    "video": null,
     "starters": [
       {
         "id": 97,
@@ -3403,6 +3541,7 @@
     "group": "Finale Einzel Weiblich Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3413,6 +3552,7 @@
     "group": "Finale Einzel Weiblich Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3423,6 +3563,7 @@
     "group": "Finale Einzel Weiblich Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3433,6 +3574,7 @@
     "group": "Finale Einzel Weiblich Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3443,6 +3585,7 @@
     "group": "Finale Einzel Weiblich Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3453,6 +3596,7 @@
     "group": "Finale Einzel Weiblich Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3463,6 +3607,7 @@
     "group": "Finale Einzel Weiblich Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3473,6 +3618,7 @@
     "group": "Finale Einzel Weiblich Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3483,6 +3629,7 @@
     "group": "Finale Einzel Weiblich Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3493,6 +3640,7 @@
     "group": "Finale Einzel Weiblich Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3503,6 +3651,7 @@
     "group": "Finale Einzel Männlich Expert",
     "event": "Einzelkür",
     "category": "M U17",
+    "video": null,
     "starters": [
       {
         "id": 65,
@@ -3524,6 +3673,7 @@
     "group": "Finale Einzel Männlich Expert",
     "event": "Einzelkür",
     "category": "M U17",
+    "video": null,
     "starters": [
       {
         "id": 99,
@@ -3545,6 +3695,7 @@
     "group": "Finale Einzel Männlich Expert",
     "event": "Einzelkür",
     "category": "M U17",
+    "video": null,
     "starters": [
       {
         "id": 302,
@@ -3566,6 +3717,7 @@
     "group": "Finale Einzel Männlich Expert",
     "event": "Einzelkür",
     "category": "M U21",
+    "video": null,
     "starters": [
       {
         "id": 8,
@@ -3587,6 +3739,7 @@
     "group": "Finale Einzel Männlich Expert",
     "event": "Einzelkür",
     "category": "M U21",
+    "video": null,
     "starters": [
       {
         "id": 331,
@@ -3608,6 +3761,7 @@
     "group": "Finale Einzel Männlich Expert",
     "event": "Einzelkür",
     "category": "M 25+",
+    "video": null,
     "starters": [
       {
         "id": 297,
@@ -3628,6 +3782,7 @@
     "group": "Finale Paar Juniorexpert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3638,6 +3793,7 @@
     "group": "Finale Paar Juniorexpert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3648,6 +3804,7 @@
     "group": "Finale Paar Juniorexpert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3658,6 +3815,7 @@
     "group": "Finale Paar Juniorexpert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3668,6 +3826,7 @@
     "group": "Finale Paar Juniorexpert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3678,6 +3837,7 @@
     "group": "Finale Paar Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3688,6 +3848,7 @@
     "group": "Finale Paar Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3698,6 +3859,7 @@
     "group": "Finale Paar Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3708,6 +3870,7 @@
     "group": "Finale Paar Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3718,6 +3881,7 @@
     "group": "Finale Paar Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3728,6 +3892,7 @@
     "group": "Finale Paar Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3738,6 +3903,7 @@
     "group": "Finale Paar Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3748,6 +3914,7 @@
     "group": "Finale Paar Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3758,6 +3925,7 @@
     "group": "Finale Paar Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3768,6 +3936,7 @@
     "group": "Finale Paar Expert",
     "event": null,
     "category": null,
+    "video": null,
     "starters": []
   },
   {
@@ -3778,6 +3947,7 @@
     "group": "Kleingruppe Juniorexpert",
     "event": "Kleingruppe",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 54,
@@ -3862,6 +4032,7 @@
     "group": "Kleingruppe Juniorexpert",
     "event": "Kleingruppe",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 185,
@@ -3973,6 +4144,7 @@
     "group": "Kleingruppe Juniorexpert",
     "event": "Kleingruppe",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 83,
@@ -4048,6 +4220,7 @@
     "group": "Kleingruppe Juniorexpert",
     "event": "Kleingruppe",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 157,
@@ -4087,6 +4260,7 @@
     "group": "Kleingruppe Juniorexpert",
     "event": "Kleingruppe",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 76,
@@ -4162,6 +4336,7 @@
     "group": "Kleingruppe Juniorexpert",
     "event": "Kleingruppe",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 40,
@@ -4246,6 +4421,7 @@
     "group": "Kleingruppe Juniorexpert",
     "event": "Kleingruppe",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 19,
@@ -4294,6 +4470,7 @@
     "group": "Kleingruppe Juniorexpert",
     "event": "Kleingruppe",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 256,
@@ -4378,6 +4555,7 @@
     "group": "Kleingruppe Expert",
     "event": "Kleingruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 278,
@@ -4461,6 +4639,7 @@
     "group": "Kleingruppe Expert",
     "event": "Kleingruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 154,
@@ -4508,6 +4687,7 @@
     "group": "Kleingruppe Expert",
     "event": "Kleingruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 167,
@@ -4600,6 +4780,7 @@
     "group": "Kleingruppe Expert",
     "event": "Kleingruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 16,
@@ -4656,6 +4837,7 @@
     "group": "Kleingruppe Expert",
     "event": "Kleingruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 112,
@@ -4694,6 +4876,7 @@
     "group": "Kleingruppe Expert",
     "event": "Kleingruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 128,
@@ -4741,6 +4924,7 @@
     "group": "Kleingruppe Expert",
     "event": "Kleingruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 35,
@@ -4788,6 +4972,7 @@
     "group": "Kleingruppe Expert",
     "event": "Kleingruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 38,
@@ -4835,6 +5020,7 @@
     "group": "Kleingruppe Expert",
     "event": "Kleingruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 245,
@@ -4891,6 +5077,7 @@
     "group": "Großgruppe Juniorexpert",
     "event": "Kader Großgruppe",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 19,
@@ -5056,6 +5243,7 @@
     "group": "Großgruppe Juniorexpert",
     "event": "Großgruppe",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 196,
@@ -5176,6 +5364,7 @@
     "group": "Großgruppe Juniorexpert",
     "event": "Großgruppe",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 47,
@@ -5314,6 +5503,7 @@
     "group": "Großgruppe Juniorexpert",
     "event": "Großgruppe",
     "category": "U15",
+    "video": null,
     "starters": [
       {
         "id": 71,
@@ -5452,6 +5642,7 @@
     "group": "Großgruppe Expert",
     "event": "Großgruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 16,
@@ -5571,6 +5762,7 @@
     "group": "Großgruppe Expert",
     "event": "Großgruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 17,
@@ -5699,6 +5891,7 @@
     "group": "Großgruppe Expert",
     "event": "Großgruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 34,
@@ -5881,6 +6074,7 @@
     "group": "Großgruppe Expert",
     "event": "Großgruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 167,
@@ -6054,6 +6248,7 @@
     "group": "Großgruppe Expert",
     "event": "Großgruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 245,
@@ -6173,6 +6368,7 @@
     "group": "Großgruppe Expert",
     "event": "Großgruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 117,
@@ -6292,6 +6488,7 @@
     "group": "Großgruppe Expert",
     "event": "Großgruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 35,
@@ -6438,6 +6635,7 @@
     "group": "Großgruppe Expert",
     "event": "Kader Großgruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 14,
@@ -6611,6 +6809,7 @@
     "group": "Großgruppe Expert",
     "event": "Kader Großgruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 11,
@@ -6784,6 +6983,7 @@
     "group": "Großgruppe Expert",
     "event": "Kader Großgruppe",
     "category": "15+",
+    "video": null,
     "starters": [
       {
         "id": 16,
