@@ -23,7 +23,7 @@ const updateSearch = () => {
     }
   });
 
-  if(searchValue.trim() == "") {
+  if (searchValue.trim() === "") {
     document.querySelector(".startlist-filter")?.classList.add("hide-print");
   } else {
     document.querySelector(".startlist-filter")?.classList.remove("hide-print");
