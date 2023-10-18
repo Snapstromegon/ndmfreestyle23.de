@@ -9,6 +9,8 @@ tags: ["page"]
 
 <h1>Startliste</h1>
 
+Stand: {{page.date | niceDate}}
+
 <p>
   Diese Startliste ist vorläufig und wir behalten uns letzte Änderungen
   innerhalb einer Altersklasse vor.
@@ -28,7 +30,9 @@ Bringt diesen einfach ausgefüllt am Wettkampftag mit und gebt ihn beim Musikvor
   <input type="button" id="shareSearch" class="material-icon hide-print" value="share" />
 </div>
 
-<p>Altersklassenwechsler sind durch " * " markiert.</p>
+<p>Altersklassenwechsler sind durch <i class="material-icon">upgrade</i> markiert.<br>
+Gruppen werden als Altersklassenwechsler markiert, wenn mindestens ein Fahrer die Altersklasse wechselt.</p>
+<p>Videoküren sind durch <i class="material-icon">videocam</i> markiert.</p>
 
 {% for starts in startlistWithTimeByDay %}
 <details open>
@@ -41,7 +45,7 @@ Bringt diesen einfach ausgefüllt am Wettkampftag mit und gebt ihn beim Musikvor
     <tbody>
       {% for entry in starts %}
       <tr class="startlist-type-{{entry.type}}">
-        <td>{% if entry.start.akSwitcher %}*{% endif %}</td>
+        <td>{% if entry.start.akSwitcher %}<i class="material-icon">upgrade</i>{% endif %}{% if entry.start.video %}<i class="material-icon">videocam</i>{% endif %}</td>
         <td class="nowrap tabularNumbers">{{ entry.starts | shortTime }}</td>
         {% if entry.type == 'start' %} {% set start = entry.start %}
         <td>{{ start.event }}</td>
