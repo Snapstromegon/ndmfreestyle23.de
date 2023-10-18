@@ -593,3 +593,29 @@ tr.startlist-type-event {
     }
   }
 }
+
+.startlist-filter {
+  display: flex;
+  gap: var(--s);
+}
+.startlist-filter label {
+  display: flex;
+  align-items: center;
+}
+.startlist-filter input {
+  padding: var(--s);
+  border: none;
+  background: var(--color-blue-light);
+  color: #fff;
+  display: block;
+}
+
+#startlistSearch {
+  background: #fff;
+  color: #000;
+  border: 1px solid var(--color-blue);
+}
+
+#startlistReset {
+  background: var(--color-red);
+}

@@ -22,6 +22,12 @@ const updateSearch = () => {
       row.setAttribute("hidden", "hidden");
     }
   });
+
+  if(searchValue.trim() == "") {
+    document.querySelector(".startlist-filter")?.classList.add("hide-print");
+  } else {
+    document.querySelector(".startlist-filter")?.classList.remove("hide-print");
+  }
 };
 
 searchField?.addEventListener("input", updateSearch);
