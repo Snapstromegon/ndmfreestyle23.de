@@ -73,7 +73,7 @@ const startlistWithTimeByDay = (data) => {
   for (const day of timeplan.days) {
     const dayStartlistWithEvents = [];
     for (const group of day.groups) {
-      const starts = getGroupStarts(startlist, group, timeplan, day);
+      const starts = getGroupStarts(startlist.startlist, group, timeplan, day);
       dayStartlistWithEvents.push(
         ...starts,
         ...dayAddExtraEventsAfterGroup(day, group)

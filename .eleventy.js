@@ -130,6 +130,7 @@ const addFilters = (eleventyConfig) => {
   eleventyConfig.addNunjucksAsyncFilter("imageFormats", (src, callback) =>
     generateImageFormats(src).then((data) => callback(null, data))
   );
+  eleventyConfig.addFilter("toDate", (date) => new Date(date));
   eleventyConfig.addFilter("niceDate", (date) =>
     new Intl.DateTimeFormat("de", { dateStyle: "medium" }).format(date)
   );

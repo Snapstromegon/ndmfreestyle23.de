@@ -5,11 +5,12 @@ eleventyNavigation:
   order: 4
 layout: "layouts/page.njk"
 tags: ["page"]
+date: "git Last Modified"
 ---
 
 <h1>Startliste</h1>
 
-Stand: {{page.date | niceDate}}
+Stand: {{startlist.updated | toDate | niceDate}}
 
 <p>
   Diese Startliste ist vorläufig und wir behalten uns letzte Änderungen
