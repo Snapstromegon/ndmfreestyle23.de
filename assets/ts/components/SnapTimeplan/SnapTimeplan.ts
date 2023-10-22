@@ -73,15 +73,15 @@ export default class SnapTimeplan extends LitElement {
       position: relative;
     }
 
-    :host-context(aside[expanded]) #upcoming {
+    :host([expanded]) #upcoming {
       display: block;
     }
 
-    :host-context(aside[expanded]) #header input[type="search"] {
+    :host([expanded]) #header input[type="search"] {
       transform: translateY(0%);
     }
 
-    :host-context(aside[expanded]) #header snap-timeplan-entry {
+    :host([expanded]) #header snap-timeplan-entry {
       transform: translateY(-100%);
     }
 
@@ -327,8 +327,10 @@ export default class SnapTimeplan extends LitElement {
     this.expanded = !this.expanded;
     if (this.expanded) {
       document.querySelector("aside")?.setAttribute("expanded", "expanded");
+      this.setAttribute("expanded", "expanded");
     } else {
       document.querySelector("aside")?.removeAttribute("expanded");
+      this.removeAttribute("expanded");
     }
   }
 }
