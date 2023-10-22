@@ -1,16 +1,16 @@
-import { LitElement, css, html } from "lit";
+import "./SnapTimeplanEntry.js";
+import { css, html, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { Starter, Timeplan, TimeplanEntry } from "../../types";
-import { repeat } from "lit/directives/repeat.js";
-import "./SnapTimeplanEntry.js";
 import { classMap } from "lit/directives/class-map.js";
+import { repeat } from "lit/directives/repeat.js";
 
 const fixDates = (entry: TimeplanEntry): TimeplanEntry => {
   if (entry.earliest_start) {
-    entry.earliest_start = new Date(entry.earliest_start);
+    entry.earliest_start = new Date(entry.earliest_start); // eslint-disable-line camelcase
   }
-  entry.estimated_start = new Date(entry.estimated_start);
-  entry.planned_start = new Date(entry.planned_start);
+  entry.estimated_start = new Date(entry.estimated_start); // eslint-disable-line camelcase
+  entry.planned_start = new Date(entry.planned_start); // eslint-disable-line camelcase
   return entry;
 };
 
@@ -145,16 +145,16 @@ export default class SnapTimeplan extends LitElement {
   public override connectedCallback(): void {
     super.connectedCallback();
     this.updateInterval = window.setInterval(() => {
-      this.updateTimeplan();
+      this.updateTimeplan().catch(console.error);
     }, 10000);
-    this.updateTimeplan();
+    this.updateTimeplan().catch(console.error);
   }
 
   async updateTimeplan() {
     const response = await fetch(
       "https://startlist.uberspace.ndmfreestyle23.de/upcoming/allToday"
     );
-    const timeplan = await response.json();
+    const timeplan = await response.json() as TimeplanEntry[];
     this.timeplan = timeplan.map(fixDates);
   }
 
@@ -208,41 +208,27 @@ export default class SnapTimeplan extends LitElement {
   @property({ type: String })
   public search = "";
 
+  stringsMatchSearch(search: string, strings: (string | undefined)[]): boolean {
+    const lowerSearch = search.toLocaleLowerCase();
+    return (strings.filter(x => x) as string[]).some((string) => string.toLocaleLowerCase().includes(lowerSearch));
+  }
+
   entryMatchesSearch(entry: TimeplanEntry): boolean {
     if (!this.search) return true;
-    const lowerSearch = this.search.toLocaleLowerCase();
     if (entry.event_type === "act") {
       // act search
-      if (entry.label?.toLocaleLowerCase().includes(lowerSearch)) {
+      if (this.stringsMatchSearch(this.search, [
+        entry.label,
+        entry.start_group,
+        entry.start?.name,
+        entry.start?.category,
+        entry.start?.teamname,
+        ...entry.start?.starters.map((starter) => [`${starter.firstname} ${starter.lastname}`, starter.club]).flat() || []
+      ])) {
         return true;
-      }
-      if (entry.start_group?.toLocaleLowerCase().includes(lowerSearch)) {
-        return true;
-      }
-      if (entry.start) {
-        if (
-          entry.start.event?.toLocaleLowerCase().includes(lowerSearch) ||
-          entry.start.name?.toLocaleLowerCase().includes(lowerSearch) ||
-          entry.start.category?.toLocaleLowerCase().includes(lowerSearch) ||
-          entry.start.teamname?.toLocaleLowerCase().includes(lowerSearch)
-        ) {
-          return true;
-        }
-        for (const starter of entry.start.starters) {
-          if (
-            `${starter.firstname} ${starter.lastname}`
-              ?.toLocaleLowerCase()
-              .includes(lowerSearch) ||
-            starter.club?.toLocaleLowerCase().includes(lowerSearch)
-          ) {
-            return true;
-          }
-        }
       }
     } else {
-      return (entry.label || entry.event_name || "")
-        .toLocaleLowerCase()
-        .includes(lowerSearch);
+      return this.stringsMatchSearch(this.search, [entry.label, entry.event_name]);
     }
     return false;
   }
@@ -253,36 +239,37 @@ export default class SnapTimeplan extends LitElement {
     return this.timeplan.filter((entry) => this.entryMatchesSearch(entry));
   }
 
+  // eslint-disable-next-line max-lines-per-function
   public override render() {
     if (!this.timeplan.length) return html``;
     return html`<datalist id="searchComplete">
         <optgroup label="Starter">
           ${repeat(
-            this.allStarterNames,
-            (starter) => starter,
-            (starter) => html`<option value="${starter}"></option>`
-          )}
+      this.allStarterNames,
+      (starter) => starter,
+      (starter) => html`<option value="${starter}"></option>`
+    )}
         </optgroup>
         <optgroup label="Kür">
           ${repeat(
-            this.allActNames,
-            (actName) => actName,
-            (actName) => html`<option value="${actName}"></option>`
-          )}
+      this.allActNames,
+      (actName) => actName,
+      (actName) => html`<option value="${actName}"></option>`
+    )}
         </optgroup>
         <optgroup label="Verein">
           ${repeat(
-            this.allClubNames,
-            (clubName) => clubName,
-            (clubName) => html`<option value="${clubName}"></option>`
-          )}
+      this.allClubNames,
+      (clubName) => clubName,
+      (clubName) => html`<option value="${clubName}"></option>`
+    )}
         </optgroup>
         <optgroup label="Team">
           ${repeat(
-            this.allTeamNames,
-            (teamName) => teamName,
-            (teamName) => html`<option value="${teamName}"></option>`
-          )}
+      this.allTeamNames,
+      (teamName) => teamName,
+      (teamName) => html`<option value="${teamName}"></option>`
+    )}
         </optgroup>
       </datalist>
       <div id="header">
@@ -297,11 +284,11 @@ export default class SnapTimeplan extends LitElement {
           placeholder="Suche"
           list="searchComplete"
           @input=${(e: InputEvent) => {
-            this.search = (e.target as HTMLInputElement).value;
-          }}
+      this.search = (e.target as HTMLInputElement).value;
+    }}
         />
         <button
-          @click=${this.toggleExpanded}
+          @click=${() => this.toggleExpanded()}
           id="toggleExpand"
           class="material-icon"
         >
@@ -310,16 +297,16 @@ export default class SnapTimeplan extends LitElement {
       </div>
       <div id="upcoming">
         ${repeat(
-          this.filteredTimeplan,
-          (entry) => entry.order + (entry.start?.name || "") + entry.event_name,
-          (entry) =>
-            html`<snap-timeplan-entry
+        this.filteredTimeplan,
+        (entry) => entry.order + (entry.start?.name || "") + entry.event_name,
+        (entry) =>
+          html`<snap-timeplan-entry
               class=${classMap({
-                [`event_type_${entry.event_type}`]: true,
-              })}
+            [`event_type_${entry.event_type}`]: true,
+          })}
               .timeplanEntry=${entry}
             ></snap-timeplan-entry>`
-        )}
+      )}
       </div>`;
   }
 

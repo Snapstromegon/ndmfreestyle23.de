@@ -1,16 +1,16 @@
-import { LitElement, css, html } from "lit";
+import { css, html, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
+import { classMap } from "lit/directives/class-map.js";
 import { TimeplanEntry } from "../../types";
 import { when } from "lit/directives/when.js";
-import { classMap } from "lit/directives/class-map.js";
 
 const EVENT_SHORT_MAP: { [key: string]: string } = {
   Einzelkür: "E",
-  Paarkür: "P",
-  Kleingruppe: "KG",
-  "Kader Kleingruppe": "KG",
   Großgruppe: "GG",
   "Kader Großgruppe": "GG",
+  "Kader Kleingruppe": "KG",
+  Kleingruppe: "KG",
+  Paarkür: "P",
 };
 
 @customElement("snap-timeplan-entry")
@@ -113,7 +113,7 @@ export default class SnapTimeplanEntry extends LitElement {
     if (!this.timeplanEntry.start) {
       return "";
     }
-    const starters = this.timeplanEntry.start.starters;
+    const { starters } = this.timeplanEntry.start;
     if (starters.length > 2) {
       return this.timeplanEntry.start.teamname || "";
     }
@@ -134,17 +134,16 @@ export default class SnapTimeplanEntry extends LitElement {
 
   get time(): string {
     const dateFormatter = new Intl.DateTimeFormat("de-DE", {
-      weekday: "short",
       hour: "numeric",
       minute: "numeric",
+      weekday: "short",
     });
-    console.log(this.timeplanEntry?.estimated_start);
     return dateFormatter.format(
       this.timeplanEntry?.estimated_start || new Date()
     );
   }
 
-  get event_type(): string {
+  get eventType(): string {
     if (this.timeplanEntry?.event_type === "act") {
       return "act";
     }
@@ -165,15 +164,15 @@ export default class SnapTimeplanEntry extends LitElement {
       return this.timeplanEntry.start_group;
     }
     return (
-      EVENT_SHORT_MAP[this.timeplanEntry.start.event] +
-      " " +
-      this.timeplanEntry.start.category
+      `${EVENT_SHORT_MAP[this.timeplanEntry.start.event]
+      } ${
+      this.timeplanEntry.start.category}`
     );
   }
 
   get isStarred(): boolean {
     if (!this.timeplanEntry) return false;
-    const starred = JSON.parse(window.localStorage.getItem("starred") || "[]");
+    const starred = JSON.parse(window.localStorage.getItem("starred") || "[]") as number[];
     return starred.includes(this.timeplanEntry.order);
   }
 
@@ -182,8 +181,8 @@ export default class SnapTimeplanEntry extends LitElement {
       <div
         id="wrapper"
         class=${classMap({
-          ["event_type_" + this.event_type]: true,
-        })}
+      [`event_type_${this.eventType}`]: true,
+    })}
       >
         <p id="starter">${this.starters}</p>
         <p id="name">${this.name}</p>
@@ -195,11 +194,11 @@ export default class SnapTimeplanEntry extends LitElement {
             html`<button
               id="star"
               class="material-icon ${classMap({ starred: this.isStarred })}"
-              @click=${this.star}
+              @click=${() => this.star()}
             >
               star
             </button>`,
-          () => (this.canStar ? html`<div id="star-fake"></div>` : "")
+          () => this.canStar ? html`<div id="star-fake"></div>` : ""
         )}
       </div>
     `;
@@ -207,7 +206,7 @@ export default class SnapTimeplanEntry extends LitElement {
 
   star() {
     if (!this.timeplanEntry) return;
-    const starred = JSON.parse(window.localStorage.getItem("starred") || "[]");
+    const starred = JSON.parse(window.localStorage.getItem("starred") || "[]") as number[];
     if (this.isStarred) {
       starred.splice(starred.indexOf(this.timeplanEntry.order), 1);
     } else {
