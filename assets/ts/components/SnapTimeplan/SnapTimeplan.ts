@@ -152,7 +152,7 @@ export default class SnapTimeplan extends LitElement {
 
   async updateTimeplan() {
     const response = await fetch(
-      "https://startlist.uberspace.ndmfreestyle23.de/upcoming/all"
+      "https://startlist.uberspace.ndmfreestyle23.de/upcoming/allToday"
     );
     const timeplan = await response.json();
     this.timeplan = timeplan.map(fixDates);
