@@ -46,7 +46,7 @@ Gruppen werden als Altersklassenwechsler markiert, wenn mindestens ein Fahrer di
     <tbody>
       {% for entry in starts %}
       <tr class="startlist-type-{{entry.type}}">
-        <td>{% if entry.start.akSwitcher %}<i class="material-icon">upgrade</i>{% endif %}{% if entry.start.video %}<i class="material-icon">videocam</i>{% endif %}</td>
+        <td>{% if entry.start.akSwitcher and not entry.start.event.includes("gruppe") %}<i class="material-icon">upgrade</i>{% endif %}{% if entry.start.video %}<i class="material-icon">videocam</i>{% endif %}</td>
         <td class="nowrap tabularNumbers">{{ entry.starts | shortTime }}</td>
         {% if entry.type == 'start' %} {% set start = entry.start %}
         <td>{{ start.event }}</td>
