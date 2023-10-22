@@ -1,24 +1,38 @@
 export type Starter = {
-  number: number;
-  name: string;
-}
+  id: number;
+  firstname: string;
+  lastname: string;
+  age: number;
+  gender: string;
+  club: string;
+};
 
 export type Start = {
-  type: "paar" | "einzel" | "gruppe";
+  id: number;
+  event: string;
   category: string;
-  time: string;
   name: string;
-  imageSrc: string;
+  teamname?: string;
   starters: Starter[];
-}
+};
 
-export type StartGroup = {
-  type: "startgroup";
-  category: string;
-  starts: Start[];
-}
+export type TimeplanEntry = {
+  order: number;
+  duration_min: number;
+  earliest_start?: Date;
+  estimated_start: Date;
+  planned_start: Date;
+  event_type: string;
+  event_name?: string;
+  label: string;
+  start_group: string;
+  started?: Date;
+  startlist_id: number;
+  status: "open" | "active" | "done";
+  start?: Start;
+};
 
-export type Startlist = StartGroup[];
+export type Timeplan = TimeplanEntry[];
 
 interface BeforeInstallPromptEvent extends Event {
   readonly platforms: string[];
@@ -31,7 +45,9 @@ interface BeforeInstallPromptEvent extends Event {
 
 declare global {
   export interface Document {
-    startViewTransition?: (modifyHtml: () => Promise<unknown> | void) => Promise<void>;
+    startViewTransition?: (
+      modifyHtml: () => Promise<unknown> | void
+    ) => Promise<void>;
   }
   export interface WindowEventMap {
     beforeinstallprompt: BeforeInstallPromptEvent;

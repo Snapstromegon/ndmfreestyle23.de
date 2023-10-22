@@ -102,6 +102,10 @@ aside[expanded] {
   animation: aside-in 0.2s ease-out;
 }
 
+aside snap-timeplan {
+  flex-shrink: 1;
+}
+
 @keyframes aside-in {
   from {
     transform: translateY(80%);
@@ -192,7 +196,8 @@ main ul ul {
   column-width: 15rem;
 }
 
-img, svg {
+img,
+svg {
   max-width: 100%;
   height: auto;
 }
@@ -440,7 +445,7 @@ table {
   border-collapse: collapse;
   background: var(--color-background-secondary);
   color: var(--text-color-sidebar);
-  width:100%;
+  width: 100%;
   overflow: auto;
 }
 
@@ -482,11 +487,6 @@ td {
     gap: var(--xxxl);
     height: 100vh;
     animation-duration: 0s;
-  }
-
-  aside snap-startlist {
-    min-height: 0;
-    flex-shrink: 1;
   }
 
   nav {
@@ -575,7 +575,17 @@ tr.startlist-type-event {
     background: var(--color-background-secondary);
     --dot-size: 0.05rem;
     --dot-space: var(--s);
-    background: radial-gradient(farthest-corner at 0 0, var(--color-background-secondary) 50%, transparent), radial-gradient(circle at center, var(--color-blue-light) var(--dot-size), transparent var(--dot-size)), var(--color-background-secondary);
+    background: radial-gradient(
+        farthest-corner at 0 0,
+        var(--color-background-secondary) 50%,
+        transparent
+      ),
+      radial-gradient(
+        circle at center,
+        var(--color-blue-light) var(--dot-size),
+        transparent var(--dot-size)
+      ),
+      var(--color-background-secondary);
     background-size: cover, var(--dot-space) var(--dot-space), cover;
     box-shadow: 0rem var(--xxs) var(--s) var(--color-middle-gray);
   }
@@ -587,7 +597,7 @@ tr.startlist-type-event {
     padding: var(--m);
     gap: var(--m);
     transition: color 0.2s;
-    
+
     &:hover {
       color: var(--color-yellow);
     }

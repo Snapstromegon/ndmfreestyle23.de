@@ -1,6 +1,6 @@
 import "./components/SnapRouter/snap-routed.js";
 import "./components/SnapPWAInstall/SnapPWAInstall.js";
-import "./components/SnapStartlist/SnapStartlist.js";
+import "./components/SnapTimeplan/SnapTimeplan.js";
 import "./components/SnapUtils/snap-privacy-frame.js";
 
 // Disabling check, because the typings always provide serviceWorker, but we need to progressively enhance
