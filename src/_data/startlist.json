@@ -1,5 +1,4 @@
 {
-  "updated": "2023-10-22T18:12:43.511Z",
   "startlist": [
     {
       "id": 55,
@@ -1737,7 +1736,7 @@
     {
       "id": 11,
       "label": null,
-      "name": "Wakanda for ever",
+      "name": "Wakanda forever",
       "team": "",
       "group": "Einzel Weiblich Seniorexpert",
       "event": "Einzelkür",
@@ -4569,6 +4568,15 @@
           "akSwitcher": false
         },
         {
+          "id": 319,
+          "firstname": "Hanna",
+          "lastname": "Nachtigall",
+          "gender": "Female",
+          "club": "Norderstedter SV",
+          "age": 30,
+          "akSwitcher": false
+        },
+        {
           "id": 320,
           "firstname": "Hanna",
           "lastname": "Czikowski",
@@ -7160,5 +7168,6 @@
         }
       ]
     }
-  ]
+  ],
+  "updated": "2023-10-24T06:44:14.417Z"
 }
