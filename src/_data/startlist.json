@@ -1961,7 +1961,7 @@
       "group": "Einzel Weiblich Seniorexpert",
       "event": "Einzelkür",
       "category": "W U25",
-      "video": null,
+      "video": "https://nx29674.your-storageshare.de/s/TfyEYn9N2Pjq227?dir=undefined&path=%2F2023-05_LM%20f%C3%BCr%20SH%20und%20HH%2F03%20Sonntag%2F021%20Einzel%20Expert%20w&openfile=1677074",
       "starters": [
         {
           "id": 339,
@@ -2815,37 +2815,6 @@
       "akSwitcher": false
     },
     {
-      "id": 85,
-      "label": null,
-      "name": "Cars",
-      "team": "",
-      "group": "Paar Expert",
-      "event": "Paarkür",
-      "category": "U21",
-      "video": null,
-      "starters": [
-        {
-          "id": 27,
-          "firstname": "Sophia",
-          "lastname": "Karstensen",
-          "gender": "Female",
-          "club": "Schmalfelder SV",
-          "age": 19,
-          "akSwitcher": false
-        },
-        {
-          "id": 32,
-          "firstname": "Fro",
-          "lastname": "Fölster",
-          "gender": "Female",
-          "club": "Schmalfelder SV",
-          "age": 16,
-          "akSwitcher": false
-        }
-      ],
-      "akSwitcher": false
-    },
-    {
       "id": 83,
       "label": null,
       "name": "Samba",
@@ -2902,6 +2871,37 @@
           "gender": "Male",
           "club": "TSV Kronshagen",
           "age": 20,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 85,
+      "label": null,
+      "name": "Cars",
+      "team": "",
+      "group": "Paar Expert",
+      "event": "Paarkür",
+      "category": "U21",
+      "video": "https://nx29674.your-storageshare.de/s/TfyEYn9N2Pjq227?path=%2F2023-05_LM%20f%C3%BCr%20SH%20und%20HH%2F02%20Samstag%2F014%20Paar%20U19#",
+      "starters": [
+        {
+          "id": 27,
+          "firstname": "Sophia",
+          "lastname": "Karstensen",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 19,
+          "akSwitcher": false
+        },
+        {
+          "id": 32,
+          "firstname": "Fro",
+          "lastname": "Fölster",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 16,
           "akSwitcher": false
         }
       ],
@@ -3039,7 +3039,7 @@
       "group": "Paar Seniorexpert",
       "event": "Paarkür",
       "category": "U23",
-      "video": "FEHLT",
+      "video": "https://nx29674.your-storageshare.de/s/TfyEYn9N2Pjq227?dir=undefined&path=%2F2023-05_LM%20f%C3%BCr%20SH%20und%20HH%2F02%20Samstag%2F016%20Paar%20U23&openfile=1675523",
       "starters": [
         {
           "id": 322,
@@ -3194,7 +3194,7 @@
       "group": "Paar Seniorexpert",
       "event": "Paarkür",
       "category": "U25",
-      "video": null,
+      "video": "https://nx29674.your-storageshare.de/s/TfyEYn9N2Pjq227?dir=undefined&path=%2F2023-05_LM%20f%C3%BCr%20SH%20und%20HH%2F02%20Samstag%2F017%20Paar%20U25&openfile=1675718",
       "starters": [
         {
           "id": 338,
@@ -7169,5 +7169,5 @@
       ]
     }
   ],
-  "updated": "2023-10-24T06:44:14.417Z"
+  "updated": "2023-10-25T18:33:52.294Z"
 }
