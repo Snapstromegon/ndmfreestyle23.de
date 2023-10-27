@@ -89,28 +89,6 @@
       "akSwitcher": false
     },
     {
-      "id": 51,
-      "label": null,
-      "name": "Küss den Frosch",
-      "team": "",
-      "group": "Einzel Weiblich Juniorexpert",
-      "event": "Einzelkür",
-      "category": "W U13",
-      "video": null,
-      "starters": [
-        {
-          "id": 346,
-          "firstname": "Sinja",
-          "lastname": "Martens",
-          "gender": "Female",
-          "club": "Einradkids Hamburg - SiB-Club",
-          "age": 12,
-          "akSwitcher": false
-        }
-      ],
-      "akSwitcher": false
-    },
-    {
       "id": 50,
       "label": null,
       "name": "Harry Potter",
@@ -324,6 +302,28 @@
           "lastname": "Schütz",
           "gender": "Female",
           "club": "TSV Falkensee",
+          "age": 12,
+          "akSwitcher": false
+        }
+      ],
+      "akSwitcher": false
+    },
+    {
+      "id": 51,
+      "label": null,
+      "name": "Küss den Frosch",
+      "team": "",
+      "group": "Einzel Weiblich Juniorexpert",
+      "event": "Einzelkür",
+      "category": "W U13",
+      "video": "https://nx29674.your-storageshare.de/s/TfyEYn9N2Pjq227?dir=undefined&path=%2F2023-05_LM%20f%C3%BCr%20SH%20und%20HH%2F01%20Freitag%2F002%20Einzel%20U13%20w&openfile=1669334",
+      "starters": [
+        {
+          "id": 346,
+          "firstname": "Sinja",
+          "lastname": "Martens",
+          "gender": "Female",
+          "club": "Einradkids Hamburg - SiB-Club",
           "age": 12,
           "akSwitcher": false
         }
@@ -5761,6 +5761,15 @@
           "club": "Schmalfelder SV",
           "age": 16,
           "akSwitcher": false
+        },
+        {
+          "id": 351,
+          "firstname": "Kerrin",
+          "lastname": "Möck",
+          "gender": "Female",
+          "club": "Schmalfelder SV",
+          "age": 27,
+          "akSwitcher": false
         }
       ]
     },
@@ -7169,5 +7178,5 @@
       ]
     }
   ],
-  "updated": "2023-10-25T18:33:52.294Z"
+  "updated": "2023-10-27T08:04:55.321Z"
 }
