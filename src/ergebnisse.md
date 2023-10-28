@@ -27,3 +27,6 @@ tags: ["page"]
 <a class="result" target="_blank" href="/assets/documents/ergebnisse/Ergebnisse_Freitag.pdf">
   Freitag
 </a>
+<a class="result" target="_blank" href="/assets/documents/ergebnisse/Ergebnisse_Samstag.pdf">
+  Samstag
+</a>
