@@ -24,9 +24,26 @@ tags: ["page"]
   }
 </style>
 
+## Nach Tag
+
 <a class="result" target="_blank" href="/assets/documents/ergebnisse/Ergebnisse_Freitag.pdf">
   Freitag
 </a>
 <a class="result" target="_blank" href="/assets/documents/ergebnisse/Ergebnisse_Samstag.pdf">
   Samstag
+</a>
+<a class="result" target="_blank" href="/assets/documents/ergebnisse/Ergebnisse_Sonntag.pdf">
+  Sonntag
+</a>
+
+## Nach Kategorie
+
+<a class="result" target="_blank" href="/assets/documents/ergebnisse/Ergebnisse_Einzelkür.pdf">
+  Einzelkür
+</a>
+<a class="result" target="_blank" href="/assets/documents/ergebnisse/Ergebnisse_Paarkür.pdf">
+  Paarkür
+</a>
+<a class="result" target="_blank" href="/assets/documents/ergebnisse/Ergebnisse_Gruppenkür.pdf">
+  Gruppenkür
 </a>
