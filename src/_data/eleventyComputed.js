@@ -48,11 +48,13 @@ const getGroupStarts = (startlist, group, timeplan, day) => {
       (!start.group.startsWith("Finale") && start.category !== currentAK) ||
       !groupWarmup
     ) {
-      starts.push({
-        duration: timeplan.durations.groups[group].warmup,
-        name: "Einfahrzeit",
-        type: "event",
-      });
+      if (timeplan.durations.groups[group].warmup > 0) {
+        starts.push({
+          duration: timeplan.durations.groups[group].warmup,
+          name: "Einfahrzeit",
+          type: "event",
+        });
+      }
       currentAK = start.category;
       groupWarmup = true;
     }
@@ -88,5 +90,5 @@ const startlistWithTimeByDay = (data) => {
 
 module.exports = {
   startlistWithTime: (data) => startlistWithTimeByDay(data).flat(),
-  startlistWithTimeByDay
+  startlistWithTimeByDay,
 };

@@ -77,7 +77,7 @@ durations:
     Finale Einzel Männlich Juniorexpert:
       act: 3
       jury: 3
-      warmup: 10
+      warmup: 0
     Finale Einzel Männlich Expert:
       act: 4
       jury: 3
