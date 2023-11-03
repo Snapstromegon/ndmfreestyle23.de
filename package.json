@@ -35,7 +35,7 @@
     "globals": "^13.23.0",
     "js-yaml": "^4.1.0",
     "lightningcss": "^1.22.0",
-    "lit": "^3.0.1",
+    "lit": "^3.0.2",
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-container": "^3.0.0",
     "markdown-it-emoji": "^2.0.2",
